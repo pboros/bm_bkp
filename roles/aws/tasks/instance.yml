@@ -1,0 +1,27 @@
+---
+- name: Manage ec2 instance
+  ec2:
+    region: "{{ aws_region }}"
+    keypair: "{{ aws_keypair }}"
+    group_id: "{{ security_group.group_id }}"
+    image: "{{ aws_ami }}"
+    instance_type: "{{ instance_type }}"
+    instance_tags:
+      role: "{{ aws_role }}"
+    exact_count: "{{ instance_count }}"
+    count_tag:
+      role: "{{ aws_role }}"
+    zone: "{{ aws_region }}{{ aws_zone }}"
+    wait: yes
+  register: backup_node
+
+- name: playbook path
+  shell: pwd
+  register: playbook_path
+  changed_when: False
+
+- name: render remote inventory
+  template:
+    src: inventory_remote.j2
+    dest: "{{ playbook_path.stdout }}/inventory_remote"
+  when: backup_node|changed

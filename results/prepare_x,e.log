@@ -1,0 +1,619 @@
+ibdata1.xbcrypt
+mysql/innodb_table_stats.ibd.xbcrypt
+mysql/slave_relay_log_info.ibd.xbcrypt
+mysql/slave_worker_info.ibd.xbcrypt
+mysql/slave_master_info.ibd.xbcrypt
+mysql/innodb_index_stats.ibd.xbcrypt
+sbtest/sbtest52.ibd.xbcrypt
+sbtest/sbtest47.ibd.xbcrypt
+sbtest/sbtest9.ibd.xbcrypt
+sbtest/sbtest53.ibd.xbcrypt
+sbtest/sbtest27.ibd.xbcrypt
+sbtest/sbtest50.ibd.xbcrypt
+sbtest/sbtest16.ibd.xbcrypt
+sbtest/sbtest21.ibd.xbcrypt
+sbtest/sbtest48.ibd.xbcrypt
+sbtest/sbtest33.ibd.xbcrypt
+sbtest/sbtest5.ibd.xbcrypt
+sbtest/sbtest43.ibd.xbcrypt
+sbtest/sbtest31.ibd.xbcrypt
+sbtest/sbtest35.ibd.xbcrypt
+sbtest/sbtest26.ibd.xbcrypt
+sbtest/sbtest10.ibd.xbcrypt
+sbtest/sbtest23.ibd.xbcrypt
+sbtest/sbtest32.ibd.xbcrypt
+sbtest/sbtest60.ibd.xbcrypt
+sbtest/sbtest14.ibd.xbcrypt
+sbtest/sbtest51.ibd.xbcrypt
+sbtest/sbtest55.ibd.xbcrypt
+sbtest/sbtest37.ibd.xbcrypt
+sbtest/sbtest46.ibd.xbcrypt
+sbtest/sbtest30.ibd.xbcrypt
+sbtest/sbtest17.ibd.xbcrypt
+sbtest/sbtest42.ibd.xbcrypt
+sbtest/sbtest41.ibd.xbcrypt
+sbtest/sbtest20.ibd.xbcrypt
+sbtest/sbtest34.ibd.xbcrypt
+sbtest/sbtest12.ibd.xbcrypt
+sbtest/sbtest19.ibd.xbcrypt
+sbtest/sbtest29.ibd.xbcrypt
+sbtest/sbtest45.ibd.xbcrypt
+sbtest/sbtest13.ibd.xbcrypt
+sbtest/sbtest11.ibd.xbcrypt
+sbtest/sbtest1.ibd.xbcrypt
+sbtest/sbtest28.ibd.xbcrypt
+sbtest/sbtest25.ibd.xbcrypt
+sbtest/sbtest59.ibd.xbcrypt
+sbtest/sbtest7.ibd.xbcrypt
+sbtest/sbtest40.ibd.xbcrypt
+sbtest/sbtest58.ibd.xbcrypt
+sbtest/sbtest18.ibd.xbcrypt
+sbtest/sbtest4.ibd.xbcrypt
+sbtest/sbtest49.ibd.xbcrypt
+sbtest/sbtest2.ibd.xbcrypt
+sbtest/sbtest8.ibd.xbcrypt
+sbtest/sbtest56.ibd.xbcrypt
+sbtest/sbtest57.ibd.xbcrypt
+sbtest/sbtest39.ibd.xbcrypt
+sbtest/sbtest38.ibd.xbcrypt
+sbtest/sbtest3.ibd.xbcrypt
+sbtest/sbtest24.ibd.xbcrypt
+sbtest/sbtest15.ibd.xbcrypt
+sbtest/sbtest44.ibd.xbcrypt
+sbtest/sbtest6.ibd.xbcrypt
+sbtest/sbtest22.ibd.xbcrypt
+sbtest/sbtest54.ibd.xbcrypt
+sbtest/sbtest36.ibd.xbcrypt
+performance_schema/events_stages_current.frm.xbcrypt
+performance_schema/events_waits_summary_by_account_by_event_name.frm.xbcrypt
+performance_schema/events_waits_summary_by_thread_by_event_name.frm.xbcrypt
+performance_schema/performance_timers.frm.xbcrypt
+performance_schema/events_stages_summary_by_host_by_event_name.frm.xbcrypt
+performance_schema/socket_summary_by_event_name.frm.xbcrypt
+performance_schema/users.frm.xbcrypt
+performance_schema/table_io_waits_summary_by_index_usage.frm.xbcrypt
+performance_schema/db.opt.xbcrypt
+performance_schema/events_waits_history_long.frm.xbcrypt
+performance_schema/events_statements_summary_by_account_by_event_name.frm.xbcrypt
+performance_schema/events_waits_summary_global_by_event_name.frm.xbcrypt
+performance_schema/events_waits_summary_by_user_by_event_name.frm.xbcrypt
+performance_schema/events_stages_summary_global_by_event_name.frm.xbcrypt
+performance_schema/events_statements_summary_by_user_by_event_name.frm.xbcrypt
+performance_schema/events_stages_history_long.frm.xbcrypt
+performance_schema/events_statements_summary_by_digest.frm.xbcrypt
+performance_schema/file_instances.frm.xbcrypt
+performance_schema/setup_actors.frm.xbcrypt
+performance_schema/cond_instances.frm.xbcrypt
+performance_schema/socket_summary_by_instance.frm.xbcrypt
+performance_schema/events_statements_history_long.frm.xbcrypt
+performance_schema/host_cache.frm.xbcrypt
+performance_schema/setup_objects.frm.xbcrypt
+performance_schema/rwlock_instances.frm.xbcrypt
+performance_schema/setup_instruments.frm.xbcrypt
+performance_schema/session_account_connect_attrs.frm.xbcrypt
+performance_schema/events_statements_current.frm.xbcrypt
+performance_schema/file_summary_by_event_name.frm.xbcrypt
+performance_schema/threads.frm.xbcrypt
+performance_schema/session_connect_attrs.frm.xbcrypt
+performance_schema/events_stages_history.frm.xbcrypt
+performance_schema/events_statements_summary_by_thread_by_event_name.frm.xbcrypt
+performance_schema/events_statements_history.frm.xbcrypt
+performance_schema/table_lock_waits_summary_by_table.frm.xbcrypt
+performance_schema/events_waits_history.frm.xbcrypt
+performance_schema/setup_consumers.frm.xbcrypt
+performance_schema/events_statements_summary_by_host_by_event_name.frm.xbcrypt
+performance_schema/events_waits_summary_by_instance.frm.xbcrypt
+performance_schema/hosts.frm.xbcrypt
+performance_schema/events_stages_summary_by_thread_by_event_name.frm.xbcrypt
+performance_schema/events_statements_summary_global_by_event_name.frm.xbcrypt
+performance_schema/file_summary_by_instance.frm.xbcrypt
+performance_schema/events_waits_summary_by_host_by_event_name.frm.xbcrypt
+performance_schema/mutex_instances.frm.xbcrypt
+performance_schema/objects_summary_global_by_type.frm.xbcrypt
+performance_schema/events_waits_current.frm.xbcrypt
+performance_schema/table_io_waits_summary_by_table.frm.xbcrypt
+performance_schema/socket_instances.frm.xbcrypt
+performance_schema/events_stages_summary_by_user_by_event_name.frm.xbcrypt
+performance_schema/setup_timers.frm.xbcrypt
+performance_schema/events_stages_summary_by_account_by_event_name.frm.xbcrypt
+performance_schema/accounts.frm.xbcrypt
+mysql/event.frm.xbcrypt
+mysql/time_zone.frm.xbcrypt
+mysql/help_keyword.MYD.xbcrypt
+mysql/time_zone_transition_type.MYD.xbcrypt
+mysql/help_category.MYI.xbcrypt
+mysql/procs_priv.frm.xbcrypt
+mysql/tables_priv.frm.xbcrypt
+mysql/plugin.frm.xbcrypt
+mysql/help_category.frm.xbcrypt
+mysql/proxies_priv.frm.xbcrypt
+mysql/user.MYI.xbcrypt
+mysql/slave_master_info.frm.xbcrypt
+mysql/help_topic.MYI.xbcrypt
+mysql/db.MYI.xbcrypt
+mysql/help_keyword.MYI.xbcrypt
+mysql/time_zone_leap_second.MYI.xbcrypt
+mysql/help_topic.MYD.xbcrypt
+mysql/slave_relay_log_info.frm.xbcrypt
+mysql/user.MYD.xbcrypt
+mysql/func.MYI.xbcrypt
+mysql/help_keyword.frm.xbcrypt
+mysql/time_zone_name.MYI.xbcrypt
+mysql/time_zone_name.MYD.xbcrypt
+mysql/columns_priv.frm.xbcrypt
+mysql/time_zone.MYD.xbcrypt
+mysql/slow_log.CSM.xbcrypt
+mysql/time_zone_leap_second.frm.xbcrypt
+mysql/servers.MYI.xbcrypt
+mysql/time_zone_transition_type.frm.xbcrypt
+mysql/procs_priv.MYI.xbcrypt
+mysql/time_zone.MYI.xbcrypt
+mysql/innodb_index_stats.frm.xbcrypt
+mysql/help_category.MYD.xbcrypt
+mysql/time_zone_name.frm.xbcrypt
+mysql/proc.MYI.xbcrypt
+mysql/plugin.MYD.xbcrypt
+mysql/ndb_binlog_index.MYI.xbcrypt
+mysql/help_relation.MYD.xbcrypt
+mysql/servers.frm.xbcrypt
+mysql/slave_worker_info.frm.xbcrypt
+mysql/tables_priv.MYI.xbcrypt
+mysql/ndb_binlog_index.MYD.xbcrypt
+mysql/ndb_binlog_index.frm.xbcrypt
+mysql/event.MYD.xbcrypt
+mysql/proxies_priv.MYI.xbcrypt
+mysql/innodb_table_stats.frm.xbcrypt
+mysql/time_zone_transition.MYI.xbcrypt
+mysql/slow_log.frm.xbcrypt
+mysql/event.MYI.xbcrypt
+mysql/time_zone_leap_second.MYD.xbcrypt
+mysql/proc.frm.xbcrypt
+mysql/db.frm.xbcrypt
+mysql/general_log.frm.xbcrypt
+mysql/help_topic.frm.xbcrypt
+mysql/proxies_priv.MYD.xbcrypt
+mysql/help_relation.frm.xbcrypt
+mysql/general_log.CSV.xbcrypt
+mysql/general_log.CSM.xbcrypt
+mysql/proc.MYD.xbcrypt
+mysql/slow_log.CSV.xbcrypt
+mysql/columns_priv.MYD.xbcrypt
+mysql/columns_priv.MYI.xbcrypt
+mysql/tables_priv.MYD.xbcrypt
+mysql/help_relation.MYI.xbcrypt
+mysql/time_zone_transition.MYD.xbcrypt
+mysql/servers.MYD.xbcrypt
+mysql/user.frm.xbcrypt
+mysql/func.frm.xbcrypt
+mysql/func.MYD.xbcrypt
+mysql/plugin.MYI.xbcrypt
+mysql/time_zone_transition_type.MYI.xbcrypt
+mysql/db.MYD.xbcrypt
+mysql/procs_priv.MYD.xbcrypt
+mysql/time_zone_transition.frm.xbcrypt
+test/db.opt.xbcrypt
+sbtest/sbtest38.frm.xbcrypt
+sbtest/sbtest37.frm.xbcrypt
+sbtest/sbtest1.frm.xbcrypt
+sbtest/sbtest22.frm.xbcrypt
+sbtest/sbtest8.frm.xbcrypt
+sbtest/sbtest43.frm.xbcrypt
+sbtest/sbtest51.frm.xbcrypt
+sbtest/sbtest52.frm.xbcrypt
+sbtest/sbtest47.frm.xbcrypt
+sbtest/sbtest2.frm.xbcrypt
+sbtest/sbtest12.frm.xbcrypt
+sbtest/db.opt.xbcrypt
+sbtest/sbtest27.frm.xbcrypt
+sbtest/sbtest7.frm.xbcrypt
+sbtest/sbtest31.frm.xbcrypt
+sbtest/sbtest20.frm.xbcrypt
+sbtest/sbtest11.frm.xbcrypt
+sbtest/sbtest26.frm.xbcrypt
+sbtest/sbtest4.frm.xbcrypt
+sbtest/sbtest39.frm.xbcrypt
+sbtest/sbtest32.frm.xbcrypt
+sbtest/sbtest57.frm.xbcrypt
+sbtest/sbtest59.frm.xbcrypt
+sbtest/sbtest25.frm.xbcrypt
+sbtest/sbtest23.frm.xbcrypt
+sbtest/sbtest28.frm.xbcrypt
+sbtest/sbtest24.frm.xbcrypt
+sbtest/sbtest3.frm.xbcrypt
+sbtest/sbtest33.frm.xbcrypt
+sbtest/sbtest53.frm.xbcrypt
+sbtest/sbtest14.frm.xbcrypt
+sbtest/sbtest49.frm.xbcrypt
+sbtest/sbtest55.frm.xbcrypt
+sbtest/sbtest36.frm.xbcrypt
+sbtest/sbtest30.frm.xbcrypt
+sbtest/sbtest40.frm.xbcrypt
+sbtest/sbtest13.frm.xbcrypt
+sbtest/sbtest56.frm.xbcrypt
+sbtest/sbtest19.frm.xbcrypt
+sbtest/sbtest46.frm.xbcrypt
+sbtest/sbtest9.frm.xbcrypt
+sbtest/sbtest50.frm.xbcrypt
+sbtest/sbtest6.frm.xbcrypt
+sbtest/sbtest29.frm.xbcrypt
+sbtest/sbtest48.frm.xbcrypt
+sbtest/sbtest41.frm.xbcrypt
+sbtest/sbtest10.frm.xbcrypt
+sbtest/sbtest34.frm.xbcrypt
+sbtest/sbtest60.frm.xbcrypt
+sbtest/sbtest17.frm.xbcrypt
+sbtest/sbtest15.frm.xbcrypt
+sbtest/sbtest58.frm.xbcrypt
+sbtest/sbtest45.frm.xbcrypt
+sbtest/sbtest18.frm.xbcrypt
+sbtest/sbtest44.frm.xbcrypt
+sbtest/sbtest42.frm.xbcrypt
+sbtest/sbtest54.frm.xbcrypt
+sbtest/sbtest35.frm.xbcrypt
+sbtest/sbtest21.frm.xbcrypt
+sbtest/sbtest5.frm.xbcrypt
+sbtest/sbtest16.frm.xbcrypt
+lost@002bfound/db.opt.xbcrypt
+xtrabackup_logfile.xbcrypt
+xtrabackup_checkpoints.xbcrypt
+backup-my.cnf.xbcrypt
+xtrabackup_info.xbcrypt
+160418 21:15:25 innobackupex: Starting the decrypt and decompress operation
+
+IMPORTANT: Please check that the decrypt and decompress run completes successfully.
+           At the end of a successful decrypt and decompress run innobackupex
+           prints "completed OK!".
+
+innobackupex version 2.4.2 based on MySQL server 5.7.11 Linux (x86_64) (revision id: 8e86a84)
+160418 21:15:25 [01] decrypting ./test/db.opt.xbcrypt
+160418 21:15:25 [01] decrypting ./lost@002bfound/db.opt.xbcrypt
+160418 21:15:25 [01] decrypting ./xtrabackup_checkpoints.xbcrypt
+160418 21:15:25 [01] decrypting ./ibdata1.xbcrypt
+160418 21:15:26 [01] decrypting ./sbtest/sbtest47.frm.xbcrypt
+160418 21:15:26 [01] decrypting ./sbtest/sbtest13.frm.xbcrypt
+160418 21:15:26 [01] decrypting ./sbtest/sbtest38.frm.xbcrypt
+160418 21:15:26 [01] decrypting ./sbtest/sbtest8.frm.xbcrypt
+160418 21:15:26 [01] decrypting ./sbtest/sbtest36.frm.xbcrypt
+160418 21:15:26 [01] decrypting ./sbtest/sbtest10.ibd.xbcrypt
+160418 21:15:27 [01] decrypting ./sbtest/sbtest30.frm.xbcrypt
+160418 21:15:27 [01] decrypting ./sbtest/sbtest53.ibd.xbcrypt
+160418 21:15:29 [01] decrypting ./sbtest/sbtest42.ibd.xbcrypt
+160418 21:15:30 [01] decrypting ./sbtest/sbtest23.ibd.xbcrypt
+160418 21:15:32 [01] decrypting ./sbtest/sbtest17.ibd.xbcrypt
+160418 21:15:33 [01] decrypting ./sbtest/sbtest46.ibd.xbcrypt
+160418 21:15:34 [01] decrypting ./sbtest/sbtest18.frm.xbcrypt
+160418 21:15:34 [01] decrypting ./sbtest/sbtest44.frm.xbcrypt
+160418 21:15:34 [01] decrypting ./sbtest/sbtest50.ibd.xbcrypt
+160418 21:15:36 [01] decrypting ./sbtest/sbtest1.frm.xbcrypt
+160418 21:15:36 [01] decrypting ./sbtest/sbtest6.ibd.xbcrypt
+160418 21:15:37 [01] decrypting ./sbtest/sbtest59.frm.xbcrypt
+160418 21:15:37 [01] decrypting ./sbtest/sbtest45.ibd.xbcrypt
+160418 21:15:39 [01] decrypting ./sbtest/sbtest36.ibd.xbcrypt
+160418 21:15:40 [01] decrypting ./sbtest/sbtest16.frm.xbcrypt
+160418 21:15:40 [01] decrypting ./sbtest/sbtest58.ibd.xbcrypt
+160418 21:15:42 [01] decrypting ./sbtest/sbtest14.frm.xbcrypt
+160418 21:15:42 [01] decrypting ./sbtest/sbtest16.ibd.xbcrypt
+160418 21:15:47 [01] decrypting ./sbtest/sbtest9.frm.xbcrypt
+160418 21:15:47 [01] decrypting ./sbtest/sbtest49.ibd.xbcrypt
+160418 21:15:52 [01] decrypting ./sbtest/sbtest12.ibd.xbcrypt
+160418 21:15:53 [01] decrypting ./sbtest/sbtest22.ibd.xbcrypt
+160418 21:15:55 [01] decrypting ./sbtest/sbtest57.ibd.xbcrypt
+160418 21:15:56 [01] decrypting ./sbtest/sbtest31.frm.xbcrypt
+160418 21:15:56 [01] decrypting ./sbtest/sbtest10.frm.xbcrypt
+160418 21:15:56 [01] decrypting ./sbtest/sbtest21.ibd.xbcrypt
+160418 21:15:58 [01] decrypting ./sbtest/sbtest39.ibd.xbcrypt
+160418 21:15:59 [01] decrypting ./sbtest/sbtest40.ibd.xbcrypt
+160418 21:16:01 [01] decrypting ./sbtest/sbtest27.ibd.xbcrypt
+160418 21:16:02 [01] decrypting ./sbtest/sbtest45.frm.xbcrypt
+160418 21:16:02 [01] decrypting ./sbtest/sbtest24.frm.xbcrypt
+160418 21:16:02 [01] decrypting ./sbtest/sbtest58.frm.xbcrypt
+160418 21:16:02 [01] decrypting ./sbtest/sbtest50.frm.xbcrypt
+160418 21:16:02 [01] decrypting ./sbtest/sbtest7.frm.xbcrypt
+160418 21:16:02 [01] decrypting ./sbtest/sbtest3.ibd.xbcrypt
+160418 21:16:03 [01] decrypting ./sbtest/sbtest60.ibd.xbcrypt
+160418 21:16:05 [01] decrypting ./sbtest/sbtest56.frm.xbcrypt
+160418 21:16:05 [01] decrypting ./sbtest/sbtest55.frm.xbcrypt
+160418 21:16:05 [01] decrypting ./sbtest/sbtest37.frm.xbcrypt
+160418 21:16:05 [01] decrypting ./sbtest/sbtest26.ibd.xbcrypt
+160418 21:16:10 [01] decrypting ./sbtest/sbtest29.frm.xbcrypt
+160418 21:16:10 [01] decrypting ./sbtest/sbtest60.frm.xbcrypt
+160418 21:16:10 [01] decrypting ./sbtest/sbtest19.ibd.xbcrypt
+160418 21:16:15 [01] decrypting ./sbtest/sbtest9.ibd.xbcrypt
+160418 21:16:16 [01] decrypting ./sbtest/sbtest4.frm.xbcrypt
+160418 21:16:16 [01] decrypting ./sbtest/sbtest37.ibd.xbcrypt
+160418 21:16:18 [01] decrypting ./sbtest/db.opt.xbcrypt
+160418 21:16:18 [01] decrypting ./sbtest/sbtest25.frm.xbcrypt
+160418 21:16:18 [01] decrypting ./sbtest/sbtest55.ibd.xbcrypt
+160418 21:16:19 [01] decrypting ./sbtest/sbtest3.frm.xbcrypt
+160418 21:16:19 [01] decrypting ./sbtest/sbtest33.frm.xbcrypt
+160418 21:16:19 [01] decrypting ./sbtest/sbtest7.ibd.xbcrypt
+160418 21:16:20 [01] decrypting ./sbtest/sbtest22.frm.xbcrypt
+160418 21:16:20 [01] decrypting ./sbtest/sbtest57.frm.xbcrypt
+160418 21:16:20 [01] decrypting ./sbtest/sbtest5.frm.xbcrypt
+160418 21:16:20 [01] decrypting ./sbtest/sbtest5.ibd.xbcrypt
+160418 21:16:22 [01] decrypting ./sbtest/sbtest49.frm.xbcrypt
+160418 21:16:22 [01] decrypting ./sbtest/sbtest52.ibd.xbcrypt
+160418 21:16:23 [01] decrypting ./sbtest/sbtest43.ibd.xbcrypt
+160418 21:16:25 [01] decrypting ./sbtest/sbtest48.frm.xbcrypt
+160418 21:16:25 [01] decrypting ./sbtest/sbtest27.frm.xbcrypt
+160418 21:16:25 [01] decrypting ./sbtest/sbtest32.frm.xbcrypt
+160418 21:16:25 [01] decrypting ./sbtest/sbtest40.frm.xbcrypt
+160418 21:16:25 [01] decrypting ./sbtest/sbtest59.ibd.xbcrypt
+160418 21:16:26 [01] decrypting ./sbtest/sbtest38.ibd.xbcrypt
+160418 21:16:28 [01] decrypting ./sbtest/sbtest14.ibd.xbcrypt
+160418 21:16:33 [01] decrypting ./sbtest/sbtest34.frm.xbcrypt
+160418 21:16:33 [01] decrypting ./sbtest/sbtest34.ibd.xbcrypt
+160418 21:16:37 [01] decrypting ./sbtest/sbtest47.ibd.xbcrypt
+160418 21:16:39 [01] decrypting ./sbtest/sbtest8.ibd.xbcrypt
+160418 21:16:40 [01] decrypting ./sbtest/sbtest32.ibd.xbcrypt
+160418 21:16:42 [01] decrypting ./sbtest/sbtest24.ibd.xbcrypt
+160418 21:16:43 [01] decrypting ./sbtest/sbtest28.ibd.xbcrypt
+160418 21:16:45 [01] decrypting ./sbtest/sbtest48.ibd.xbcrypt
+160418 21:16:46 [01] decrypting ./sbtest/sbtest33.ibd.xbcrypt
+160418 21:16:47 [01] decrypting ./sbtest/sbtest41.ibd.xbcrypt
+160418 21:16:49 [01] decrypting ./sbtest/sbtest26.frm.xbcrypt
+160418 21:16:49 [01] decrypting ./sbtest/sbtest19.frm.xbcrypt
+160418 21:16:49 [01] decrypting ./sbtest/sbtest51.ibd.xbcrypt
+160418 21:16:51 [01] decrypting ./sbtest/sbtest43.frm.xbcrypt
+160418 21:16:51 [01] decrypting ./sbtest/sbtest23.frm.xbcrypt
+160418 21:16:51 [01] decrypting ./sbtest/sbtest35.ibd.xbcrypt
+160418 21:16:56 [01] decrypting ./sbtest/sbtest44.ibd.xbcrypt
+160418 21:17:00 [01] decrypting ./sbtest/sbtest25.ibd.xbcrypt
+160418 21:17:01 [01] decrypting ./sbtest/sbtest11.ibd.xbcrypt
+160418 21:17:03 [01] decrypting ./sbtest/sbtest21.frm.xbcrypt
+160418 21:17:03 [01] decrypting ./sbtest/sbtest4.ibd.xbcrypt
+160418 21:17:04 [01] decrypting ./sbtest/sbtest54.frm.xbcrypt
+160418 21:17:04 [01] decrypting ./sbtest/sbtest53.frm.xbcrypt
+160418 21:17:04 [01] decrypting ./sbtest/sbtest2.ibd.xbcrypt
+160418 21:17:06 [01] decrypting ./sbtest/sbtest6.frm.xbcrypt
+160418 21:17:06 [01] decrypting ./sbtest/sbtest28.frm.xbcrypt
+160418 21:17:06 [01] decrypting ./sbtest/sbtest35.frm.xbcrypt
+160418 21:17:06 [01] decrypting ./sbtest/sbtest15.ibd.xbcrypt
+160418 21:17:07 [01] decrypting ./sbtest/sbtest20.frm.xbcrypt
+160418 21:17:07 [01] decrypting ./sbtest/sbtest41.frm.xbcrypt
+160418 21:17:07 [01] decrypting ./sbtest/sbtest11.frm.xbcrypt
+160418 21:17:07 [01] decrypting ./sbtest/sbtest1.ibd.xbcrypt
+160418 21:17:09 [01] decrypting ./sbtest/sbtest18.ibd.xbcrypt
+160418 21:17:10 [01] decrypting ./sbtest/sbtest31.ibd.xbcrypt
+160418 21:17:12 [01] decrypting ./sbtest/sbtest20.ibd.xbcrypt
+160418 21:17:13 [01] decrypting ./sbtest/sbtest30.ibd.xbcrypt
+160418 21:17:19 [01] decrypting ./sbtest/sbtest17.frm.xbcrypt
+160418 21:17:19 [01] decrypting ./sbtest/sbtest12.frm.xbcrypt
+160418 21:17:19 [01] decrypting ./sbtest/sbtest15.frm.xbcrypt
+160418 21:17:19 [01] decrypting ./sbtest/sbtest29.ibd.xbcrypt
+160418 21:17:23 [01] decrypting ./sbtest/sbtest54.ibd.xbcrypt
+160418 21:17:25 [01] decrypting ./sbtest/sbtest13.ibd.xbcrypt
+160418 21:17:26 [01] decrypting ./sbtest/sbtest52.frm.xbcrypt
+160418 21:17:26 [01] decrypting ./sbtest/sbtest2.frm.xbcrypt
+160418 21:17:26 [01] decrypting ./sbtest/sbtest42.frm.xbcrypt
+160418 21:17:26 [01] decrypting ./sbtest/sbtest51.frm.xbcrypt
+160418 21:17:26 [01] decrypting ./sbtest/sbtest56.ibd.xbcrypt
+160418 21:17:28 [01] decrypting ./sbtest/sbtest46.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./sbtest/sbtest39.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./xtrabackup_logfile.xbcrypt
+160418 21:17:28 [01] decrypting ./backup-my.cnf.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_stages_history_long.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/table_io_waits_summary_by_table.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/cond_instances.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/socket_summary_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/hosts.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_waits_history.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/setup_timers.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/table_io_waits_summary_by_index_usage.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/session_account_connect_attrs.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_waits_summary_by_host_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_statements_summary_by_host_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/file_summary_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_statements_summary_global_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/setup_consumers.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/file_summary_by_instance.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/setup_actors.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/db.opt.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/mutex_instances.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_stages_summary_by_user_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_waits_history_long.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/objects_summary_global_by_type.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_stages_current.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_waits_summary_global_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_stages_history.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_statements_summary_by_user_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/file_instances.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/table_lock_waits_summary_by_table.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_waits_summary_by_thread_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/threads.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/setup_objects.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_statements_summary_by_thread_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_statements_summary_by_account_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_statements_current.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_statements_history_long.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_waits_summary_by_user_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/socket_instances.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/rwlock_instances.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_stages_summary_by_host_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/setup_instruments.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/users.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_waits_current.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_statements_summary_by_digest.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/performance_timers.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/socket_summary_by_instance.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/session_connect_attrs.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_stages_summary_by_account_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/accounts.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_waits_summary_by_instance.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_stages_summary_by_thread_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/host_cache.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_stages_summary_global_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_waits_summary_by_account_by_event_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./performance_schema/events_statements_history.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./xtrabackup_info.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/tables_priv.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_topic.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_category.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/proxies_priv.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/plugin.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/general_log.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/general_log.CSV.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/tables_priv.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/innodb_index_stats.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_topic.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/columns_priv.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_transition_type.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_category.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_keyword.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/func.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/slave_master_info.ibd.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/event.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/procs_priv.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/ndb_binlog_index.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/proc.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/ndb_binlog_index.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/slave_worker_info.ibd.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/servers.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/columns_priv.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_transition_type.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_transition.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/slow_log.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/slow_log.CSV.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_relation.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/servers.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/db.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_leap_second.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/proxies_priv.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_topic.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_keyword.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_leap_second.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/general_log.CSM.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/user.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_transition.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_relation.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/slave_worker_info.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/db.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/event.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/procs_priv.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/ndb_binlog_index.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_relation.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_transition.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/plugin.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/servers.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/func.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/slave_master_info.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/user.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_leap_second.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/proxies_priv.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/slave_relay_log_info.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/innodb_table_stats.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/slow_log.CSM.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/tables_priv.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_name.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/proc.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_keyword.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/innodb_index_stats.ibd.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/proc.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/plugin.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/innodb_table_stats.ibd.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/help_category.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/db.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/columns_priv.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_name.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/slave_relay_log_info.ibd.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_transition_type.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/time_zone_name.MYI.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/event.MYD.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/func.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/user.frm.xbcrypt
+160418 21:17:28 [01] decrypting ./mysql/procs_priv.MYI.xbcrypt
+160418 21:17:28 completed OK!
+160418 21:17:28 innobackupex: Starting the apply-log operation
+
+IMPORTANT: Please check that the apply-log run completes successfully.
+           At the end of a successful apply-log run innobackupex
+           prints "completed OK!".
+
+innobackupex version 2.4.2 based on MySQL server 5.7.11 Linux (x86_64) (revision id: 8e86a84)
+xtrabackup: cd to /var/tmp/backup_dir
+xtrabackup: This target seems to be not prepared yet.
+InnoDB: Number of pools: 1
+xtrabackup: xtrabackup_logfile detected: size=8388608, start_lsn=(8070813042)
+xtrabackup: using the following InnoDB configuration for recovery:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 1
+xtrabackup:   innodb_log_file_size = 8388608
+xtrabackup: using the following InnoDB configuration for recovery:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 1
+xtrabackup:   innodb_log_file_size = 8388608
+xtrabackup: Starting InnoDB instance for recovery.
+xtrabackup: Using 104857600 bytes for buffer pool (set by --use-memory parameter)
+InnoDB: PUNCH HOLE support available
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Uses event mutexes
+InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+InnoDB: Compressed tables use zlib 1.2.8
+InnoDB: Number of pools: 1
+InnoDB: Using CPU crc32 instructions
+InnoDB: Initializing buffer pool, total size = 100M, instances = 1, chunk size = 100M
+InnoDB: Completed initialization of buffer pool
+InnoDB: page_cleaner coordinator priority: -20
+InnoDB: Highest supported file format is Barracuda.
+InnoDB: The log sequence number 1625997 in the system tablespace does not match the log sequence number 8070813042 in the ib_logfiles!
+InnoDB: Database was not shutdown normally!
+InnoDB: Starting crash recovery.
+InnoDB: Doing recovery: scanned up to log sequence number 8070813042 (0%)
+InnoDB: Creating shared tablespace for temporary tables
+InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+InnoDB: File './ibtmp1' size is now 12 MB.
+InnoDB: 96 redo rollback segment(s) found. 1 redo rollback segment(s) are active.
+InnoDB: 32 non-redo rollback segment(s) are active.
+InnoDB: 5.7.11 started; log sequence number 8070813042
+
+xtrabackup: starting shutdown with innodb_fast_shutdown = 1
+InnoDB: FTS optimize thread exiting.
+InnoDB: Starting shutdown...
+InnoDB: Shutdown completed; log sequence number 8070813329
+InnoDB: Number of pools: 1
+xtrabackup: using the following InnoDB configuration for recovery:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 2
+xtrabackup:   innodb_log_file_size = 50331648
+InnoDB: PUNCH HOLE support available
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Uses event mutexes
+InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+InnoDB: Compressed tables use zlib 1.2.8
+InnoDB: Number of pools: 1
+InnoDB: Using CPU crc32 instructions
+InnoDB: Initializing buffer pool, total size = 100M, instances = 1, chunk size = 100M
+InnoDB: Completed initialization of buffer pool
+InnoDB: page_cleaner coordinator priority: -20
+InnoDB: Setting log file ./ib_logfile101 size to 48 MB
+InnoDB: Setting log file ./ib_logfile1 size to 48 MB
+InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+InnoDB: New log files created, LSN=8070813329
+InnoDB: Highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 8070813708
+InnoDB: Doing recovery: scanned up to log sequence number 8070813717 (0%)
+InnoDB: Doing recovery: scanned up to log sequence number 8070813717 (0%)
+InnoDB: Database was not shutdown normally!
+InnoDB: Starting crash recovery.
+InnoDB: Removed temporary tablespace data file: "ibtmp1"
+InnoDB: Creating shared tablespace for temporary tables
+InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+InnoDB: File './ibtmp1' size is now 12 MB.
+InnoDB: 96 redo rollback segment(s) found. 1 redo rollback segment(s) are active.
+InnoDB: 32 non-redo rollback segment(s) are active.
+InnoDB: 5.7.11 started; log sequence number 8070813717
+xtrabackup: starting shutdown with innodb_fast_shutdown = 1
+InnoDB: FTS optimize thread exiting.
+InnoDB: Starting shutdown...
+InnoDB: Shutdown completed; log sequence number 8070815100
+160418 21:17:32 completed OK!
+/home/ubuntu

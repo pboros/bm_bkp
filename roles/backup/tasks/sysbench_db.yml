@@ -1,0 +1,33 @@
+---
+- name: sbtest database
+  mysql_db:
+    name: "{{ sysbench_db_schema }}"
+    state: present
+
+- name: sbtest user
+  mysql_user:
+    name: "{{ sysbench_db_user }}"
+    password: "{{ sysbench_db_password }}"
+    host: "{{ item }}"
+    priv: "{{ sysbench_db_schema }}.*:ALL"
+  with_items:
+    - "localhost"
+    - "%"
+
+- name: get sbtest table count
+  shell: >
+    mysql --silent --silent -e 
+    "select count(1) from information_schema.tables 
+    where table_name like '{{ sysbench_db_schema }}%';"
+  changed_when: false
+  register: sbtest_table_count
+
+- name: create sbtest tables
+  shell: >
+    /usr/local/bin/sysbench 
+    --test={{ sysbench_testdir }}/db/oltp.lua 
+    --mysql-user={{ sysbench_db_user }}
+    --mysql-password={{ sysbench_db_password }} 
+    --oltp-table-size={{ oltp_table_size }} 
+    --oltp-tables-count={{ oltp_tables_count }} prepare
+  when: sbtest_table_count.stdout == "0"

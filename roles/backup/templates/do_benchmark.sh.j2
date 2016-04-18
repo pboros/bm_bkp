@@ -1,0 +1,207 @@
+#!/bin/bash
+
+backup_bm_restuls_file="{{ backup_bm_results }}"
+backup_dest_dir="{{ backup_dest_dir }}"
+# One test scenario from several
+xb_secret="{{ xb_secret_location }}"
+
+function prepare() {
+  results_dir=`dirname ${backup_bm_restuls_file}`
+  if [ ! -d ${results_dir} ]
+  then
+    mkdir -p ${results_dir}
+  fi
+
+  if [ ! -d backup_dest_dir ]
+  then
+    mkdir -p ${backup_dest_dir}
+  fi 
+}
+
+function parse_testcase() {
+  test_scenario=$1
+  innobackupex_options=''
+  prepare_cmds=''
+
+  for tsp in `echo ${test_scenario} | sed -e s/,/\ /g`
+  do
+    case ${tsp} in
+      n)
+        innobackupex_options="${innobackupex_options} --no-timestamp"
+        output_format="normal"
+        # TODO: pre and post compression steps for prepare because tar and xbstream has to be decompressed differently
+        prepare_cmds="innobackupex --apply-log ."
+      ;;
+      t)
+        innobackupex_options="${innobackupex_options} --stream=tar"
+        output_format="tar_stream"
+        prepare_cmds="tar xvfi ${backup_dest_dir}/backup.tar ; innobackupex --apply-log ."
+      ;;
+      x)
+        innobackupex_options="${innobackupex_options} --stream=xbstream"
+        output_format="xbstream"
+        xbstream_prefix="xbstream -xv ${backup_dest_dir} < ${backup_dest_dir}/backup.xbstream ; "
+        xbstream_apply_log="innobackupex --apply-log ."
+      ;;
+      c*)
+        comp_threads=`echo ${tsp} | sed -e s/c//g`
+        if [ k${comp_threads} == 'k' ]
+        then
+          comp_threads=1
+        fi
+        innobackupex_options="${innobackupex_options} --compress --compress-threads=${comp_threads}"
+        decompress_prefix="innobackupex --decompress . ; "
+      ;;
+      p*)
+        par_threads=`echo ${tsp} | sed -e s/p//g`
+        if [ k${par_threads} == 'k' ]
+        then
+          par_threads=1
+        fi
+        innobackupex_options="${innobackupex_options} --parallel=${par_threads}"
+      ;;
+      z*)
+        comp_threads=`echo ${tsp} | sed -e s/z//g`
+        if [ k${comp_threads} == 'k' ]
+        then
+          comp_threads=1
+        fi
+        pigz_cmd="pigz -p ${comp_threads}"
+        pigz_decompress_prefix="pigz -dp ${comp_threads} "
+      ;;
+      e)
+        innobackupex_options="${innobackupex_options} --encrypt=AES256 --encrypt-key-file=${xb_secret}"
+        decrypt_prefix="innobackupex --decrypt=AES256 --encrypt-key-file=${xb_secret} .; "
+      ;;
+    esac
+
+    if [ k${output_format} == 'k' ]
+    then
+      echo "You must specify n, t or x"
+      exit 1
+    fi
+  done
+}
+
+function get_cmd() {
+  test_scenario=$1
+  cmd=$2
+  parse_testcase ${test_scenario}
+
+  innobackupex_cmd_prefix="innobackupex --user root"
+
+  case ${output_format} in
+    "normal")
+      innobackupex_cmd="sudo bash -c \"cd ${backup_dest_dir} ; ${innobackupex_cmd_prefix} ${innobackupex_options} ${backup_dest_dir}; cd -\""
+      prepare_cmds="sudo bash -c \"cd ${backup_dest_dir} ; ${decrypt_prefix}${decompress_prefix}${prepare_cmds} ; cd -\""
+    ;;
+    "tar_stream")
+      tar_file="${backup_dest_dir}/backup.tar"
+      pigz_compress_suffix=".gz"
+      pigz_tar_file="${tar_file}${pigz_compress_suffix}"
+      if [ "k${pigz_cmd}" == 'k' ]
+      then
+        innobackupex_cmd="sudo bash -c \"cd ${backup_dest_dir} ; ${innobackupex_cmd_prefix} ${innobackupex_options} /tmp > ${tar_file} ; cd -\""
+        prepare_cmds="sudo bash -c \"cd ${backup_dest_dir} ; ${prepare_cmds}; cd -\""
+      else
+        innobackupex_cmd="sudo bash -c \"cd ${backup_dest_dir} ; ${innobackupex_cmd_prefix} ${innobackupex_options} /tmp | ${pigz_cmd} > ${pigz_tar_file} ; cd -\""
+        prepare_cmds="sudo bash -c \"cd ${backup_dest_dir} ; ${pigz_decompress_prefix}${pigz_tar_file} ; ${prepare_cmds} ; cd -\""
+      fi
+    ;;
+    "xbstream")
+      xbstream_file="${backup_dest_dir}/backup.xbstream"
+      pigz_compress_suffix=".gz"
+      pigz_xbstream_file="${xbstream_file}${pigz_compress_suffix}"
+      if [ "k${pigz_cmd}" == 'k' ]
+      then
+        innobackupex_cmd="sudo bash -c \"cd ${backup_dest_dir} ; ${innobackupex_cmd_prefix} ${innobackupex_options} /tmp > ${xbstream_file} ; cd -\""
+        prepare_cmds="sudo bash -c \"cd ${backup_dest_dir} ; ${xbstream_prefix}${decrypt_prefix}${decompress_prefix}${xbstream_decrypt_prefix}${xbstream_apply_log} ; cd -\""
+      else
+        innobackupex_cmd="sudo bash -c \"cd ${backup_dest_dir} ; ${innobackupex_cmd_prefix} ${innobackupex_options} /tmp | ${pigz_cmd} > ${pigz_xbstream_file} ; cd -\""
+        prepare_cmds="sudo bash -c \"cd ${backup_dest_dir} ; ${pigz_decompress_prefix}${pigz_xbstream_file} ; ${xbstream_prefix}${xbstream_decrypt_prefix}${xbstream_decompress_prefix}${xbstream_apply_log} ; cd -\""
+      fi
+    ;;
+  esac
+
+  case ${cmd} in
+    "backup")
+      echo ${innobackupex_cmd}
+    ;;
+    "prepare")
+      echo ${prepare_cmds}
+    ;;
+    *)
+      echo "invalid get_cmd call"
+    ;;
+  esac
+  
+  innobackupex_options=''
+  pigz_cmd=''
+}
+
+function empty_backup_dest() {
+  if [ k${backup_dest_dir} != 'k' ]
+  then
+    sudo rm -rf ${backup_dest_dir}/*
+    if [ $? -ne 0 ]
+    then
+      echo "Failed to wipe backup dir."
+      exit 1
+    else
+      echo "Backup dir wiped."
+    fi
+  else
+    echo "Almost did rm -rf /, check your configuration."
+    exit 1
+  fi
+}
+
+echo -n > /tmp/results
+empty_backup_dest
+
+backup_scenarios="{% for item in backup_scenarios %}{{ item }} {% endfor %}"
+for backup_scenario in ${backup_scenarios}
+do
+  backup_cmd=`get_cmd ${backup_scenario} backup`
+  prepare_cmd=`get_cmd ${backup_scenario} prepare`
+  if [ k$1 != "kdebug" ]
+    then
+    start_backup=`date +%s`
+
+    eval ${backup_cmd} > /tmp/backup_${backup_scenario}.log 2>&1
+    if [ $? -ne 0 ]
+    then
+      echo "${backup_scenario} backup failed, check log."
+      exit 1
+    else
+      echo "Scenario: ${backup_scenario} backup done."
+    fi
+    end_backup=`date +%s`
+    backup_time_sec=$[ ${end_backup} - ${start_backup} ]
+    backup_size=`sudo du -sm ${backup_dest_dir} | awk '{print $1}'`
+
+    echo "${backup_scenario} backup ${backup_time_sec} ${backup_size}" >> /tmp/results
+
+    start_prepare=`date +%s`
+    eval ${prepare_cmd} > /tmp/prepare_${backup_scenario}.log 2>&1 
+    if [ $? -ne 0 ]
+    then
+      echo "${backup_scenario} prepare failed, check log." 
+      exit 1
+    else
+      echo "Scenario: ${backup_scenario} prepare done."
+    fi  
+    end_prepare=`date +%s`
+    prepare_time_sec=$[ ${end_prepare} - ${start_prepare} ]
+    prepare_size=`sudo du -sm ${backup_dest_dir} | awk '{print $1}'`
+    prepare_inc=$[ ${prepare_size} - ${backup_size} ]
+
+    echo "${backup_scenario} prepare ${prepare_time_sec} ${prepare_inc}" >> /tmp/results
+    empty_backup_dest
+  else
+    echo "${backup_scenario}"
+    echo "==================="
+    echo "backup: ${backup_cmd}"
+    echo "prepare: ${prepare_cmd}"
+  fi
+done

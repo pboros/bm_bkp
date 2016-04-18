@@ -1,0 +1,619 @@
+160418 18:58:09 innobackupex: Starting the backup operation
+
+IMPORTANT: Please check that the backup run completes successfully.
+           At the end of a successful backup run innobackupex
+           prints "completed OK!".
+
+160418 18:58:09  version_check Connecting to MySQL server with DSN 'dbi:mysql:;mysql_read_default_group=xtrabackup;port=3306;mysql_socket=/var/run/mysqld/mysqld.sock' as 'root'  (using password: NO).
+160418 18:58:09  version_check Connected to MySQL server
+160418 18:58:09  version_check Executing a version check against the server...
+160418 18:58:09  version_check Done.
+160418 18:58:09 Connecting to MySQL server host: localhost, user: root, password: not set, port: 3306, socket: /var/run/mysqld/mysqld.sock
+Using server version 5.6.29-76.2
+innobackupex version 2.4.2 based on MySQL server 5.7.11 Linux (x86_64) (revision id: 8e86a84)
+xtrabackup: uses posix_fadvise().
+xtrabackup: cd to /var/lib/mysql
+xtrabackup: open files limit requested 0, set to 1024
+xtrabackup: using the following InnoDB configuration:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 2
+xtrabackup:   innodb_log_file_size = 50331648
+InnoDB: Number of pools: 1
+160418 18:58:09 >> log scanned up to (8070813042)
+xtrabackup: Generating a list of tablespaces
+InnoDB: Allocated tablespace ID 1 for mysql/innodb_table_stats, old maximum was 0
+160418 18:58:09 [01] Copying ./ibdata1 to /var/tmp/backup_dir/ibdata1
+160418 18:58:10 [01]        ...done
+160418 18:58:10 [01] Copying ./mysql/innodb_table_stats.ibd to /var/tmp/backup_dir/mysql/innodb_table_stats.ibd
+160418 18:58:10 [01]        ...done
+160418 18:58:10 [01] Copying ./mysql/slave_relay_log_info.ibd to /var/tmp/backup_dir/mysql/slave_relay_log_info.ibd
+160418 18:58:10 [01]        ...done
+160418 18:58:10 [01] Copying ./mysql/slave_worker_info.ibd to /var/tmp/backup_dir/mysql/slave_worker_info.ibd
+160418 18:58:10 [01]        ...done
+160418 18:58:10 [01] Copying ./mysql/slave_master_info.ibd to /var/tmp/backup_dir/mysql/slave_master_info.ibd
+160418 18:58:10 [01]        ...done
+160418 18:58:10 [01] Copying ./mysql/innodb_index_stats.ibd to /var/tmp/backup_dir/mysql/innodb_index_stats.ibd
+160418 18:58:10 [01]        ...done
+160418 18:58:10 [01] Copying ./sbtest/sbtest52.ibd to /var/tmp/backup_dir/sbtest/sbtest52.ibd
+160418 18:58:10 >> log scanned up to (8070813042)
+160418 18:58:10 [01]        ...done
+160418 18:58:11 [01] Copying ./sbtest/sbtest47.ibd to /var/tmp/backup_dir/sbtest/sbtest47.ibd
+160418 18:58:11 >> log scanned up to (8070813042)
+160418 18:58:11 [01]        ...done
+160418 18:58:12 [01] Copying ./sbtest/sbtest9.ibd to /var/tmp/backup_dir/sbtest/sbtest9.ibd
+160418 18:58:12 >> log scanned up to (8070813042)
+160418 18:58:12 [01]        ...done
+160418 18:58:13 [01] Copying ./sbtest/sbtest53.ibd to /var/tmp/backup_dir/sbtest/sbtest53.ibd
+160418 18:58:13 >> log scanned up to (8070813042)
+160418 18:58:13 [01]        ...done
+160418 18:58:13 [01] Copying ./sbtest/sbtest27.ibd to /var/tmp/backup_dir/sbtest/sbtest27.ibd
+160418 18:58:14 >> log scanned up to (8070813042)
+160418 18:58:14 [01]        ...done
+160418 18:58:14 [01] Copying ./sbtest/sbtest50.ibd to /var/tmp/backup_dir/sbtest/sbtest50.ibd
+160418 18:58:15 >> log scanned up to (8070813042)
+160418 18:58:15 [01]        ...done
+160418 18:58:15 [01] Copying ./sbtest/sbtest16.ibd to /var/tmp/backup_dir/sbtest/sbtest16.ibd
+160418 18:58:16 >> log scanned up to (8070813042)
+160418 18:58:16 [01]        ...done
+160418 18:58:16 [01] Copying ./sbtest/sbtest21.ibd to /var/tmp/backup_dir/sbtest/sbtest21.ibd
+160418 18:58:17 >> log scanned up to (8070813042)
+160418 18:58:17 [01]        ...done
+160418 18:58:17 [01] Copying ./sbtest/sbtest48.ibd to /var/tmp/backup_dir/sbtest/sbtest48.ibd
+160418 18:58:18 >> log scanned up to (8070813042)
+160418 18:58:18 [01]        ...done
+160418 18:58:18 [01] Copying ./sbtest/sbtest33.ibd to /var/tmp/backup_dir/sbtest/sbtest33.ibd
+160418 18:58:19 [01]        ...done
+160418 18:58:19 >> log scanned up to (8070813042)
+160418 18:58:19 [01] Copying ./sbtest/sbtest5.ibd to /var/tmp/backup_dir/sbtest/sbtest5.ibd
+160418 18:58:20 [01]        ...done
+160418 18:58:20 >> log scanned up to (8070813042)
+160418 18:58:20 [01] Copying ./sbtest/sbtest43.ibd to /var/tmp/backup_dir/sbtest/sbtest43.ibd
+160418 18:58:21 [01]        ...done
+160418 18:58:21 [01] Copying ./sbtest/sbtest31.ibd to /var/tmp/backup_dir/sbtest/sbtest31.ibd
+160418 18:58:21 >> log scanned up to (8070813042)
+160418 18:58:22 [01]        ...done
+160418 18:58:22 [01] Copying ./sbtest/sbtest35.ibd to /var/tmp/backup_dir/sbtest/sbtest35.ibd
+160418 18:58:22 >> log scanned up to (8070813042)
+160418 18:58:23 [01]        ...done
+160418 18:58:23 [01] Copying ./sbtest/sbtest26.ibd to /var/tmp/backup_dir/sbtest/sbtest26.ibd
+160418 18:58:23 >> log scanned up to (8070813042)
+160418 18:58:24 [01]        ...done
+160418 18:58:24 [01] Copying ./sbtest/sbtest10.ibd to /var/tmp/backup_dir/sbtest/sbtest10.ibd
+160418 18:58:24 >> log scanned up to (8070813042)
+160418 18:58:24 [01]        ...done
+160418 18:58:25 [01] Copying ./sbtest/sbtest23.ibd to /var/tmp/backup_dir/sbtest/sbtest23.ibd
+160418 18:58:25 >> log scanned up to (8070813042)
+160418 18:58:25 [01]        ...done
+160418 18:58:26 [01] Copying ./sbtest/sbtest32.ibd to /var/tmp/backup_dir/sbtest/sbtest32.ibd
+160418 18:58:26 >> log scanned up to (8070813042)
+160418 18:58:26 [01]        ...done
+160418 18:58:27 [01] Copying ./sbtest/sbtest60.ibd to /var/tmp/backup_dir/sbtest/sbtest60.ibd
+160418 18:58:27 >> log scanned up to (8070813042)
+160418 18:58:28 [01]        ...done
+160418 18:58:28 [01] Copying ./sbtest/sbtest14.ibd to /var/tmp/backup_dir/sbtest/sbtest14.ibd
+160418 18:58:28 >> log scanned up to (8070813042)
+160418 18:58:28 [01]        ...done
+160418 18:58:29 [01] Copying ./sbtest/sbtest51.ibd to /var/tmp/backup_dir/sbtest/sbtest51.ibd
+160418 18:58:29 >> log scanned up to (8070813042)
+160418 18:58:30 [01]        ...done
+160418 18:58:30 [01] Copying ./sbtest/sbtest55.ibd to /var/tmp/backup_dir/sbtest/sbtest55.ibd
+160418 18:58:30 >> log scanned up to (8070813042)
+160418 18:58:31 [01]        ...done
+160418 18:58:31 [01] Copying ./sbtest/sbtest37.ibd to /var/tmp/backup_dir/sbtest/sbtest37.ibd
+160418 18:58:31 >> log scanned up to (8070813042)
+160418 18:58:32 [01]        ...done
+160418 18:58:32 [01] Copying ./sbtest/sbtest46.ibd to /var/tmp/backup_dir/sbtest/sbtest46.ibd
+160418 18:58:32 >> log scanned up to (8070813042)
+160418 18:58:33 [01]        ...done
+160418 18:58:33 >> log scanned up to (8070813042)
+160418 18:58:33 [01] Copying ./sbtest/sbtest30.ibd to /var/tmp/backup_dir/sbtest/sbtest30.ibd
+160418 18:58:34 [01]        ...done
+160418 18:58:34 >> log scanned up to (8070813042)
+160418 18:58:34 [01] Copying ./sbtest/sbtest17.ibd to /var/tmp/backup_dir/sbtest/sbtest17.ibd
+160418 18:58:35 [01]        ...done
+160418 18:58:35 >> log scanned up to (8070813042)
+160418 18:58:35 [01] Copying ./sbtest/sbtest42.ibd to /var/tmp/backup_dir/sbtest/sbtest42.ibd
+160418 18:58:36 >> log scanned up to (8070813042)
+160418 18:58:36 [01]        ...done
+160418 18:58:36 [01] Copying ./sbtest/sbtest41.ibd to /var/tmp/backup_dir/sbtest/sbtest41.ibd
+160418 18:58:37 >> log scanned up to (8070813042)
+160418 18:58:37 [01]        ...done
+160418 18:58:37 [01] Copying ./sbtest/sbtest20.ibd to /var/tmp/backup_dir/sbtest/sbtest20.ibd
+160418 18:58:38 >> log scanned up to (8070813042)
+160418 18:58:38 [01]        ...done
+160418 18:58:38 [01] Copying ./sbtest/sbtest34.ibd to /var/tmp/backup_dir/sbtest/sbtest34.ibd
+160418 18:58:39 >> log scanned up to (8070813042)
+160418 18:58:39 [01]        ...done
+160418 18:58:39 [01] Copying ./sbtest/sbtest12.ibd to /var/tmp/backup_dir/sbtest/sbtest12.ibd
+160418 18:58:40 >> log scanned up to (8070813042)
+160418 18:58:40 [01]        ...done
+160418 18:58:41 [01] Copying ./sbtest/sbtest19.ibd to /var/tmp/backup_dir/sbtest/sbtest19.ibd
+160418 18:58:41 >> log scanned up to (8070813042)
+160418 18:58:41 [01]        ...done
+160418 18:58:42 [01] Copying ./sbtest/sbtest29.ibd to /var/tmp/backup_dir/sbtest/sbtest29.ibd
+160418 18:58:42 >> log scanned up to (8070813042)
+160418 18:58:42 [01]        ...done
+160418 18:58:43 [01] Copying ./sbtest/sbtest45.ibd to /var/tmp/backup_dir/sbtest/sbtest45.ibd
+160418 18:58:43 >> log scanned up to (8070813042)
+160418 18:58:44 [01]        ...done
+160418 18:58:44 [01] Copying ./sbtest/sbtest13.ibd to /var/tmp/backup_dir/sbtest/sbtest13.ibd
+160418 18:58:44 >> log scanned up to (8070813042)
+160418 18:58:45 [01]        ...done
+160418 18:58:45 [01] Copying ./sbtest/sbtest11.ibd to /var/tmp/backup_dir/sbtest/sbtest11.ibd
+160418 18:58:45 >> log scanned up to (8070813042)
+160418 18:58:46 [01]        ...done
+160418 18:58:46 [01] Copying ./sbtest/sbtest1.ibd to /var/tmp/backup_dir/sbtest/sbtest1.ibd
+160418 18:58:46 >> log scanned up to (8070813042)
+160418 18:58:46 [01]        ...done
+160418 18:58:47 [01] Copying ./sbtest/sbtest28.ibd to /var/tmp/backup_dir/sbtest/sbtest28.ibd
+160418 18:58:47 >> log scanned up to (8070813042)
+160418 18:58:47 [01]        ...done
+160418 18:58:48 [01] Copying ./sbtest/sbtest25.ibd to /var/tmp/backup_dir/sbtest/sbtest25.ibd
+160418 18:58:48 >> log scanned up to (8070813042)
+160418 18:58:48 [01]        ...done
+160418 18:58:49 [01] Copying ./sbtest/sbtest59.ibd to /var/tmp/backup_dir/sbtest/sbtest59.ibd
+160418 18:58:49 >> log scanned up to (8070813042)
+160418 18:58:49 [01]        ...done
+160418 18:58:50 [01] Copying ./sbtest/sbtest7.ibd to /var/tmp/backup_dir/sbtest/sbtest7.ibd
+160418 18:58:50 >> log scanned up to (8070813042)
+160418 18:58:50 [01]        ...done
+160418 18:58:51 [01] Copying ./sbtest/sbtest40.ibd to /var/tmp/backup_dir/sbtest/sbtest40.ibd
+160418 18:58:51 >> log scanned up to (8070813042)
+160418 18:58:52 [01]        ...done
+160418 18:58:52 [01] Copying ./sbtest/sbtest58.ibd to /var/tmp/backup_dir/sbtest/sbtest58.ibd
+160418 18:58:52 >> log scanned up to (8070813042)
+160418 18:58:53 [01]        ...done
+160418 18:58:53 [01] Copying ./sbtest/sbtest18.ibd to /var/tmp/backup_dir/sbtest/sbtest18.ibd
+160418 18:58:53 >> log scanned up to (8070813042)
+160418 18:58:54 [01]        ...done
+160418 18:58:54 [01] Copying ./sbtest/sbtest4.ibd to /var/tmp/backup_dir/sbtest/sbtest4.ibd
+160418 18:58:54 >> log scanned up to (8070813042)
+160418 18:58:55 [01]        ...done
+160418 18:58:55 [01] Copying ./sbtest/sbtest49.ibd to /var/tmp/backup_dir/sbtest/sbtest49.ibd
+160418 18:58:55 >> log scanned up to (8070813042)
+160418 18:58:56 [01]        ...done
+160418 18:58:56 [01] Copying ./sbtest/sbtest2.ibd to /var/tmp/backup_dir/sbtest/sbtest2.ibd
+160418 18:58:56 >> log scanned up to (8070813042)
+160418 18:58:57 [01]        ...done
+160418 18:58:57 [01] Copying ./sbtest/sbtest8.ibd to /var/tmp/backup_dir/sbtest/sbtest8.ibd
+160418 18:58:57 >> log scanned up to (8070813042)
+160418 18:58:58 [01]        ...done
+160418 18:58:58 [01] Copying ./sbtest/sbtest56.ibd to /var/tmp/backup_dir/sbtest/sbtest56.ibd
+160418 18:58:58 >> log scanned up to (8070813042)
+160418 18:58:59 [01]        ...done
+160418 18:58:59 [01] Copying ./sbtest/sbtest57.ibd to /var/tmp/backup_dir/sbtest/sbtest57.ibd
+160418 18:58:59 >> log scanned up to (8070813042)
+160418 18:59:00 [01]        ...done
+160418 18:59:00 [01] Copying ./sbtest/sbtest39.ibd to /var/tmp/backup_dir/sbtest/sbtest39.ibd
+160418 18:59:00 >> log scanned up to (8070813042)
+160418 18:59:01 [01]        ...done
+160418 18:59:01 [01] Copying ./sbtest/sbtest38.ibd to /var/tmp/backup_dir/sbtest/sbtest38.ibd
+160418 18:59:01 >> log scanned up to (8070813042)
+160418 18:59:02 [01]        ...done
+160418 18:59:02 [01] Copying ./sbtest/sbtest3.ibd to /var/tmp/backup_dir/sbtest/sbtest3.ibd
+160418 18:59:02 >> log scanned up to (8070813042)
+160418 18:59:03 [01]        ...done
+160418 18:59:03 [01] Copying ./sbtest/sbtest24.ibd to /var/tmp/backup_dir/sbtest/sbtest24.ibd
+160418 18:59:03 >> log scanned up to (8070813042)
+160418 18:59:04 [01]        ...done
+160418 18:59:04 [01] Copying ./sbtest/sbtest15.ibd to /var/tmp/backup_dir/sbtest/sbtest15.ibd
+160418 18:59:04 >> log scanned up to (8070813042)
+160418 18:59:05 [01]        ...done
+160418 18:59:05 [01] Copying ./sbtest/sbtest44.ibd to /var/tmp/backup_dir/sbtest/sbtest44.ibd
+160418 18:59:05 >> log scanned up to (8070813042)
+160418 18:59:06 [01]        ...done
+160418 18:59:06 [01] Copying ./sbtest/sbtest6.ibd to /var/tmp/backup_dir/sbtest/sbtest6.ibd
+160418 18:59:06 >> log scanned up to (8070813042)
+160418 18:59:07 [01]        ...done
+160418 18:59:07 [01] Copying ./sbtest/sbtest22.ibd to /var/tmp/backup_dir/sbtest/sbtest22.ibd
+160418 18:59:07 >> log scanned up to (8070813042)
+160418 18:59:08 [01]        ...done
+160418 18:59:08 [01] Copying ./sbtest/sbtest54.ibd to /var/tmp/backup_dir/sbtest/sbtest54.ibd
+160418 18:59:08 >> log scanned up to (8070813042)
+160418 18:59:09 [01]        ...done
+160418 18:59:09 [01] Copying ./sbtest/sbtest36.ibd to /var/tmp/backup_dir/sbtest/sbtest36.ibd
+160418 18:59:09 >> log scanned up to (8070813042)
+160418 18:59:10 [01]        ...done
+160418 18:59:10 >> log scanned up to (8070813042)
+160418 18:59:10 Executing LOCK TABLES FOR BACKUP...
+160418 18:59:10 Starting to backup non-InnoDB tables and files
+160418 18:59:10 [01] Copying ./performance_schema/events_stages_current.frm to /var/tmp/backup_dir/performance_schema/events_stages_current.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_waits_summary_by_account_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_by_account_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_waits_summary_by_thread_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_by_thread_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/performance_timers.frm to /var/tmp/backup_dir/performance_schema/performance_timers.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_stages_summary_by_host_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_stages_summary_by_host_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/socket_summary_by_event_name.frm to /var/tmp/backup_dir/performance_schema/socket_summary_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/users.frm to /var/tmp/backup_dir/performance_schema/users.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/table_io_waits_summary_by_index_usage.frm to /var/tmp/backup_dir/performance_schema/table_io_waits_summary_by_index_usage.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/db.opt to /var/tmp/backup_dir/performance_schema/db.opt
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_waits_history_long.frm to /var/tmp/backup_dir/performance_schema/events_waits_history_long.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_statements_summary_by_account_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_by_account_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_waits_summary_global_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_global_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_waits_summary_by_user_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_by_user_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_stages_summary_global_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_stages_summary_global_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_statements_summary_by_user_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_by_user_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_stages_history_long.frm to /var/tmp/backup_dir/performance_schema/events_stages_history_long.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_statements_summary_by_digest.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_by_digest.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/file_instances.frm to /var/tmp/backup_dir/performance_schema/file_instances.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/setup_actors.frm to /var/tmp/backup_dir/performance_schema/setup_actors.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/cond_instances.frm to /var/tmp/backup_dir/performance_schema/cond_instances.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/socket_summary_by_instance.frm to /var/tmp/backup_dir/performance_schema/socket_summary_by_instance.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_statements_history_long.frm to /var/tmp/backup_dir/performance_schema/events_statements_history_long.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/host_cache.frm to /var/tmp/backup_dir/performance_schema/host_cache.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/setup_objects.frm to /var/tmp/backup_dir/performance_schema/setup_objects.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/rwlock_instances.frm to /var/tmp/backup_dir/performance_schema/rwlock_instances.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/setup_instruments.frm to /var/tmp/backup_dir/performance_schema/setup_instruments.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/session_account_connect_attrs.frm to /var/tmp/backup_dir/performance_schema/session_account_connect_attrs.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_statements_current.frm to /var/tmp/backup_dir/performance_schema/events_statements_current.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/file_summary_by_event_name.frm to /var/tmp/backup_dir/performance_schema/file_summary_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/threads.frm to /var/tmp/backup_dir/performance_schema/threads.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/session_connect_attrs.frm to /var/tmp/backup_dir/performance_schema/session_connect_attrs.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_stages_history.frm to /var/tmp/backup_dir/performance_schema/events_stages_history.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_statements_summary_by_thread_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_by_thread_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_statements_history.frm to /var/tmp/backup_dir/performance_schema/events_statements_history.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/table_lock_waits_summary_by_table.frm to /var/tmp/backup_dir/performance_schema/table_lock_waits_summary_by_table.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_waits_history.frm to /var/tmp/backup_dir/performance_schema/events_waits_history.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/setup_consumers.frm to /var/tmp/backup_dir/performance_schema/setup_consumers.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_statements_summary_by_host_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_by_host_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_waits_summary_by_instance.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_by_instance.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/hosts.frm to /var/tmp/backup_dir/performance_schema/hosts.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_stages_summary_by_thread_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_stages_summary_by_thread_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_statements_summary_global_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_global_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/file_summary_by_instance.frm to /var/tmp/backup_dir/performance_schema/file_summary_by_instance.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_waits_summary_by_host_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_by_host_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/mutex_instances.frm to /var/tmp/backup_dir/performance_schema/mutex_instances.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/objects_summary_global_by_type.frm to /var/tmp/backup_dir/performance_schema/objects_summary_global_by_type.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_waits_current.frm to /var/tmp/backup_dir/performance_schema/events_waits_current.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/table_io_waits_summary_by_table.frm to /var/tmp/backup_dir/performance_schema/table_io_waits_summary_by_table.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/socket_instances.frm to /var/tmp/backup_dir/performance_schema/socket_instances.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_stages_summary_by_user_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_stages_summary_by_user_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/setup_timers.frm to /var/tmp/backup_dir/performance_schema/setup_timers.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/events_stages_summary_by_account_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_stages_summary_by_account_by_event_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./performance_schema/accounts.frm to /var/tmp/backup_dir/performance_schema/accounts.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/event.frm to /var/tmp/backup_dir/mysql/event.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone.frm to /var/tmp/backup_dir/mysql/time_zone.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_keyword.MYD to /var/tmp/backup_dir/mysql/help_keyword.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_transition_type.MYD to /var/tmp/backup_dir/mysql/time_zone_transition_type.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_category.MYI to /var/tmp/backup_dir/mysql/help_category.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/procs_priv.frm to /var/tmp/backup_dir/mysql/procs_priv.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/tables_priv.frm to /var/tmp/backup_dir/mysql/tables_priv.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/plugin.frm to /var/tmp/backup_dir/mysql/plugin.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_category.frm to /var/tmp/backup_dir/mysql/help_category.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/proxies_priv.frm to /var/tmp/backup_dir/mysql/proxies_priv.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/user.MYI to /var/tmp/backup_dir/mysql/user.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/slave_master_info.frm to /var/tmp/backup_dir/mysql/slave_master_info.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_topic.MYI to /var/tmp/backup_dir/mysql/help_topic.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/db.MYI to /var/tmp/backup_dir/mysql/db.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_keyword.MYI to /var/tmp/backup_dir/mysql/help_keyword.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_leap_second.MYI to /var/tmp/backup_dir/mysql/time_zone_leap_second.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_topic.MYD to /var/tmp/backup_dir/mysql/help_topic.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/slave_relay_log_info.frm to /var/tmp/backup_dir/mysql/slave_relay_log_info.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/user.MYD to /var/tmp/backup_dir/mysql/user.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/func.MYI to /var/tmp/backup_dir/mysql/func.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_keyword.frm to /var/tmp/backup_dir/mysql/help_keyword.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_name.MYI to /var/tmp/backup_dir/mysql/time_zone_name.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_name.MYD to /var/tmp/backup_dir/mysql/time_zone_name.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/columns_priv.frm to /var/tmp/backup_dir/mysql/columns_priv.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone.MYD to /var/tmp/backup_dir/mysql/time_zone.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/slow_log.CSM to /var/tmp/backup_dir/mysql/slow_log.CSM
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_leap_second.frm to /var/tmp/backup_dir/mysql/time_zone_leap_second.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/servers.MYI to /var/tmp/backup_dir/mysql/servers.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_transition_type.frm to /var/tmp/backup_dir/mysql/time_zone_transition_type.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/procs_priv.MYI to /var/tmp/backup_dir/mysql/procs_priv.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone.MYI to /var/tmp/backup_dir/mysql/time_zone.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/innodb_index_stats.frm to /var/tmp/backup_dir/mysql/innodb_index_stats.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_category.MYD to /var/tmp/backup_dir/mysql/help_category.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_name.frm to /var/tmp/backup_dir/mysql/time_zone_name.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/proc.MYI to /var/tmp/backup_dir/mysql/proc.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/plugin.MYD to /var/tmp/backup_dir/mysql/plugin.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/ndb_binlog_index.MYI to /var/tmp/backup_dir/mysql/ndb_binlog_index.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_relation.MYD to /var/tmp/backup_dir/mysql/help_relation.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/servers.frm to /var/tmp/backup_dir/mysql/servers.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/slave_worker_info.frm to /var/tmp/backup_dir/mysql/slave_worker_info.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/tables_priv.MYI to /var/tmp/backup_dir/mysql/tables_priv.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/ndb_binlog_index.MYD to /var/tmp/backup_dir/mysql/ndb_binlog_index.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/ndb_binlog_index.frm to /var/tmp/backup_dir/mysql/ndb_binlog_index.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/event.MYD to /var/tmp/backup_dir/mysql/event.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/proxies_priv.MYI to /var/tmp/backup_dir/mysql/proxies_priv.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/innodb_table_stats.frm to /var/tmp/backup_dir/mysql/innodb_table_stats.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_transition.MYI to /var/tmp/backup_dir/mysql/time_zone_transition.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/slow_log.frm to /var/tmp/backup_dir/mysql/slow_log.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/event.MYI to /var/tmp/backup_dir/mysql/event.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_leap_second.MYD to /var/tmp/backup_dir/mysql/time_zone_leap_second.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/proc.frm to /var/tmp/backup_dir/mysql/proc.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/db.frm to /var/tmp/backup_dir/mysql/db.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/general_log.frm to /var/tmp/backup_dir/mysql/general_log.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_topic.frm to /var/tmp/backup_dir/mysql/help_topic.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/proxies_priv.MYD to /var/tmp/backup_dir/mysql/proxies_priv.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_relation.frm to /var/tmp/backup_dir/mysql/help_relation.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/general_log.CSV to /var/tmp/backup_dir/mysql/general_log.CSV
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/general_log.CSM to /var/tmp/backup_dir/mysql/general_log.CSM
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/proc.MYD to /var/tmp/backup_dir/mysql/proc.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/slow_log.CSV to /var/tmp/backup_dir/mysql/slow_log.CSV
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/columns_priv.MYD to /var/tmp/backup_dir/mysql/columns_priv.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/columns_priv.MYI to /var/tmp/backup_dir/mysql/columns_priv.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/tables_priv.MYD to /var/tmp/backup_dir/mysql/tables_priv.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/help_relation.MYI to /var/tmp/backup_dir/mysql/help_relation.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_transition.MYD to /var/tmp/backup_dir/mysql/time_zone_transition.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/servers.MYD to /var/tmp/backup_dir/mysql/servers.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/user.frm to /var/tmp/backup_dir/mysql/user.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/func.frm to /var/tmp/backup_dir/mysql/func.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/func.MYD to /var/tmp/backup_dir/mysql/func.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/plugin.MYI to /var/tmp/backup_dir/mysql/plugin.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_transition_type.MYI to /var/tmp/backup_dir/mysql/time_zone_transition_type.MYI
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/db.MYD to /var/tmp/backup_dir/mysql/db.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/procs_priv.MYD to /var/tmp/backup_dir/mysql/procs_priv.MYD
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./mysql/time_zone_transition.frm to /var/tmp/backup_dir/mysql/time_zone_transition.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [00] Writing test/db.opt
+160418 18:59:10 [00]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest38.frm to /var/tmp/backup_dir/sbtest/sbtest38.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest37.frm to /var/tmp/backup_dir/sbtest/sbtest37.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest1.frm to /var/tmp/backup_dir/sbtest/sbtest1.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest22.frm to /var/tmp/backup_dir/sbtest/sbtest22.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest8.frm to /var/tmp/backup_dir/sbtest/sbtest8.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest43.frm to /var/tmp/backup_dir/sbtest/sbtest43.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest51.frm to /var/tmp/backup_dir/sbtest/sbtest51.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest52.frm to /var/tmp/backup_dir/sbtest/sbtest52.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest47.frm to /var/tmp/backup_dir/sbtest/sbtest47.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest2.frm to /var/tmp/backup_dir/sbtest/sbtest2.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest12.frm to /var/tmp/backup_dir/sbtest/sbtest12.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/db.opt to /var/tmp/backup_dir/sbtest/db.opt
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest27.frm to /var/tmp/backup_dir/sbtest/sbtest27.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest7.frm to /var/tmp/backup_dir/sbtest/sbtest7.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest31.frm to /var/tmp/backup_dir/sbtest/sbtest31.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest20.frm to /var/tmp/backup_dir/sbtest/sbtest20.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest11.frm to /var/tmp/backup_dir/sbtest/sbtest11.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest26.frm to /var/tmp/backup_dir/sbtest/sbtest26.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest4.frm to /var/tmp/backup_dir/sbtest/sbtest4.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest39.frm to /var/tmp/backup_dir/sbtest/sbtest39.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest32.frm to /var/tmp/backup_dir/sbtest/sbtest32.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest57.frm to /var/tmp/backup_dir/sbtest/sbtest57.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest59.frm to /var/tmp/backup_dir/sbtest/sbtest59.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest25.frm to /var/tmp/backup_dir/sbtest/sbtest25.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest23.frm to /var/tmp/backup_dir/sbtest/sbtest23.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest28.frm to /var/tmp/backup_dir/sbtest/sbtest28.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest24.frm to /var/tmp/backup_dir/sbtest/sbtest24.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest3.frm to /var/tmp/backup_dir/sbtest/sbtest3.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest33.frm to /var/tmp/backup_dir/sbtest/sbtest33.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest53.frm to /var/tmp/backup_dir/sbtest/sbtest53.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest14.frm to /var/tmp/backup_dir/sbtest/sbtest14.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest49.frm to /var/tmp/backup_dir/sbtest/sbtest49.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest55.frm to /var/tmp/backup_dir/sbtest/sbtest55.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest36.frm to /var/tmp/backup_dir/sbtest/sbtest36.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest30.frm to /var/tmp/backup_dir/sbtest/sbtest30.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest40.frm to /var/tmp/backup_dir/sbtest/sbtest40.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest13.frm to /var/tmp/backup_dir/sbtest/sbtest13.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest56.frm to /var/tmp/backup_dir/sbtest/sbtest56.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest19.frm to /var/tmp/backup_dir/sbtest/sbtest19.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest46.frm to /var/tmp/backup_dir/sbtest/sbtest46.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest9.frm to /var/tmp/backup_dir/sbtest/sbtest9.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest50.frm to /var/tmp/backup_dir/sbtest/sbtest50.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest6.frm to /var/tmp/backup_dir/sbtest/sbtest6.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest29.frm to /var/tmp/backup_dir/sbtest/sbtest29.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest48.frm to /var/tmp/backup_dir/sbtest/sbtest48.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest41.frm to /var/tmp/backup_dir/sbtest/sbtest41.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest10.frm to /var/tmp/backup_dir/sbtest/sbtest10.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest34.frm to /var/tmp/backup_dir/sbtest/sbtest34.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest60.frm to /var/tmp/backup_dir/sbtest/sbtest60.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest17.frm to /var/tmp/backup_dir/sbtest/sbtest17.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest15.frm to /var/tmp/backup_dir/sbtest/sbtest15.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest58.frm to /var/tmp/backup_dir/sbtest/sbtest58.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest45.frm to /var/tmp/backup_dir/sbtest/sbtest45.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest18.frm to /var/tmp/backup_dir/sbtest/sbtest18.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest44.frm to /var/tmp/backup_dir/sbtest/sbtest44.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest42.frm to /var/tmp/backup_dir/sbtest/sbtest42.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:10 [01] Copying ./sbtest/sbtest54.frm to /var/tmp/backup_dir/sbtest/sbtest54.frm
+160418 18:59:10 [01]        ...done
+160418 18:59:11 [01] Copying ./sbtest/sbtest35.frm to /var/tmp/backup_dir/sbtest/sbtest35.frm
+160418 18:59:11 [01]        ...done
+160418 18:59:11 [01] Copying ./sbtest/sbtest21.frm to /var/tmp/backup_dir/sbtest/sbtest21.frm
+160418 18:59:11 [01]        ...done
+160418 18:59:11 [01] Copying ./sbtest/sbtest5.frm to /var/tmp/backup_dir/sbtest/sbtest5.frm
+160418 18:59:11 [01]        ...done
+160418 18:59:11 [01] Copying ./sbtest/sbtest16.frm to /var/tmp/backup_dir/sbtest/sbtest16.frm
+160418 18:59:11 [01]        ...done
+160418 18:59:11 [01] Copying ./lost@002bfound/db.opt to /var/tmp/backup_dir/lost@002bfound/db.opt
+160418 18:59:11 [01]        ...done
+160418 18:59:11 Finished backing up non-InnoDB tables and files
+160418 18:59:11 Executing LOCK BINLOG FOR BACKUP...
+160418 18:59:11 Executing FLUSH NO_WRITE_TO_BINLOG ENGINE LOGS...
+xtrabackup: The latest check point (for incremental): '8070813042'
+xtrabackup: Stopping log copying thread.
+.160418 18:59:11 >> log scanned up to (8070813042)
+
+160418 18:59:11 Executing UNLOCK BINLOG
+160418 18:59:11 Executing UNLOCK TABLES
+160418 18:59:11 All tables unlocked
+160418 18:59:11 Backup created in directory '/var/tmp/backup_dir'
+160418 18:59:11 [00] Writing backup-my.cnf
+160418 18:59:11 [00]        ...done
+160418 18:59:11 [00] Writing xtrabackup_info
+160418 18:59:11 [00]        ...done
+xtrabackup: Transaction log of lsn (8070813042) to (8070813042) was copied.
+160418 18:59:11 completed OK!
+/home/ubuntu

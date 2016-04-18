@@ -1,0 +1,11 @@
+---
+- include: sg.yml state="present"
+
+- include: instance.yml instance_count=1
+  when: operation == "set_up"
+
+- include: instance.yml instance_count=0
+  when: operation == "tear_down"
+
+- include: sg.yml state="absent"
+  when: operation == "tear_down"

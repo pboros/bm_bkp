@@ -1,0 +1,79 @@
+---
+percona_repo_keyserver: keyserver.ubuntu.com
+percona_repo_key: 1C4CBDCDCD2EFD2A
+percona_repo_uri: "deb http://repo.percona.com/apt trusty main"
+
+packages_to_install:
+  - percona-server-server-5.6
+  - automake
+  - libtool
+  - libperconaserverclient18-dev
+  - git
+  - percona-xtrabackup-24
+  - build-essential
+  - libssl-dev
+  - python-mysqldb
+  - qpress
+  - pigz
+
+sysbench_github: https://github.com/akopytov/sysbench.git
+sysbench_basedir: /opt/sysbench
+sysbench_testdir: "{{ sysbench_basedir }}/sysbench/tests"
+
+sysbench_db_user: sbtest
+sysbench_db_password: sbtest
+sysbench_db_schema: sbtest
+oltp_table_size: 500000
+oltp_tables_count: 60
+
+xb_secret_location: /tmp/xb_secret
+
+mysql_datadir: /var/lib/mysql
+backup_dest_dir: /var/tmp/backup_dir
+backup_dest_stream_prefix: /var/tmp/backup_dir/meas_stream
+
+# description of scenarios:
+# n: normal, file based
+# t: tar stream
+# x: xbstream
+# pX: parallelism of X
+# qX: compression parallelism of X
+# c: compression
+# e: encryption
+
+backup_bm_results: /tmp/results
+
+backup_scenarios:
+  - n
+  - t
+  - x
+  - n,p2
+  - n,p4
+  - n,c
+  - n,c2
+  - n,c4
+  - n,p2,c2
+  - n,p4,c4
+  - t,p2
+  - t,p4
+  - t,z
+  - t,p2,z
+  - t,p2,z2
+  - t,p4,z
+  - t,p4,z4
+  - x,c
+  - x,z
+  - x,p2
+  - x,p4
+  - x,p2,c
+  - x,p2,z
+  - x,p2,c2
+  - x,p2,z2
+  - x,p4,c
+  - x,p4,z
+  - x,p4,c4
+  - x,p4,z4
+  - n,e 
+  - x,e
+  - n,p4,c4,e
+  - x,p4,c4,e

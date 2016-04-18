@@ -1,0 +1,609 @@
+160418 19:29:29 innobackupex: Starting the backup operation
+
+IMPORTANT: Please check that the backup run completes successfully.
+           At the end of a successful backup run innobackupex
+           prints "completed OK!".
+
+160418 19:29:29  version_check Connecting to MySQL server with DSN 'dbi:mysql:;mysql_read_default_group=xtrabackup;port=3306;mysql_socket=/var/run/mysqld/mysqld.sock' as 'root'  (using password: NO).
+160418 19:29:29  version_check Connected to MySQL server
+160418 19:29:29  version_check Executing a version check against the server...
+160418 19:29:29  version_check Done.
+160418 19:29:29 Connecting to MySQL server host: localhost, user: root, password: not set, port: 3306, socket: /var/run/mysqld/mysqld.sock
+Using server version 5.6.29-76.2
+innobackupex version 2.4.2 based on MySQL server 5.7.11 Linux (x86_64) (revision id: 8e86a84)
+xtrabackup: uses posix_fadvise().
+xtrabackup: cd to /var/lib/mysql
+xtrabackup: open files limit requested 0, set to 1024
+xtrabackup: using the following InnoDB configuration:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 2
+xtrabackup:   innodb_log_file_size = 50331648
+InnoDB: Number of pools: 1
+xtrabackup: warning: the --parallel option does not have any effect when streaming in the 'tar' format. You can use the 'xbstream' format instead.
+160418 19:29:29 >> log scanned up to (8070813042)
+xtrabackup: Generating a list of tablespaces
+InnoDB: Allocated tablespace ID 1 for mysql/innodb_table_stats, old maximum was 0
+160418 19:29:29 [01] Streaming ./ibdata1
+160418 19:29:30 [01]        ...done
+160418 19:29:30 [01] Streaming ./mysql/innodb_table_stats.ibd
+160418 19:29:30 [01]        ...done
+160418 19:29:30 [01] Streaming ./mysql/slave_relay_log_info.ibd
+160418 19:29:30 [01]        ...done
+160418 19:29:30 [01] Streaming ./mysql/slave_worker_info.ibd
+160418 19:29:30 [01]        ...done
+160418 19:29:30 [01] Streaming ./mysql/slave_master_info.ibd
+160418 19:29:30 [01]        ...done
+160418 19:29:30 [01] Streaming ./mysql/innodb_index_stats.ibd
+160418 19:29:30 [01]        ...done
+160418 19:29:30 [01] Streaming ./sbtest/sbtest52.ibd
+160418 19:29:30 >> log scanned up to (8070813042)
+160418 19:29:30 [01]        ...done
+160418 19:29:30 [01] Streaming ./sbtest/sbtest47.ibd
+160418 19:29:31 >> log scanned up to (8070813042)
+160418 19:29:31 [01]        ...done
+160418 19:29:31 [01] Streaming ./sbtest/sbtest9.ibd
+160418 19:29:32 >> log scanned up to (8070813042)
+160418 19:29:32 [01]        ...done
+160418 19:29:32 [01] Streaming ./sbtest/sbtest53.ibd
+160418 19:29:33 >> log scanned up to (8070813042)
+160418 19:29:33 [01]        ...done
+160418 19:29:33 [01] Streaming ./sbtest/sbtest27.ibd
+160418 19:29:34 [01]        ...done
+160418 19:29:34 [01] Streaming ./sbtest/sbtest50.ibd
+160418 19:29:34 >> log scanned up to (8070813042)
+160418 19:29:35 [01]        ...done
+160418 19:29:35 [01] Streaming ./sbtest/sbtest16.ibd
+160418 19:29:35 >> log scanned up to (8070813042)
+160418 19:29:35 [01]        ...done
+160418 19:29:35 [01] Streaming ./sbtest/sbtest21.ibd
+160418 19:29:36 >> log scanned up to (8070813042)
+160418 19:29:36 [01]        ...done
+160418 19:29:36 [01] Streaming ./sbtest/sbtest48.ibd
+160418 19:29:37 >> log scanned up to (8070813042)
+160418 19:29:37 [01]        ...done
+160418 19:29:37 [01] Streaming ./sbtest/sbtest33.ibd
+160418 19:29:38 [01]        ...done
+160418 19:29:38 [01] Streaming ./sbtest/sbtest5.ibd
+160418 19:29:38 >> log scanned up to (8070813042)
+160418 19:29:39 [01]        ...done
+160418 19:29:39 [01] Streaming ./sbtest/sbtest43.ibd
+160418 19:29:39 >> log scanned up to (8070813042)
+160418 19:29:40 [01]        ...done
+160418 19:29:40 [01] Streaming ./sbtest/sbtest31.ibd
+160418 19:29:40 >> log scanned up to (8070813042)
+160418 19:29:40 [01]        ...done
+160418 19:29:40 [01] Streaming ./sbtest/sbtest35.ibd
+160418 19:29:41 >> log scanned up to (8070813042)
+160418 19:29:41 [01]        ...done
+160418 19:29:41 [01] Streaming ./sbtest/sbtest26.ibd
+160418 19:29:42 >> log scanned up to (8070813042)
+160418 19:29:42 [01]        ...done
+160418 19:29:42 [01] Streaming ./sbtest/sbtest10.ibd
+160418 19:29:43 [01]        ...done
+160418 19:29:43 [01] Streaming ./sbtest/sbtest23.ibd
+160418 19:29:43 >> log scanned up to (8070813042)
+160418 19:29:44 [01]        ...done
+160418 19:29:44 [01] Streaming ./sbtest/sbtest32.ibd
+160418 19:29:44 >> log scanned up to (8070813042)
+160418 19:29:44 [01]        ...done
+160418 19:29:44 [01] Streaming ./sbtest/sbtest60.ibd
+160418 19:29:45 >> log scanned up to (8070813042)
+160418 19:29:45 [01]        ...done
+160418 19:29:45 [01] Streaming ./sbtest/sbtest14.ibd
+160418 19:29:46 >> log scanned up to (8070813042)
+160418 19:29:46 [01]        ...done
+160418 19:29:46 [01] Streaming ./sbtest/sbtest51.ibd
+160418 19:29:47 [01]        ...done
+160418 19:29:47 [01] Streaming ./sbtest/sbtest55.ibd
+160418 19:29:47 >> log scanned up to (8070813042)
+160418 19:29:48 [01]        ...done
+160418 19:29:48 [01] Streaming ./sbtest/sbtest37.ibd
+160418 19:29:48 >> log scanned up to (8070813042)
+160418 19:29:48 [01]        ...done
+160418 19:29:48 [01] Streaming ./sbtest/sbtest46.ibd
+160418 19:29:49 >> log scanned up to (8070813042)
+160418 19:29:49 [01]        ...done
+160418 19:29:49 [01] Streaming ./sbtest/sbtest30.ibd
+160418 19:29:50 >> log scanned up to (8070813042)
+160418 19:29:50 [01]        ...done
+160418 19:29:50 [01] Streaming ./sbtest/sbtest17.ibd
+160418 19:29:51 [01]        ...done
+160418 19:29:51 [01] Streaming ./sbtest/sbtest42.ibd
+160418 19:29:51 >> log scanned up to (8070813042)
+160418 19:29:52 [01]        ...done
+160418 19:29:52 [01] Streaming ./sbtest/sbtest41.ibd
+160418 19:29:52 >> log scanned up to (8070813042)
+160418 19:29:52 [01]        ...done
+160418 19:29:52 [01] Streaming ./sbtest/sbtest20.ibd
+160418 19:29:53 >> log scanned up to (8070813042)
+160418 19:29:53 [01]        ...done
+160418 19:29:53 [01] Streaming ./sbtest/sbtest34.ibd
+160418 19:29:54 >> log scanned up to (8070813042)
+160418 19:29:54 [01]        ...done
+160418 19:29:54 [01] Streaming ./sbtest/sbtest12.ibd
+160418 19:29:55 [01]        ...done
+160418 19:29:55 [01] Streaming ./sbtest/sbtest19.ibd
+160418 19:29:55 >> log scanned up to (8070813042)
+160418 19:29:56 [01]        ...done
+160418 19:29:56 [01] Streaming ./sbtest/sbtest29.ibd
+160418 19:29:56 >> log scanned up to (8070813042)
+160418 19:29:56 [01]        ...done
+160418 19:29:56 [01] Streaming ./sbtest/sbtest45.ibd
+160418 19:29:57 >> log scanned up to (8070813042)
+160418 19:29:57 [01]        ...done
+160418 19:29:57 [01] Streaming ./sbtest/sbtest13.ibd
+160418 19:29:58 >> log scanned up to (8070813042)
+160418 19:29:58 [01]        ...done
+160418 19:29:58 [01] Streaming ./sbtest/sbtest11.ibd
+160418 19:29:59 >> log scanned up to (8070813042)
+160418 19:29:59 [01]        ...done
+160418 19:29:59 [01] Streaming ./sbtest/sbtest1.ibd
+160418 19:30:00 [01]        ...done
+160418 19:30:00 [01] Streaming ./sbtest/sbtest28.ibd
+160418 19:30:00 >> log scanned up to (8070813042)
+160418 19:30:00 [01]        ...done
+160418 19:30:00 [01] Streaming ./sbtest/sbtest25.ibd
+160418 19:30:01 >> log scanned up to (8070813042)
+160418 19:30:01 [01]        ...done
+160418 19:30:01 [01] Streaming ./sbtest/sbtest59.ibd
+160418 19:30:02 >> log scanned up to (8070813042)
+160418 19:30:02 [01]        ...done
+160418 19:30:02 [01] Streaming ./sbtest/sbtest7.ibd
+160418 19:30:03 >> log scanned up to (8070813042)
+160418 19:30:03 [01]        ...done
+160418 19:30:03 [01] Streaming ./sbtest/sbtest40.ibd
+160418 19:30:04 [01]        ...done
+160418 19:30:04 [01] Streaming ./sbtest/sbtest58.ibd
+160418 19:30:04 >> log scanned up to (8070813042)
+160418 19:30:05 [01]        ...done
+160418 19:30:05 [01] Streaming ./sbtest/sbtest18.ibd
+160418 19:30:05 >> log scanned up to (8070813042)
+160418 19:30:05 [01]        ...done
+160418 19:30:05 [01] Streaming ./sbtest/sbtest4.ibd
+160418 19:30:06 >> log scanned up to (8070813042)
+160418 19:30:06 [01]        ...done
+160418 19:30:06 [01] Streaming ./sbtest/sbtest49.ibd
+160418 19:30:07 >> log scanned up to (8070813042)
+160418 19:30:07 [01]        ...done
+160418 19:30:07 [01] Streaming ./sbtest/sbtest2.ibd
+160418 19:30:08 [01]        ...done
+160418 19:30:08 [01] Streaming ./sbtest/sbtest8.ibd
+160418 19:30:08 >> log scanned up to (8070813042)
+160418 19:30:08 [01]        ...done
+160418 19:30:08 [01] Streaming ./sbtest/sbtest56.ibd
+160418 19:30:09 >> log scanned up to (8070813042)
+160418 19:30:09 [01]        ...done
+160418 19:30:09 [01] Streaming ./sbtest/sbtest57.ibd
+160418 19:30:10 >> log scanned up to (8070813042)
+160418 19:30:10 [01]        ...done
+160418 19:30:10 [01] Streaming ./sbtest/sbtest39.ibd
+160418 19:30:11 [01]        ...done
+160418 19:30:11 [01] Streaming ./sbtest/sbtest38.ibd
+160418 19:30:11 >> log scanned up to (8070813042)
+160418 19:30:12 [01]        ...done
+160418 19:30:12 [01] Streaming ./sbtest/sbtest3.ibd
+160418 19:30:12 >> log scanned up to (8070813042)
+160418 19:30:12 [01]        ...done
+160418 19:30:12 [01] Streaming ./sbtest/sbtest24.ibd
+160418 19:30:13 >> log scanned up to (8070813042)
+160418 19:30:13 [01]        ...done
+160418 19:30:13 [01] Streaming ./sbtest/sbtest15.ibd
+160418 19:30:14 >> log scanned up to (8070813042)
+160418 19:30:14 [01]        ...done
+160418 19:30:14 [01] Streaming ./sbtest/sbtest44.ibd
+160418 19:30:15 >> log scanned up to (8070813042)
+160418 19:30:15 [01]        ...done
+160418 19:30:15 [01] Streaming ./sbtest/sbtest6.ibd
+160418 19:30:16 [01]        ...done
+160418 19:30:16 [01] Streaming ./sbtest/sbtest22.ibd
+160418 19:30:16 >> log scanned up to (8070813042)
+160418 19:30:17 [01]        ...done
+160418 19:30:17 [01] Streaming ./sbtest/sbtest54.ibd
+160418 19:30:17 >> log scanned up to (8070813042)
+160418 19:30:17 [01]        ...done
+160418 19:30:17 [01] Streaming ./sbtest/sbtest36.ibd
+160418 19:30:18 >> log scanned up to (8070813042)
+160418 19:30:18 [01]        ...done
+160418 19:30:19 >> log scanned up to (8070813042)
+160418 19:30:19 Executing LOCK TABLES FOR BACKUP...
+160418 19:30:19 Starting to backup non-InnoDB tables and files
+160418 19:30:19 [01] Streaming ./performance_schema/events_stages_current.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_waits_summary_by_account_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_waits_summary_by_thread_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/performance_timers.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_stages_summary_by_host_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/socket_summary_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/users.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/table_io_waits_summary_by_index_usage.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/db.opt to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_waits_history_long.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_statements_summary_by_account_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_waits_summary_global_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_waits_summary_by_user_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_stages_summary_global_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_statements_summary_by_user_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_stages_history_long.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_statements_summary_by_digest.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/file_instances.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/setup_actors.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/cond_instances.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/socket_summary_by_instance.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_statements_history_long.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/host_cache.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/setup_objects.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/rwlock_instances.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/setup_instruments.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/session_account_connect_attrs.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_statements_current.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/file_summary_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/threads.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/session_connect_attrs.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_stages_history.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_statements_summary_by_thread_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_statements_history.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/table_lock_waits_summary_by_table.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_waits_history.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/setup_consumers.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_statements_summary_by_host_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_waits_summary_by_instance.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/hosts.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_stages_summary_by_thread_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_statements_summary_global_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/file_summary_by_instance.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_waits_summary_by_host_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/mutex_instances.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/objects_summary_global_by_type.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_waits_current.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/table_io_waits_summary_by_table.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/socket_instances.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_stages_summary_by_user_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/setup_timers.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/events_stages_summary_by_account_by_event_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./performance_schema/accounts.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/event.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_keyword.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_transition_type.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_category.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/procs_priv.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/tables_priv.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/plugin.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_category.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/proxies_priv.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/user.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/slave_master_info.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_topic.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/db.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_keyword.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_leap_second.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_topic.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/slave_relay_log_info.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/user.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/func.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_keyword.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_name.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_name.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/columns_priv.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/slow_log.CSM to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_leap_second.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/servers.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_transition_type.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/procs_priv.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/innodb_index_stats.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_category.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_name.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/proc.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/plugin.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/ndb_binlog_index.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_relation.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/servers.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/slave_worker_info.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/tables_priv.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/ndb_binlog_index.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/ndb_binlog_index.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/event.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/proxies_priv.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/innodb_table_stats.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_transition.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/slow_log.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/event.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_leap_second.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/proc.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/db.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/general_log.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_topic.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/proxies_priv.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_relation.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/general_log.CSV to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/general_log.CSM to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/proc.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/slow_log.CSV to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/columns_priv.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/columns_priv.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/tables_priv.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/help_relation.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_transition.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/servers.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/user.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/func.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/func.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/plugin.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_transition_type.MYI to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/db.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/procs_priv.MYD to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./mysql/time_zone_transition.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [00] Streaming test/db.opt
+160418 19:30:19 [00]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest38.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest37.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest1.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest22.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest8.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest43.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest51.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest52.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest47.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest2.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest12.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/db.opt to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest27.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest7.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest31.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest20.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest11.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest26.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest4.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest39.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest32.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest57.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest59.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest25.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest23.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest28.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest24.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest3.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest33.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest53.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest14.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest49.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest55.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest36.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest30.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest40.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest13.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest56.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest19.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest46.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest9.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest50.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest6.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest29.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest48.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest41.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest10.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest34.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest60.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest17.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest15.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest58.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest45.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest18.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest44.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest42.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest54.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest35.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest21.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest5.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./sbtest/sbtest16.frm to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 [01] Streaming ./lost@002bfound/db.opt to <STDOUT>
+160418 19:30:19 [01]        ...done
+160418 19:30:19 Finished backing up non-InnoDB tables and files
+160418 19:30:19 Executing LOCK BINLOG FOR BACKUP...
+160418 19:30:19 Executing FLUSH NO_WRITE_TO_BINLOG ENGINE LOGS...
+xtrabackup: The latest check point (for incremental): '8070813042'
+xtrabackup: Stopping log copying thread.
+.160418 19:30:19 >> log scanned up to (8070813042)
+
+160418 19:30:19 Executing UNLOCK BINLOG
+160418 19:30:19 Executing UNLOCK TABLES
+160418 19:30:19 All tables unlocked
+160418 19:30:19 Backup created in directory '/tmp'
+160418 19:30:19 [00] Streaming backup-my.cnf
+160418 19:30:19 [00]        ...done
+160418 19:30:19 [00] Streaming xtrabackup_info
+160418 19:30:19 [00]        ...done
+xtrabackup: Transaction log of lsn (8070813042) to (8070813042) was copied.
+160418 19:30:20 completed OK!
+/home/ubuntu

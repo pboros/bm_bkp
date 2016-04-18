@@ -1,0 +1,619 @@
+ibdata1.qp
+mysql/innodb_table_stats.ibd.qp
+mysql/slave_relay_log_info.ibd.qp
+mysql/slave_worker_info.ibd.qp
+mysql/slave_master_info.ibd.qp
+mysql/innodb_index_stats.ibd.qp
+sbtest/sbtest52.ibd.qp
+sbtest/sbtest47.ibd.qp
+sbtest/sbtest9.ibd.qp
+sbtest/sbtest53.ibd.qp
+sbtest/sbtest27.ibd.qp
+sbtest/sbtest50.ibd.qp
+sbtest/sbtest16.ibd.qp
+sbtest/sbtest21.ibd.qp
+sbtest/sbtest48.ibd.qp
+sbtest/sbtest33.ibd.qp
+sbtest/sbtest5.ibd.qp
+sbtest/sbtest43.ibd.qp
+sbtest/sbtest31.ibd.qp
+sbtest/sbtest35.ibd.qp
+sbtest/sbtest26.ibd.qp
+sbtest/sbtest10.ibd.qp
+sbtest/sbtest23.ibd.qp
+sbtest/sbtest32.ibd.qp
+sbtest/sbtest60.ibd.qp
+sbtest/sbtest14.ibd.qp
+sbtest/sbtest51.ibd.qp
+sbtest/sbtest55.ibd.qp
+sbtest/sbtest37.ibd.qp
+sbtest/sbtest46.ibd.qp
+sbtest/sbtest30.ibd.qp
+sbtest/sbtest17.ibd.qp
+sbtest/sbtest42.ibd.qp
+sbtest/sbtest41.ibd.qp
+sbtest/sbtest20.ibd.qp
+sbtest/sbtest34.ibd.qp
+sbtest/sbtest12.ibd.qp
+sbtest/sbtest19.ibd.qp
+sbtest/sbtest29.ibd.qp
+sbtest/sbtest45.ibd.qp
+sbtest/sbtest13.ibd.qp
+sbtest/sbtest11.ibd.qp
+sbtest/sbtest1.ibd.qp
+sbtest/sbtest28.ibd.qp
+sbtest/sbtest25.ibd.qp
+sbtest/sbtest59.ibd.qp
+sbtest/sbtest7.ibd.qp
+sbtest/sbtest40.ibd.qp
+sbtest/sbtest58.ibd.qp
+sbtest/sbtest18.ibd.qp
+sbtest/sbtest4.ibd.qp
+sbtest/sbtest49.ibd.qp
+sbtest/sbtest2.ibd.qp
+sbtest/sbtest8.ibd.qp
+sbtest/sbtest56.ibd.qp
+sbtest/sbtest57.ibd.qp
+sbtest/sbtest39.ibd.qp
+sbtest/sbtest38.ibd.qp
+sbtest/sbtest3.ibd.qp
+sbtest/sbtest24.ibd.qp
+sbtest/sbtest15.ibd.qp
+sbtest/sbtest44.ibd.qp
+sbtest/sbtest6.ibd.qp
+sbtest/sbtest22.ibd.qp
+sbtest/sbtest54.ibd.qp
+sbtest/sbtest36.ibd.qp
+performance_schema/events_stages_current.frm.qp
+performance_schema/events_waits_summary_by_account_by_event_name.frm.qp
+performance_schema/events_waits_summary_by_thread_by_event_name.frm.qp
+performance_schema/performance_timers.frm.qp
+performance_schema/events_stages_summary_by_host_by_event_name.frm.qp
+performance_schema/socket_summary_by_event_name.frm.qp
+performance_schema/users.frm.qp
+performance_schema/table_io_waits_summary_by_index_usage.frm.qp
+performance_schema/db.opt.qp
+performance_schema/events_waits_history_long.frm.qp
+performance_schema/events_statements_summary_by_account_by_event_name.frm.qp
+performance_schema/events_waits_summary_global_by_event_name.frm.qp
+performance_schema/events_waits_summary_by_user_by_event_name.frm.qp
+performance_schema/events_stages_summary_global_by_event_name.frm.qp
+performance_schema/events_statements_summary_by_user_by_event_name.frm.qp
+performance_schema/events_stages_history_long.frm.qp
+performance_schema/events_statements_summary_by_digest.frm.qp
+performance_schema/file_instances.frm.qp
+performance_schema/setup_actors.frm.qp
+performance_schema/cond_instances.frm.qp
+performance_schema/socket_summary_by_instance.frm.qp
+performance_schema/events_statements_history_long.frm.qp
+performance_schema/host_cache.frm.qp
+performance_schema/setup_objects.frm.qp
+performance_schema/rwlock_instances.frm.qp
+performance_schema/setup_instruments.frm.qp
+performance_schema/session_account_connect_attrs.frm.qp
+performance_schema/events_statements_current.frm.qp
+performance_schema/file_summary_by_event_name.frm.qp
+performance_schema/threads.frm.qp
+performance_schema/session_connect_attrs.frm.qp
+performance_schema/events_stages_history.frm.qp
+performance_schema/events_statements_summary_by_thread_by_event_name.frm.qp
+performance_schema/events_statements_history.frm.qp
+performance_schema/table_lock_waits_summary_by_table.frm.qp
+performance_schema/events_waits_history.frm.qp
+performance_schema/setup_consumers.frm.qp
+performance_schema/events_statements_summary_by_host_by_event_name.frm.qp
+performance_schema/events_waits_summary_by_instance.frm.qp
+performance_schema/hosts.frm.qp
+performance_schema/events_stages_summary_by_thread_by_event_name.frm.qp
+performance_schema/events_statements_summary_global_by_event_name.frm.qp
+performance_schema/file_summary_by_instance.frm.qp
+performance_schema/events_waits_summary_by_host_by_event_name.frm.qp
+performance_schema/mutex_instances.frm.qp
+performance_schema/objects_summary_global_by_type.frm.qp
+performance_schema/events_waits_current.frm.qp
+performance_schema/table_io_waits_summary_by_table.frm.qp
+performance_schema/socket_instances.frm.qp
+performance_schema/events_stages_summary_by_user_by_event_name.frm.qp
+performance_schema/setup_timers.frm.qp
+performance_schema/events_stages_summary_by_account_by_event_name.frm.qp
+performance_schema/accounts.frm.qp
+mysql/event.frm.qp
+mysql/time_zone.frm.qp
+mysql/help_keyword.MYD.qp
+mysql/time_zone_transition_type.MYD.qp
+mysql/help_category.MYI.qp
+mysql/procs_priv.frm.qp
+mysql/tables_priv.frm.qp
+mysql/plugin.frm.qp
+mysql/help_category.frm.qp
+mysql/proxies_priv.frm.qp
+mysql/user.MYI.qp
+mysql/slave_master_info.frm.qp
+mysql/help_topic.MYI.qp
+mysql/db.MYI.qp
+mysql/help_keyword.MYI.qp
+mysql/time_zone_leap_second.MYI.qp
+mysql/help_topic.MYD.qp
+mysql/slave_relay_log_info.frm.qp
+mysql/user.MYD.qp
+mysql/func.MYI.qp
+mysql/help_keyword.frm.qp
+mysql/time_zone_name.MYI.qp
+mysql/time_zone_name.MYD.qp
+mysql/columns_priv.frm.qp
+mysql/time_zone.MYD.qp
+mysql/slow_log.CSM.qp
+mysql/time_zone_leap_second.frm.qp
+mysql/servers.MYI.qp
+mysql/time_zone_transition_type.frm.qp
+mysql/procs_priv.MYI.qp
+mysql/time_zone.MYI.qp
+mysql/innodb_index_stats.frm.qp
+mysql/help_category.MYD.qp
+mysql/time_zone_name.frm.qp
+mysql/proc.MYI.qp
+mysql/plugin.MYD.qp
+mysql/ndb_binlog_index.MYI.qp
+mysql/help_relation.MYD.qp
+mysql/servers.frm.qp
+mysql/slave_worker_info.frm.qp
+mysql/tables_priv.MYI.qp
+mysql/ndb_binlog_index.MYD.qp
+mysql/ndb_binlog_index.frm.qp
+mysql/event.MYD.qp
+mysql/proxies_priv.MYI.qp
+mysql/innodb_table_stats.frm.qp
+mysql/time_zone_transition.MYI.qp
+mysql/slow_log.frm.qp
+mysql/event.MYI.qp
+mysql/time_zone_leap_second.MYD.qp
+mysql/proc.frm.qp
+mysql/db.frm.qp
+mysql/general_log.frm.qp
+mysql/help_topic.frm.qp
+mysql/proxies_priv.MYD.qp
+mysql/help_relation.frm.qp
+mysql/general_log.CSV.qp
+mysql/general_log.CSM.qp
+mysql/proc.MYD.qp
+mysql/slow_log.CSV.qp
+mysql/columns_priv.MYD.qp
+mysql/columns_priv.MYI.qp
+mysql/tables_priv.MYD.qp
+mysql/help_relation.MYI.qp
+mysql/time_zone_transition.MYD.qp
+mysql/servers.MYD.qp
+mysql/user.frm.qp
+mysql/func.frm.qp
+mysql/func.MYD.qp
+mysql/plugin.MYI.qp
+mysql/time_zone_transition_type.MYI.qp
+mysql/db.MYD.qp
+mysql/procs_priv.MYD.qp
+mysql/time_zone_transition.frm.qp
+test/db.opt.qp
+sbtest/sbtest38.frm.qp
+sbtest/sbtest37.frm.qp
+sbtest/sbtest1.frm.qp
+sbtest/sbtest22.frm.qp
+sbtest/sbtest8.frm.qp
+sbtest/sbtest43.frm.qp
+sbtest/sbtest51.frm.qp
+sbtest/sbtest52.frm.qp
+sbtest/sbtest47.frm.qp
+sbtest/sbtest2.frm.qp
+sbtest/sbtest12.frm.qp
+sbtest/db.opt.qp
+sbtest/sbtest27.frm.qp
+sbtest/sbtest7.frm.qp
+sbtest/sbtest31.frm.qp
+sbtest/sbtest20.frm.qp
+sbtest/sbtest11.frm.qp
+sbtest/sbtest26.frm.qp
+sbtest/sbtest4.frm.qp
+sbtest/sbtest39.frm.qp
+sbtest/sbtest32.frm.qp
+sbtest/sbtest57.frm.qp
+sbtest/sbtest59.frm.qp
+sbtest/sbtest25.frm.qp
+sbtest/sbtest23.frm.qp
+sbtest/sbtest28.frm.qp
+sbtest/sbtest24.frm.qp
+sbtest/sbtest3.frm.qp
+sbtest/sbtest33.frm.qp
+sbtest/sbtest53.frm.qp
+sbtest/sbtest14.frm.qp
+sbtest/sbtest49.frm.qp
+sbtest/sbtest55.frm.qp
+sbtest/sbtest36.frm.qp
+sbtest/sbtest30.frm.qp
+sbtest/sbtest40.frm.qp
+sbtest/sbtest13.frm.qp
+sbtest/sbtest56.frm.qp
+sbtest/sbtest19.frm.qp
+sbtest/sbtest46.frm.qp
+sbtest/sbtest9.frm.qp
+sbtest/sbtest50.frm.qp
+sbtest/sbtest6.frm.qp
+sbtest/sbtest29.frm.qp
+sbtest/sbtest48.frm.qp
+sbtest/sbtest41.frm.qp
+sbtest/sbtest10.frm.qp
+sbtest/sbtest34.frm.qp
+sbtest/sbtest60.frm.qp
+sbtest/sbtest17.frm.qp
+sbtest/sbtest15.frm.qp
+sbtest/sbtest58.frm.qp
+sbtest/sbtest45.frm.qp
+sbtest/sbtest18.frm.qp
+sbtest/sbtest44.frm.qp
+sbtest/sbtest42.frm.qp
+sbtest/sbtest54.frm.qp
+sbtest/sbtest35.frm.qp
+sbtest/sbtest21.frm.qp
+sbtest/sbtest5.frm.qp
+sbtest/sbtest16.frm.qp
+lost@002bfound/db.opt.qp
+xtrabackup_logfile.qp
+xtrabackup_checkpoints
+backup-my.cnf.qp
+xtrabackup_info.qp
+160418 20:12:47 innobackupex: Starting the decrypt and decompress operation
+
+IMPORTANT: Please check that the decrypt and decompress run completes successfully.
+           At the end of a successful decrypt and decompress run innobackupex
+           prints "completed OK!".
+
+innobackupex version 2.4.2 based on MySQL server 5.7.11 Linux (x86_64) (revision id: 8e86a84)
+160418 20:12:47 [01] decompressing ./test/db.opt.qp
+160418 20:12:47 [01] decompressing ./ibdata1.qp
+160418 20:12:47 [01] decompressing ./lost@002bfound/db.opt.qp
+160418 20:12:47 [01] decompressing ./backup-my.cnf.qp
+160418 20:12:47 [01] decompressing ./xtrabackup_info.qp
+160418 20:12:47 [01] decompressing ./sbtest/sbtest60.frm.qp
+160418 20:12:47 [01] decompressing ./sbtest/sbtest7.frm.qp
+160418 20:12:47 [01] decompressing ./sbtest/sbtest46.ibd.qp
+160418 20:12:47 [01] decompressing ./sbtest/sbtest8.frm.qp
+160418 20:12:47 [01] decompressing ./sbtest/sbtest58.ibd.qp
+160418 20:12:48 [01] decompressing ./sbtest/sbtest29.ibd.qp
+160418 20:12:48 [01] decompressing ./sbtest/sbtest41.frm.qp
+160418 20:12:48 [01] decompressing ./sbtest/sbtest25.ibd.qp
+160418 20:12:48 [01] decompressing ./sbtest/sbtest39.ibd.qp
+160418 20:12:49 [01] decompressing ./sbtest/sbtest2.frm.qp
+160418 20:12:49 [01] decompressing ./sbtest/sbtest51.frm.qp
+160418 20:12:49 [01] decompressing ./sbtest/sbtest23.frm.qp
+160418 20:12:49 [01] decompressing ./sbtest/sbtest9.ibd.qp
+160418 20:12:49 [01] decompressing ./sbtest/sbtest36.frm.qp
+160418 20:12:49 [01] decompressing ./sbtest/sbtest28.ibd.qp
+160418 20:12:49 [01] decompressing ./sbtest/sbtest34.frm.qp
+160418 20:12:49 [01] decompressing ./sbtest/sbtest34.ibd.qp
+160418 20:12:49 [01] decompressing ./sbtest/sbtest48.frm.qp
+160418 20:12:49 [01] decompressing ./sbtest/sbtest21.ibd.qp
+160418 20:12:50 [01] decompressing ./sbtest/sbtest17.ibd.qp
+160418 20:12:50 [01] decompressing ./sbtest/sbtest54.ibd.qp
+160418 20:12:51 [01] decompressing ./sbtest/sbtest24.ibd.qp
+160418 20:12:52 [01] decompressing ./sbtest/sbtest28.frm.qp
+160418 20:12:52 [01] decompressing ./sbtest/sbtest56.frm.qp
+160418 20:12:52 [01] decompressing ./sbtest/sbtest47.frm.qp
+160418 20:12:52 [01] decompressing ./sbtest/sbtest14.frm.qp
+160418 20:12:52 [01] decompressing ./sbtest/sbtest25.frm.qp
+160418 20:12:52 [01] decompressing ./sbtest/sbtest33.ibd.qp
+160418 20:12:53 [01] decompressing ./sbtest/sbtest1.frm.qp
+160418 20:12:53 [01] decompressing ./sbtest/sbtest37.ibd.qp
+160418 20:12:59 [01] decompressing ./sbtest/sbtest54.frm.qp
+160418 20:12:59 [01] decompressing ./sbtest/sbtest8.ibd.qp
+160418 20:12:59 [01] decompressing ./sbtest/sbtest9.frm.qp
+160418 20:12:59 [01] decompressing ./sbtest/sbtest22.frm.qp
+160418 20:12:59 [01] decompressing ./sbtest/sbtest30.frm.qp
+160418 20:12:59 [01] decompressing ./sbtest/sbtest44.ibd.qp
+160418 20:13:00 [01] decompressing ./sbtest/sbtest1.ibd.qp
+160418 20:13:00 [01] decompressing ./sbtest/sbtest29.frm.qp
+160418 20:13:00 [01] decompressing ./sbtest/sbtest45.frm.qp
+160418 20:13:00 [01] decompressing ./sbtest/sbtest10.ibd.qp
+160418 20:13:00 [01] decompressing ./sbtest/sbtest38.ibd.qp
+160418 20:13:01 [01] decompressing ./sbtest/sbtest57.ibd.qp
+160418 20:13:01 [01] decompressing ./sbtest/sbtest27.ibd.qp
+160418 20:13:01 [01] decompressing ./sbtest/sbtest17.frm.qp
+160418 20:13:01 [01] decompressing ./sbtest/sbtest27.frm.qp
+160418 20:13:01 [01] decompressing ./sbtest/sbtest22.ibd.qp
+160418 20:13:01 [01] decompressing ./sbtest/sbtest12.frm.qp
+160418 20:13:01 [01] decompressing ./sbtest/sbtest35.ibd.qp
+160418 20:13:03 [01] decompressing ./sbtest/sbtest4.ibd.qp
+160418 20:13:04 [01] decompressing ./sbtest/sbtest18.ibd.qp
+160418 20:13:05 [01] decompressing ./sbtest/sbtest19.frm.qp
+160418 20:13:05 [01] decompressing ./sbtest/sbtest52.frm.qp
+160418 20:13:05 [01] decompressing ./sbtest/sbtest49.frm.qp
+160418 20:13:05 [01] decompressing ./sbtest/db.opt.qp
+160418 20:13:05 [01] decompressing ./sbtest/sbtest57.frm.qp
+160418 20:13:05 [01] decompressing ./sbtest/sbtest14.ibd.qp
+160418 20:13:05 [01] decompressing ./sbtest/sbtest40.ibd.qp
+160418 20:13:07 [01] decompressing ./sbtest/sbtest43.ibd.qp
+160418 20:13:11 [01] decompressing ./sbtest/sbtest20.frm.qp
+160418 20:13:11 [01] decompressing ./sbtest/sbtest13.frm.qp
+160418 20:13:11 [01] decompressing ./sbtest/sbtest3.frm.qp
+160418 20:13:11 [01] decompressing ./sbtest/sbtest31.ibd.qp
+160418 20:13:12 [01] decompressing ./sbtest/sbtest32.ibd.qp
+160418 20:13:12 [01] decompressing ./sbtest/sbtest43.frm.qp
+160418 20:13:12 [01] decompressing ./sbtest/sbtest47.ibd.qp
+160418 20:13:12 [01] decompressing ./sbtest/sbtest46.frm.qp
+160418 20:13:12 [01] decompressing ./sbtest/sbtest5.frm.qp
+160418 20:13:12 [01] decompressing ./sbtest/sbtest45.ibd.qp
+160418 20:13:13 [01] decompressing ./sbtest/sbtest21.frm.qp
+160418 20:13:13 [01] decompressing ./sbtest/sbtest53.frm.qp
+160418 20:13:13 [01] decompressing ./sbtest/sbtest39.frm.qp
+160418 20:13:13 [01] decompressing ./sbtest/sbtest23.ibd.qp
+160418 20:13:13 [01] decompressing ./sbtest/sbtest53.ibd.qp
+160418 20:13:14 [01] decompressing ./sbtest/sbtest50.ibd.qp
+160418 20:13:15 [01] decompressing ./sbtest/sbtest55.ibd.qp
+160418 20:13:16 [01] decompressing ./sbtest/sbtest10.frm.qp
+160418 20:13:16 [01] decompressing ./sbtest/sbtest42.ibd.qp
+160418 20:13:17 [01] decompressing ./sbtest/sbtest36.ibd.qp
+160418 20:13:18 [01] decompressing ./sbtest/sbtest20.ibd.qp
+160418 20:13:21 [01] decompressing ./sbtest/sbtest11.frm.qp
+160418 20:13:21 [01] decompressing ./sbtest/sbtest56.ibd.qp
+160418 20:13:22 [01] decompressing ./sbtest/sbtest16.frm.qp
+160418 20:13:22 [01] decompressing ./sbtest/sbtest41.ibd.qp
+160418 20:13:22 [01] decompressing ./sbtest/sbtest52.ibd.qp
+160418 20:13:22 [01] decompressing ./sbtest/sbtest12.ibd.qp
+160418 20:13:23 [01] decompressing ./sbtest/sbtest50.frm.qp
+160418 20:13:23 [01] decompressing ./sbtest/sbtest7.ibd.qp
+160418 20:13:23 [01] decompressing ./sbtest/sbtest2.ibd.qp
+160418 20:13:26 [01] decompressing ./sbtest/sbtest59.frm.qp
+160418 20:13:26 [01] decompressing ./sbtest/sbtest48.ibd.qp
+160418 20:13:31 [01] decompressing ./sbtest/sbtest6.frm.qp
+160418 20:13:31 [01] decompressing ./sbtest/sbtest49.ibd.qp
+160418 20:13:31 [01] decompressing ./sbtest/sbtest32.frm.qp
+160418 20:13:31 [01] decompressing ./sbtest/sbtest18.frm.qp
+160418 20:13:31 [01] decompressing ./sbtest/sbtest60.ibd.qp
+160418 20:13:31 [01] decompressing ./sbtest/sbtest58.frm.qp
+160418 20:13:31 [01] decompressing ./sbtest/sbtest11.ibd.qp
+160418 20:13:32 [01] decompressing ./sbtest/sbtest5.ibd.qp
+160418 20:13:32 [01] decompressing ./sbtest/sbtest37.frm.qp
+160418 20:13:32 [01] decompressing ./sbtest/sbtest42.frm.qp
+160418 20:13:32 [01] decompressing ./sbtest/sbtest16.ibd.qp
+160418 20:13:32 [01] decompressing ./sbtest/sbtest15.frm.qp
+160418 20:13:32 [01] decompressing ./sbtest/sbtest44.frm.qp
+160418 20:13:32 [01] decompressing ./sbtest/sbtest51.ibd.qp
+160418 20:13:33 [01] decompressing ./sbtest/sbtest35.frm.qp
+160418 20:13:33 [01] decompressing ./sbtest/sbtest6.ibd.qp
+160418 20:13:33 [01] decompressing ./sbtest/sbtest24.frm.qp
+160418 20:13:33 [01] decompressing ./sbtest/sbtest13.ibd.qp
+160418 20:13:33 [01] decompressing ./sbtest/sbtest4.frm.qp
+160418 20:13:33 [01] decompressing ./sbtest/sbtest30.ibd.qp
+160418 20:13:34 [01] decompressing ./sbtest/sbtest3.ibd.qp
+160418 20:13:35 [01] decompressing ./sbtest/sbtest55.frm.qp
+160418 20:13:35 [01] decompressing ./sbtest/sbtest15.ibd.qp
+160418 20:13:36 [01] decompressing ./sbtest/sbtest59.ibd.qp
+160418 20:13:37 [01] decompressing ./sbtest/sbtest40.frm.qp
+160418 20:13:37 [01] decompressing ./sbtest/sbtest26.frm.qp
+160418 20:13:37 [01] decompressing ./sbtest/sbtest33.frm.qp
+160418 20:13:37 [01] decompressing ./sbtest/sbtest19.ibd.qp
+160418 20:13:38 [01] decompressing ./sbtest/sbtest31.frm.qp
+160418 20:13:38 [01] decompressing ./sbtest/sbtest26.ibd.qp
+160418 20:13:39 [01] decompressing ./sbtest/sbtest38.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/socket_summary_by_instance.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_waits_summary_by_instance.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_waits_summary_by_account_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/threads.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_statements_summary_by_account_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_waits_summary_by_host_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_stages_history_long.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/socket_summary_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/table_io_waits_summary_by_table.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_waits_summary_by_user_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_statements_summary_by_thread_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_stages_summary_by_thread_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/file_summary_by_instance.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/file_instances.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_statements_summary_by_host_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/setup_consumers.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/table_io_waits_summary_by_index_usage.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/table_lock_waits_summary_by_table.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/users.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_statements_summary_by_user_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_waits_history.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/objects_summary_global_by_type.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_waits_summary_global_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/file_summary_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_waits_current.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/socket_instances.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/hosts.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/db.opt.qp
+160418 20:13:39 [01] decompressing ./performance_schema/session_account_connect_attrs.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/performance_timers.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/host_cache.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_statements_history_long.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/accounts.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_stages_summary_by_account_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/setup_objects.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_statements_history.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_statements_summary_global_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_stages_summary_by_host_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/cond_instances.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_waits_summary_by_thread_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_stages_history.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_statements_summary_by_digest.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/setup_instruments.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/setup_timers.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_stages_current.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_stages_summary_by_user_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/mutex_instances.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_waits_history_long.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/setup_actors.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/rwlock_instances.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/session_connect_attrs.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_stages_summary_global_by_event_name.frm.qp
+160418 20:13:39 [01] decompressing ./performance_schema/events_statements_current.frm.qp
+160418 20:13:39 [01] decompressing ./xtrabackup_logfile.qp
+160418 20:13:39 [01] decompressing ./mysql/help_relation.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/help_keyword.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/slave_master_info.ibd.qp
+160418 20:13:39 [01] decompressing ./mysql/plugin.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_transition_type.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/func.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/user.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/procs_priv.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/help_keyword.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_name.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/slow_log.CSV.qp
+160418 20:13:39 [01] decompressing ./mysql/proxies_priv.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/proxies_priv.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/procs_priv.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/slow_log.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/general_log.CSM.qp
+160418 20:13:39 [01] decompressing ./mysql/help_topic.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/servers.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/columns_priv.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/ndb_binlog_index.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/general_log.CSV.qp
+160418 20:13:39 [01] decompressing ./mysql/event.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/help_keyword.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/help_relation.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/innodb_table_stats.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/servers.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_transition.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/tables_priv.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/servers.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_transition_type.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_name.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/slave_relay_log_info.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/tables_priv.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_transition.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/event.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/help_category.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/proc.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/ndb_binlog_index.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/slave_master_info.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/slave_relay_log_info.ibd.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_leap_second.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/tables_priv.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_transition_type.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/user.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/proc.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/help_relation.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/db.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/slave_worker_info.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_leap_second.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/procs_priv.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/ndb_binlog_index.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/db.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/columns_priv.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/plugin.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/db.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/plugin.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/proc.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_leap_second.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/proxies_priv.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/innodb_index_stats.ibd.qp
+160418 20:13:39 [01] decompressing ./mysql/user.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/general_log.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/help_topic.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/columns_priv.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/slave_worker_info.ibd.qp
+160418 20:13:39 [01] decompressing ./mysql/help_category.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/innodb_index_stats.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/help_topic.frm.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_transition.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/time_zone_name.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/slow_log.CSM.qp
+160418 20:13:39 [01] decompressing ./mysql/help_category.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/innodb_table_stats.ibd.qp
+160418 20:13:39 [01] decompressing ./mysql/func.MYD.qp
+160418 20:13:39 [01] decompressing ./mysql/event.MYI.qp
+160418 20:13:39 [01] decompressing ./mysql/func.MYI.qp
+160418 20:13:39 completed OK!
+160418 20:13:39 innobackupex: Starting the apply-log operation
+
+IMPORTANT: Please check that the apply-log run completes successfully.
+           At the end of a successful apply-log run innobackupex
+           prints "completed OK!".
+
+innobackupex version 2.4.2 based on MySQL server 5.7.11 Linux (x86_64) (revision id: 8e86a84)
+xtrabackup: cd to /var/tmp/backup_dir
+xtrabackup: This target seems to be not prepared yet.
+InnoDB: Number of pools: 1
+xtrabackup: xtrabackup_logfile detected: size=8388608, start_lsn=(8070813042)
+xtrabackup: using the following InnoDB configuration for recovery:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 1
+xtrabackup:   innodb_log_file_size = 8388608
+xtrabackup: using the following InnoDB configuration for recovery:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 1
+xtrabackup:   innodb_log_file_size = 8388608
+xtrabackup: Starting InnoDB instance for recovery.
+xtrabackup: Using 104857600 bytes for buffer pool (set by --use-memory parameter)
+InnoDB: PUNCH HOLE support available
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Uses event mutexes
+InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+InnoDB: Compressed tables use zlib 1.2.8
+InnoDB: Number of pools: 1
+InnoDB: Using CPU crc32 instructions
+InnoDB: Initializing buffer pool, total size = 100M, instances = 1, chunk size = 100M
+InnoDB: Completed initialization of buffer pool
+InnoDB: page_cleaner coordinator priority: -20
+InnoDB: Highest supported file format is Barracuda.
+InnoDB: The log sequence number 1625997 in the system tablespace does not match the log sequence number 8070813042 in the ib_logfiles!
+InnoDB: Database was not shutdown normally!
+InnoDB: Starting crash recovery.
+InnoDB: Doing recovery: scanned up to log sequence number 8070813042 (0%)
+InnoDB: Creating shared tablespace for temporary tables
+InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+InnoDB: File './ibtmp1' size is now 12 MB.
+InnoDB: 96 redo rollback segment(s) found. 1 redo rollback segment(s) are active.
+InnoDB: 32 non-redo rollback segment(s) are active.
+InnoDB: 5.7.11 started; log sequence number 8070813042
+
+xtrabackup: starting shutdown with innodb_fast_shutdown = 1
+InnoDB: FTS optimize thread exiting.
+InnoDB: Starting shutdown...
+InnoDB: Shutdown completed; log sequence number 8070813930
+InnoDB: Number of pools: 1
+xtrabackup: using the following InnoDB configuration for recovery:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 2
+xtrabackup:   innodb_log_file_size = 50331648
+InnoDB: PUNCH HOLE support available
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Uses event mutexes
+InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+InnoDB: Compressed tables use zlib 1.2.8
+InnoDB: Number of pools: 1
+InnoDB: Using CPU crc32 instructions
+InnoDB: Initializing buffer pool, total size = 100M, instances = 1, chunk size = 100M
+InnoDB: Completed initialization of buffer pool
+InnoDB: page_cleaner coordinator priority: -20
+InnoDB: Setting log file ./ib_logfile101 size to 48 MB
+InnoDB: Setting log file ./ib_logfile1 size to 48 MB
+InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+InnoDB: New log files created, LSN=8070813930
+InnoDB: Highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 8070814220
+InnoDB: Doing recovery: scanned up to log sequence number 8070814229 (0%)
+InnoDB: Doing recovery: scanned up to log sequence number 8070814229 (0%)
+InnoDB: Database was not shutdown normally!
+InnoDB: Starting crash recovery.
+InnoDB: Removed temporary tablespace data file: "ibtmp1"
+InnoDB: Creating shared tablespace for temporary tables
+InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+InnoDB: File './ibtmp1' size is now 12 MB.
+InnoDB: 96 redo rollback segment(s) found. 1 redo rollback segment(s) are active.
+InnoDB: 32 non-redo rollback segment(s) are active.
+InnoDB: page_cleaner: 1000ms intended loop took 4265ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+InnoDB: 5.7.11 started; log sequence number 8070814229
+xtrabackup: starting shutdown with innodb_fast_shutdown = 1
+InnoDB: FTS optimize thread exiting.
+InnoDB: Starting shutdown...
+InnoDB: Shutdown completed; log sequence number 8070815612
+160418 20:13:47 completed OK!
+/home/ubuntu

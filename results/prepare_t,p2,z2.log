@@ -1,0 +1,352 @@
+ibdata1
+mysql/innodb_table_stats.ibd
+mysql/slave_relay_log_info.ibd
+mysql/slave_worker_info.ibd
+mysql/slave_master_info.ibd
+mysql/innodb_index_stats.ibd
+sbtest/sbtest52.ibd
+sbtest/sbtest47.ibd
+sbtest/sbtest9.ibd
+sbtest/sbtest53.ibd
+sbtest/sbtest27.ibd
+sbtest/sbtest50.ibd
+sbtest/sbtest16.ibd
+sbtest/sbtest21.ibd
+sbtest/sbtest48.ibd
+sbtest/sbtest33.ibd
+sbtest/sbtest5.ibd
+sbtest/sbtest43.ibd
+sbtest/sbtest31.ibd
+sbtest/sbtest35.ibd
+sbtest/sbtest26.ibd
+sbtest/sbtest10.ibd
+sbtest/sbtest23.ibd
+sbtest/sbtest32.ibd
+sbtest/sbtest60.ibd
+sbtest/sbtest14.ibd
+sbtest/sbtest51.ibd
+sbtest/sbtest55.ibd
+sbtest/sbtest37.ibd
+sbtest/sbtest46.ibd
+sbtest/sbtest30.ibd
+sbtest/sbtest17.ibd
+sbtest/sbtest42.ibd
+sbtest/sbtest41.ibd
+sbtest/sbtest20.ibd
+sbtest/sbtest34.ibd
+sbtest/sbtest12.ibd
+sbtest/sbtest19.ibd
+sbtest/sbtest29.ibd
+sbtest/sbtest45.ibd
+sbtest/sbtest13.ibd
+sbtest/sbtest11.ibd
+sbtest/sbtest1.ibd
+sbtest/sbtest28.ibd
+sbtest/sbtest25.ibd
+sbtest/sbtest59.ibd
+sbtest/sbtest7.ibd
+sbtest/sbtest40.ibd
+sbtest/sbtest58.ibd
+sbtest/sbtest18.ibd
+sbtest/sbtest4.ibd
+sbtest/sbtest49.ibd
+sbtest/sbtest2.ibd
+sbtest/sbtest8.ibd
+sbtest/sbtest56.ibd
+sbtest/sbtest57.ibd
+sbtest/sbtest39.ibd
+sbtest/sbtest38.ibd
+sbtest/sbtest3.ibd
+sbtest/sbtest24.ibd
+sbtest/sbtest15.ibd
+sbtest/sbtest44.ibd
+sbtest/sbtest6.ibd
+sbtest/sbtest22.ibd
+sbtest/sbtest54.ibd
+sbtest/sbtest36.ibd
+performance_schema/events_stages_current.frm
+performance_schema/events_waits_summary_by_account_by_event_name.frm
+performance_schema/events_waits_summary_by_thread_by_event_name.frm
+performance_schema/performance_timers.frm
+performance_schema/events_stages_summary_by_host_by_event_name.frm
+performance_schema/socket_summary_by_event_name.frm
+performance_schema/users.frm
+performance_schema/table_io_waits_summary_by_index_usage.frm
+performance_schema/db.opt
+performance_schema/events_waits_history_long.frm
+performance_schema/events_statements_summary_by_account_by_event_name.frm
+performance_schema/events_waits_summary_global_by_event_name.frm
+performance_schema/events_waits_summary_by_user_by_event_name.frm
+performance_schema/events_stages_summary_global_by_event_name.frm
+performance_schema/events_statements_summary_by_user_by_event_name.frm
+performance_schema/events_stages_history_long.frm
+performance_schema/events_statements_summary_by_digest.frm
+performance_schema/file_instances.frm
+performance_schema/setup_actors.frm
+performance_schema/cond_instances.frm
+performance_schema/socket_summary_by_instance.frm
+performance_schema/events_statements_history_long.frm
+performance_schema/host_cache.frm
+performance_schema/setup_objects.frm
+performance_schema/rwlock_instances.frm
+performance_schema/setup_instruments.frm
+performance_schema/session_account_connect_attrs.frm
+performance_schema/events_statements_current.frm
+performance_schema/file_summary_by_event_name.frm
+performance_schema/threads.frm
+performance_schema/session_connect_attrs.frm
+performance_schema/events_stages_history.frm
+performance_schema/events_statements_summary_by_thread_by_event_name.frm
+performance_schema/events_statements_history.frm
+performance_schema/table_lock_waits_summary_by_table.frm
+performance_schema/events_waits_history.frm
+performance_schema/setup_consumers.frm
+performance_schema/events_statements_summary_by_host_by_event_name.frm
+performance_schema/events_waits_summary_by_instance.frm
+performance_schema/hosts.frm
+performance_schema/events_stages_summary_by_thread_by_event_name.frm
+performance_schema/events_statements_summary_global_by_event_name.frm
+performance_schema/file_summary_by_instance.frm
+performance_schema/events_waits_summary_by_host_by_event_name.frm
+performance_schema/mutex_instances.frm
+performance_schema/objects_summary_global_by_type.frm
+performance_schema/events_waits_current.frm
+performance_schema/table_io_waits_summary_by_table.frm
+performance_schema/socket_instances.frm
+performance_schema/events_stages_summary_by_user_by_event_name.frm
+performance_schema/setup_timers.frm
+performance_schema/events_stages_summary_by_account_by_event_name.frm
+performance_schema/accounts.frm
+mysql/event.frm
+mysql/time_zone.frm
+mysql/help_keyword.MYD
+mysql/time_zone_transition_type.MYD
+mysql/help_category.MYI
+mysql/procs_priv.frm
+mysql/tables_priv.frm
+mysql/plugin.frm
+mysql/help_category.frm
+mysql/proxies_priv.frm
+mysql/user.MYI
+mysql/slave_master_info.frm
+mysql/help_topic.MYI
+mysql/db.MYI
+mysql/help_keyword.MYI
+mysql/time_zone_leap_second.MYI
+mysql/help_topic.MYD
+mysql/slave_relay_log_info.frm
+mysql/user.MYD
+mysql/func.MYI
+mysql/help_keyword.frm
+mysql/time_zone_name.MYI
+mysql/time_zone_name.MYD
+mysql/columns_priv.frm
+mysql/time_zone.MYD
+mysql/slow_log.CSM
+mysql/time_zone_leap_second.frm
+mysql/servers.MYI
+mysql/time_zone_transition_type.frm
+mysql/procs_priv.MYI
+mysql/time_zone.MYI
+mysql/innodb_index_stats.frm
+mysql/help_category.MYD
+mysql/time_zone_name.frm
+mysql/proc.MYI
+mysql/plugin.MYD
+mysql/ndb_binlog_index.MYI
+mysql/help_relation.MYD
+mysql/servers.frm
+mysql/slave_worker_info.frm
+mysql/tables_priv.MYI
+mysql/ndb_binlog_index.MYD
+mysql/ndb_binlog_index.frm
+mysql/event.MYD
+mysql/proxies_priv.MYI
+mysql/innodb_table_stats.frm
+mysql/time_zone_transition.MYI
+mysql/slow_log.frm
+mysql/event.MYI
+mysql/time_zone_leap_second.MYD
+mysql/proc.frm
+mysql/db.frm
+mysql/general_log.frm
+mysql/help_topic.frm
+mysql/proxies_priv.MYD
+mysql/help_relation.frm
+mysql/general_log.CSV
+mysql/general_log.CSM
+mysql/proc.MYD
+mysql/slow_log.CSV
+mysql/columns_priv.MYD
+mysql/columns_priv.MYI
+mysql/tables_priv.MYD
+mysql/help_relation.MYI
+mysql/time_zone_transition.MYD
+mysql/servers.MYD
+mysql/user.frm
+mysql/func.frm
+mysql/func.MYD
+mysql/plugin.MYI
+mysql/time_zone_transition_type.MYI
+mysql/db.MYD
+mysql/procs_priv.MYD
+mysql/time_zone_transition.frm
+test/db.opt
+sbtest/sbtest38.frm
+sbtest/sbtest37.frm
+sbtest/sbtest1.frm
+sbtest/sbtest22.frm
+sbtest/sbtest8.frm
+sbtest/sbtest43.frm
+sbtest/sbtest51.frm
+sbtest/sbtest52.frm
+sbtest/sbtest47.frm
+sbtest/sbtest2.frm
+sbtest/sbtest12.frm
+sbtest/db.opt
+sbtest/sbtest27.frm
+sbtest/sbtest7.frm
+sbtest/sbtest31.frm
+sbtest/sbtest20.frm
+sbtest/sbtest11.frm
+sbtest/sbtest26.frm
+sbtest/sbtest4.frm
+sbtest/sbtest39.frm
+sbtest/sbtest32.frm
+sbtest/sbtest57.frm
+sbtest/sbtest59.frm
+sbtest/sbtest25.frm
+sbtest/sbtest23.frm
+sbtest/sbtest28.frm
+sbtest/sbtest24.frm
+sbtest/sbtest3.frm
+sbtest/sbtest33.frm
+sbtest/sbtest53.frm
+sbtest/sbtest14.frm
+sbtest/sbtest49.frm
+sbtest/sbtest55.frm
+sbtest/sbtest36.frm
+sbtest/sbtest30.frm
+sbtest/sbtest40.frm
+sbtest/sbtest13.frm
+sbtest/sbtest56.frm
+sbtest/sbtest19.frm
+sbtest/sbtest46.frm
+sbtest/sbtest9.frm
+sbtest/sbtest50.frm
+sbtest/sbtest6.frm
+sbtest/sbtest29.frm
+sbtest/sbtest48.frm
+sbtest/sbtest41.frm
+sbtest/sbtest10.frm
+sbtest/sbtest34.frm
+sbtest/sbtest60.frm
+sbtest/sbtest17.frm
+sbtest/sbtest15.frm
+sbtest/sbtest58.frm
+sbtest/sbtest45.frm
+sbtest/sbtest18.frm
+sbtest/sbtest44.frm
+sbtest/sbtest42.frm
+sbtest/sbtest54.frm
+sbtest/sbtest35.frm
+sbtest/sbtest21.frm
+sbtest/sbtest5.frm
+sbtest/sbtest16.frm
+lost@002bfound/db.opt
+backup-my.cnf
+xtrabackup_info
+xtrabackup_logfile
+xtrabackup_checkpoints
+160418 19:56:36 innobackupex: Starting the apply-log operation
+
+IMPORTANT: Please check that the apply-log run completes successfully.
+           At the end of a successful apply-log run innobackupex
+           prints "completed OK!".
+
+innobackupex version 2.4.2 based on MySQL server 5.7.11 Linux (x86_64) (revision id: 8e86a84)
+xtrabackup: cd to /var/tmp/backup_dir
+xtrabackup: This target seems to be not prepared yet.
+InnoDB: Number of pools: 1
+xtrabackup: xtrabackup_logfile detected: size=8388608, start_lsn=(8070813042)
+xtrabackup: using the following InnoDB configuration for recovery:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 1
+xtrabackup:   innodb_log_file_size = 8388608
+xtrabackup: using the following InnoDB configuration for recovery:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 1
+xtrabackup:   innodb_log_file_size = 8388608
+xtrabackup: Starting InnoDB instance for recovery.
+xtrabackup: Using 104857600 bytes for buffer pool (set by --use-memory parameter)
+InnoDB: PUNCH HOLE support available
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Uses event mutexes
+InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+InnoDB: Compressed tables use zlib 1.2.8
+InnoDB: Number of pools: 1
+InnoDB: Using CPU crc32 instructions
+InnoDB: Initializing buffer pool, total size = 100M, instances = 1, chunk size = 100M
+InnoDB: Completed initialization of buffer pool
+InnoDB: page_cleaner coordinator priority: -20
+InnoDB: Highest supported file format is Barracuda.
+InnoDB: The log sequence number 1625997 in the system tablespace does not match the log sequence number 8070813042 in the ib_logfiles!
+InnoDB: Database was not shutdown normally!
+InnoDB: Starting crash recovery.
+InnoDB: Doing recovery: scanned up to log sequence number 8070813042 (0%)
+InnoDB: Creating shared tablespace for temporary tables
+InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+InnoDB: File './ibtmp1' size is now 12 MB.
+InnoDB: 96 redo rollback segment(s) found. 1 redo rollback segment(s) are active.
+InnoDB: 32 non-redo rollback segment(s) are active.
+InnoDB: page_cleaner: 1000ms intended loop took 5418ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+InnoDB: 5.7.11 started; log sequence number 8070813042
+
+xtrabackup: starting shutdown with innodb_fast_shutdown = 1
+InnoDB: FTS optimize thread exiting.
+InnoDB: Starting shutdown...
+InnoDB: Shutdown completed; log sequence number 8070813061
+InnoDB: Number of pools: 1
+xtrabackup: using the following InnoDB configuration for recovery:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 2
+xtrabackup:   innodb_log_file_size = 50331648
+InnoDB: PUNCH HOLE support available
+InnoDB: Mutexes and rw_locks use GCC atomic builtins
+InnoDB: Uses event mutexes
+InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+InnoDB: Compressed tables use zlib 1.2.8
+InnoDB: Number of pools: 1
+InnoDB: Using CPU crc32 instructions
+InnoDB: Initializing buffer pool, total size = 100M, instances = 1, chunk size = 100M
+InnoDB: Completed initialization of buffer pool
+InnoDB: page_cleaner coordinator priority: -20
+InnoDB: Setting log file ./ib_logfile101 size to 48 MB
+InnoDB: Setting log file ./ib_logfile1 size to 48 MB
+InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+InnoDB: New log files created, LSN=8070813061
+InnoDB: Highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 8070813196
+InnoDB: Doing recovery: scanned up to log sequence number 8070813205 (0%)
+InnoDB: Doing recovery: scanned up to log sequence number 8070813205 (0%)
+InnoDB: Database was not shutdown normally!
+InnoDB: Starting crash recovery.
+InnoDB: Removed temporary tablespace data file: "ibtmp1"
+InnoDB: Creating shared tablespace for temporary tables
+InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+InnoDB: File './ibtmp1' size is now 12 MB.
+InnoDB: 96 redo rollback segment(s) found. 1 redo rollback segment(s) are active.
+InnoDB: 32 non-redo rollback segment(s) are active.
+InnoDB: 5.7.11 started; log sequence number 8070813205
+xtrabackup: starting shutdown with innodb_fast_shutdown = 1
+InnoDB: FTS optimize thread exiting.
+InnoDB: Starting shutdown...
+InnoDB: Shutdown completed; log sequence number 8070814630
+160418 19:56:45 completed OK!
+/home/ubuntu

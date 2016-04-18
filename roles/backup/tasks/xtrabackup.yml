@@ -1,0 +1,25 @@
+---
+- name: check xtrabackup secret file
+  stat:
+    path: "{{ xb_secret_location }}"
+  register: xb_secret_file
+
+- name: generate xtrabackup keyfile
+  shell: openssl rand -base64 24
+  when: xb_secret_file.stat.exists == False
+  register: xtrabackup_rand
+
+- template:
+    src: xb_secret.j2
+    dest: "{{ xb_secret_location }}"
+    owner: ubuntu
+    group: ubuntu
+    mode: 0755
+  when: xb_secret_file.stat.exists == False
+
+- template:
+    src: do_benchmark.sh.j2
+    dest: /tmp/do_benchmark.sh
+    owner: ubuntu
+    group: ubuntu
+    mode: 0755

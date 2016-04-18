@@ -1,0 +1,7 @@
+---
+- hosts: local
+  connection: local
+  gather_facts: False
+  tags: backup_benchmark
+  roles:
+    - { role: aws, operation: set_up }

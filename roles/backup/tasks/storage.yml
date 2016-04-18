@@ -1,0 +1,76 @@
+---
+- name: umount xvdb
+  mount:
+    name: /mnt
+    src: /dev/xvdb
+    fstype: ext3
+    state: "{{ item }}"
+  with_items:
+    - absent
+    - unmounted
+
+- name: check if backup dest dir mounted already
+  shell: "mount | grep {{ backup_dest_dir }}"
+  ignore_errors: true
+  changed_when: false
+  register: backup_dest_dir_mounted
+
+- name: check if datadir mounted already
+  shell: "mount | grep {{ mysql_datadir }}"
+  ignore_errors: true
+  changed_when: false
+  register: mysql_datadir_mounted
+
+- name: create filesystem for datadir
+  filesystem:
+    fstype: ext4
+    dev: /dev/xvdb
+    force: yes
+  when: mysql_datadir_mounted.rc != 0
+
+- name: create filesystem for backup 
+  filesystem:
+    fstype: ext4
+    dev: /dev/xvdc
+    force: yes
+  when: backup_dest_dir_mounted.rc != 0
+
+- name: create mysql group
+  group:
+    name: mysql
+    gid: 111
+    state: present
+
+- name: create mysql user
+  user:
+    name: mysql
+    uid: 106
+    home: /var/lib/mysql
+    state: present
+
+- name: create directories
+  file:
+    name: "{{ item }}"
+    state: directory
+    owner: mysql
+    group: mysql
+    mode: 0755
+  with_items:
+    - "{{ backup_dest_dir }}"
+    - "{{ mysql_datadir }}"
+
+- name: mount datadir
+  mount:
+    name: "{{ mysql_datadir }}"
+    src: /dev/xvdb
+    fstype: ext4
+    opts: noatime,nodiratime
+    state: mounted
+
+- name: mount backup_dest_dir
+  mount:
+    name: "{{ backup_dest_dir }}"
+    src: /dev/xvdc
+    fstype: ext4
+    opts: noatime,nodiratime
+    state: mounted

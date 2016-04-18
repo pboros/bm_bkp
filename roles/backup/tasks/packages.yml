@@ -1,0 +1,41 @@
+---
+- name: Install packages
+  apt:
+    pkg: "{{ item }}"
+  with_items: "{{ packages_to_install }}"
+
+- name: check if sysbench was installed
+  shell: "which sysbench"
+  register: is_sysbench_installed
+  ignore_errors: true
+  changed_when: false
+
+- name: sysbench
+  git:
+    repo: "{{ sysbench_github }}"
+    dest: "{{ sysbench_basedir }}"
+  when: is_sysbench_installed.rc != 0
+
+- name: sysbench autogen.sh
+  shell: "./autogen.sh"
+  args:
+    chdir: /opt/sysbench
+  when: is_sysbench_installed.rc != 0
+
+- name: sysbench configure
+  shell: "./configure"
+  args:
+    chdir: /opt/sysbench
+  when: is_sysbench_installed.rc != 0
+
+- name: sysbench make
+  shell: "make"
+  args:
+    chdir: /opt/sysbench
+  when: is_sysbench_installed.rc != 0
+
+- name: sysbench make install
+  shell: "make install"
+  args:
+    chdir: /opt/sysbench
+  when: is_sysbench_installed.rc != 0

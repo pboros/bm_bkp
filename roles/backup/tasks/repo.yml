@@ -1,0 +1,16 @@
+---
+- name: Add Percona apt signing key
+  apt_key:
+    keyserver: "{{ percona_repo_keyserver }}"
+    id: "{{ percona_repo_key }}"
+    state: present
+
+- name: Add Percona repository
+  apt_repository:
+    repo: "{{ percona_repo_uri }}"
+    state: present
+
+- name: Update apt cache
+  apt:
+    update_cache: "yes"
+    upgrade: "yes"

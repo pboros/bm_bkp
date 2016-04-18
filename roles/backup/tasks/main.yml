@@ -1,0 +1,6 @@
+---
+- include: repo.yml
+- include: storage.yml
+- include: packages.yml
+- include: sysbench_db.yml
+- include: xtrabackup.yml

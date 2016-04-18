@@ -1,0 +1,8 @@
+---
+# vars file for aws
+aws_region: "us-east-1"
+aws_zone: "b"
+aws_keypair: "pboros-aws"
+aws_ami: "ami-df0607b5"
+instance_type: "c3.2xlarge"
+aws_role: "backup_benchmark"

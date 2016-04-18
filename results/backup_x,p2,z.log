@@ -1,0 +1,1000 @@
+160418 20:31:24 innobackupex: Starting the backup operation
+
+IMPORTANT: Please check that the backup run completes successfully.
+           At the end of a successful backup run innobackupex
+           prints "completed OK!".
+
+160418 20:31:24  version_check Connecting to MySQL server with DSN 'dbi:mysql:;mysql_read_default_group=xtrabackup;port=3306;mysql_socket=/var/run/mysqld/mysqld.sock' as 'root'  (using password: NO).
+160418 20:31:24  version_check Connected to MySQL server
+160418 20:31:24  version_check Executing a version check against the server...
+160418 20:31:24  version_check Done.
+160418 20:31:24 Connecting to MySQL server host: localhost, user: root, password: not set, port: 3306, socket: /var/run/mysqld/mysqld.sock
+Using server version 5.6.29-76.2
+innobackupex version 2.4.2 based on MySQL server 5.7.11 Linux (x86_64) (revision id: 8e86a84)
+xtrabackup: uses posix_fadvise().
+xtrabackup: cd to /var/lib/mysql
+xtrabackup: open files limit requested 0, set to 1024
+xtrabackup: using the following InnoDB configuration:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 2
+xtrabackup:   innodb_log_file_size = 50331648
+InnoDB: Number of pools: 1
+160418 20:31:24 >> log scanned up to (8070813042)
+xtrabackup: Generating a list of tablespaces
+InnoDB: Allocated tablespace ID 1 for mysql/innodb_table_stats, old maximum was 0
+xtrabackup: Starting 2 threads for parallel data files transfer
+160418 20:31:24 [01] Streaming ./ibdata1
+160418 20:31:24 [02] Streaming ./mysql/innodb_table_stats.ibd
+160418 20:31:24 [02]        ...done
+160418 20:31:24 [02] Streaming ./mysql/slave_relay_log_info.ibd
+160418 20:31:24 [02]        ...done
+160418 20:31:24 [02] Streaming ./mysql/slave_worker_info.ibd
+160418 20:31:24 [02]        ...done
+160418 20:31:24 [02] Streaming ./mysql/slave_master_info.ibd
+160418 20:31:24 [02]        ...done
+160418 20:31:24 [02] Streaming ./mysql/innodb_index_stats.ibd
+160418 20:31:24 [02]        ...done
+160418 20:31:24 [02] Streaming ./sbtest/sbtest52.ibd
+160418 20:31:25 >> log scanned up to (8070813042)
+160418 20:31:26 >> log scanned up to (8070813042)
+160418 20:31:27 >> log scanned up to (8070813042)
+160418 20:31:28 >> log scanned up to (8070813042)
+160418 20:31:28 [01]        ...done
+160418 20:31:29 >> log scanned up to (8070813042)
+160418 20:31:29 [01] Streaming ./sbtest/sbtest47.ibd
+160418 20:31:30 >> log scanned up to (8070813042)
+160418 20:31:31 >> log scanned up to (8070813042)
+160418 20:31:32 >> log scanned up to (8070813042)
+160418 20:31:33 >> log scanned up to (8070813042)
+160418 20:31:34 >> log scanned up to (8070813042)
+160418 20:31:35 [02]        ...done
+160418 20:31:35 >> log scanned up to (8070813042)
+160418 20:31:35 [02] Streaming ./sbtest/sbtest9.ibd
+160418 20:31:36 >> log scanned up to (8070813042)
+160418 20:31:37 >> log scanned up to (8070813042)
+160418 20:31:38 >> log scanned up to (8070813042)
+160418 20:31:39 >> log scanned up to (8070813042)
+160418 20:31:40 >> log scanned up to (8070813042)
+160418 20:31:41 >> log scanned up to (8070813042)
+160418 20:31:42 >> log scanned up to (8070813042)
+160418 20:31:43 >> log scanned up to (8070813042)
+160418 20:31:43 [01]        ...done
+160418 20:31:44 >> log scanned up to (8070813042)
+160418 20:31:44 [01] Streaming ./sbtest/sbtest53.ibd
+160418 20:31:45 >> log scanned up to (8070813042)
+160418 20:31:46 >> log scanned up to (8070813042)
+160418 20:31:47 >> log scanned up to (8070813042)
+160418 20:31:48 >> log scanned up to (8070813042)
+160418 20:31:49 >> log scanned up to (8070813042)
+160418 20:31:49 [02]        ...done
+160418 20:31:50 >> log scanned up to (8070813042)
+160418 20:31:50 [02] Streaming ./sbtest/sbtest27.ibd
+160418 20:31:51 >> log scanned up to (8070813042)
+160418 20:31:52 >> log scanned up to (8070813042)
+160418 20:31:53 >> log scanned up to (8070813042)
+160418 20:31:54 >> log scanned up to (8070813042)
+160418 20:31:55 >> log scanned up to (8070813042)
+160418 20:31:56 >> log scanned up to (8070813042)
+160418 20:31:57 >> log scanned up to (8070813042)
+160418 20:31:58 >> log scanned up to (8070813042)
+160418 20:31:58 [01]        ...done
+160418 20:31:58 [01] Streaming ./sbtest/sbtest50.ibd
+160418 20:31:59 >> log scanned up to (8070813042)
+160418 20:32:00 >> log scanned up to (8070813042)
+160418 20:32:01 >> log scanned up to (8070813042)
+160418 20:32:02 >> log scanned up to (8070813042)
+160418 20:32:03 >> log scanned up to (8070813042)
+160418 20:32:04 >> log scanned up to (8070813042)
+160418 20:32:04 [02]        ...done
+160418 20:32:04 [02] Streaming ./sbtest/sbtest16.ibd
+160418 20:32:05 >> log scanned up to (8070813042)
+160418 20:32:06 >> log scanned up to (8070813042)
+160418 20:32:07 >> log scanned up to (8070813042)
+160418 20:32:08 >> log scanned up to (8070813042)
+160418 20:32:09 >> log scanned up to (8070813042)
+160418 20:32:10 >> log scanned up to (8070813042)
+160418 20:32:11 >> log scanned up to (8070813042)
+160418 20:32:12 >> log scanned up to (8070813042)
+160418 20:32:12 [01]        ...done
+160418 20:32:13 >> log scanned up to (8070813042)
+160418 20:32:13 [01] Streaming ./sbtest/sbtest21.ibd
+160418 20:32:14 >> log scanned up to (8070813042)
+160418 20:32:15 >> log scanned up to (8070813042)
+160418 20:32:16 >> log scanned up to (8070813042)
+160418 20:32:17 >> log scanned up to (8070813042)
+160418 20:32:18 >> log scanned up to (8070813042)
+160418 20:32:18 [02]        ...done
+160418 20:32:19 >> log scanned up to (8070813042)
+160418 20:32:19 [02] Streaming ./sbtest/sbtest48.ibd
+160418 20:32:20 >> log scanned up to (8070813042)
+160418 20:32:21 >> log scanned up to (8070813042)
+160418 20:32:22 >> log scanned up to (8070813042)
+160418 20:32:23 >> log scanned up to (8070813042)
+160418 20:32:24 >> log scanned up to (8070813042)
+160418 20:32:25 >> log scanned up to (8070813042)
+160418 20:32:26 >> log scanned up to (8070813042)
+160418 20:32:27 >> log scanned up to (8070813042)
+160418 20:32:27 [01]        ...done
+160418 20:32:28 [01] Streaming ./sbtest/sbtest33.ibd
+160418 20:32:28 >> log scanned up to (8070813042)
+160418 20:32:29 >> log scanned up to (8070813042)
+160418 20:32:30 >> log scanned up to (8070813042)
+160418 20:32:31 >> log scanned up to (8070813042)
+160418 20:32:32 >> log scanned up to (8070813042)
+160418 20:32:33 >> log scanned up to (8070813042)
+160418 20:32:33 [02]        ...done
+160418 20:32:34 >> log scanned up to (8070813042)
+160418 20:32:34 [02] Streaming ./sbtest/sbtest5.ibd
+160418 20:32:35 >> log scanned up to (8070813042)
+160418 20:32:36 >> log scanned up to (8070813042)
+160418 20:32:37 >> log scanned up to (8070813042)
+160418 20:32:38 >> log scanned up to (8070813042)
+160418 20:32:39 >> log scanned up to (8070813042)
+160418 20:32:40 >> log scanned up to (8070813042)
+160418 20:32:41 >> log scanned up to (8070813042)
+160418 20:32:42 [01]        ...done
+160418 20:32:42 >> log scanned up to (8070813042)
+160418 20:32:42 [01] Streaming ./sbtest/sbtest43.ibd
+160418 20:32:43 >> log scanned up to (8070813042)
+160418 20:32:44 >> log scanned up to (8070813042)
+160418 20:32:45 >> log scanned up to (8070813042)
+160418 20:32:46 >> log scanned up to (8070813042)
+160418 20:32:47 >> log scanned up to (8070813042)
+160418 20:32:48 [02]        ...done
+160418 20:32:48 >> log scanned up to (8070813042)
+160418 20:32:48 [02] Streaming ./sbtest/sbtest31.ibd
+160418 20:32:49 >> log scanned up to (8070813042)
+160418 20:32:50 >> log scanned up to (8070813042)
+160418 20:32:51 >> log scanned up to (8070813042)
+160418 20:32:52 >> log scanned up to (8070813042)
+160418 20:32:53 >> log scanned up to (8070813042)
+160418 20:32:54 >> log scanned up to (8070813042)
+160418 20:32:55 >> log scanned up to (8070813042)
+160418 20:32:56 >> log scanned up to (8070813042)
+160418 20:32:56 [01]        ...done
+160418 20:32:57 >> log scanned up to (8070813042)
+160418 20:32:57 [01] Streaming ./sbtest/sbtest35.ibd
+160418 20:32:58 >> log scanned up to (8070813042)
+160418 20:32:59 >> log scanned up to (8070813042)
+160418 20:33:00 >> log scanned up to (8070813042)
+160418 20:33:01 >> log scanned up to (8070813042)
+160418 20:33:02 >> log scanned up to (8070813042)
+160418 20:33:02 [02]        ...done
+160418 20:33:03 >> log scanned up to (8070813042)
+160418 20:33:03 [02] Streaming ./sbtest/sbtest26.ibd
+160418 20:33:04 >> log scanned up to (8070813042)
+160418 20:33:05 >> log scanned up to (8070813042)
+160418 20:33:06 >> log scanned up to (8070813042)
+160418 20:33:07 >> log scanned up to (8070813042)
+160418 20:33:08 >> log scanned up to (8070813042)
+160418 20:33:09 >> log scanned up to (8070813042)
+160418 20:33:10 >> log scanned up to (8070813042)
+160418 20:33:11 >> log scanned up to (8070813042)
+160418 20:33:11 [01]        ...done
+160418 20:33:11 [01] Streaming ./sbtest/sbtest10.ibd
+160418 20:33:12 >> log scanned up to (8070813042)
+160418 20:33:13 >> log scanned up to (8070813042)
+160418 20:33:14 >> log scanned up to (8070813042)
+160418 20:33:15 >> log scanned up to (8070813042)
+160418 20:33:16 >> log scanned up to (8070813042)
+160418 20:33:17 >> log scanned up to (8070813042)
+160418 20:33:17 [02]        ...done
+160418 20:33:18 [02] Streaming ./sbtest/sbtest23.ibd
+160418 20:33:18 >> log scanned up to (8070813042)
+160418 20:33:19 >> log scanned up to (8070813042)
+160418 20:33:20 >> log scanned up to (8070813042)
+160418 20:33:21 >> log scanned up to (8070813042)
+160418 20:33:22 >> log scanned up to (8070813042)
+160418 20:33:23 >> log scanned up to (8070813042)
+160418 20:33:24 >> log scanned up to (8070813042)
+160418 20:33:25 >> log scanned up to (8070813042)
+160418 20:33:25 [01]        ...done
+160418 20:33:26 >> log scanned up to (8070813042)
+160418 20:33:26 [01] Streaming ./sbtest/sbtest32.ibd
+160418 20:33:27 >> log scanned up to (8070813042)
+160418 20:33:28 >> log scanned up to (8070813042)
+160418 20:33:29 >> log scanned up to (8070813042)
+160418 20:33:30 >> log scanned up to (8070813042)
+160418 20:33:31 >> log scanned up to (8070813042)
+160418 20:33:32 [02]        ...done
+160418 20:33:32 >> log scanned up to (8070813042)
+160418 20:33:32 [02] Streaming ./sbtest/sbtest60.ibd
+160418 20:33:33 >> log scanned up to (8070813042)
+160418 20:33:34 >> log scanned up to (8070813042)
+160418 20:33:35 >> log scanned up to (8070813042)
+160418 20:33:36 >> log scanned up to (8070813042)
+160418 20:33:37 >> log scanned up to (8070813042)
+160418 20:33:38 >> log scanned up to (8070813042)
+160418 20:33:39 >> log scanned up to (8070813042)
+160418 20:33:40 >> log scanned up to (8070813042)
+160418 20:33:40 [01]        ...done
+160418 20:33:41 >> log scanned up to (8070813042)
+160418 20:33:41 [01] Streaming ./sbtest/sbtest14.ibd
+160418 20:33:42 >> log scanned up to (8070813042)
+160418 20:33:43 >> log scanned up to (8070813042)
+160418 20:33:44 >> log scanned up to (8070813042)
+160418 20:33:45 >> log scanned up to (8070813042)
+160418 20:33:46 >> log scanned up to (8070813042)
+160418 20:33:46 [02]        ...done
+160418 20:33:47 >> log scanned up to (8070813042)
+160418 20:33:47 [02] Streaming ./sbtest/sbtest51.ibd
+160418 20:33:48 >> log scanned up to (8070813042)
+160418 20:33:49 >> log scanned up to (8070813042)
+160418 20:33:50 >> log scanned up to (8070813042)
+160418 20:33:51 >> log scanned up to (8070813042)
+160418 20:33:52 >> log scanned up to (8070813042)
+160418 20:33:53 >> log scanned up to (8070813042)
+160418 20:33:54 >> log scanned up to (8070813042)
+160418 20:33:55 >> log scanned up to (8070813042)
+160418 20:33:55 [01]        ...done
+160418 20:33:55 [01] Streaming ./sbtest/sbtest55.ibd
+160418 20:33:56 >> log scanned up to (8070813042)
+160418 20:33:57 >> log scanned up to (8070813042)
+160418 20:33:58 >> log scanned up to (8070813042)
+160418 20:33:59 >> log scanned up to (8070813042)
+160418 20:34:00 >> log scanned up to (8070813042)
+160418 20:34:01 >> log scanned up to (8070813042)
+160418 20:34:01 [02]        ...done
+160418 20:34:01 [02] Streaming ./sbtest/sbtest37.ibd
+160418 20:34:02 >> log scanned up to (8070813042)
+160418 20:34:03 >> log scanned up to (8070813042)
+160418 20:34:04 >> log scanned up to (8070813042)
+160418 20:34:05 >> log scanned up to (8070813042)
+160418 20:34:06 >> log scanned up to (8070813042)
+160418 20:34:07 >> log scanned up to (8070813042)
+160418 20:34:08 >> log scanned up to (8070813042)
+160418 20:34:09 >> log scanned up to (8070813042)
+160418 20:34:09 [01]        ...done
+160418 20:34:10 >> log scanned up to (8070813042)
+160418 20:34:10 [01] Streaming ./sbtest/sbtest46.ibd
+160418 20:34:11 >> log scanned up to (8070813042)
+160418 20:34:12 >> log scanned up to (8070813042)
+160418 20:34:13 >> log scanned up to (8070813042)
+160418 20:34:14 >> log scanned up to (8070813042)
+160418 20:34:15 >> log scanned up to (8070813042)
+160418 20:34:15 [02]        ...done
+160418 20:34:16 >> log scanned up to (8070813042)
+160418 20:34:16 [02] Streaming ./sbtest/sbtest30.ibd
+160418 20:34:17 >> log scanned up to (8070813042)
+160418 20:34:18 >> log scanned up to (8070813042)
+160418 20:34:19 >> log scanned up to (8070813042)
+160418 20:34:20 >> log scanned up to (8070813042)
+160418 20:34:21 >> log scanned up to (8070813042)
+160418 20:34:22 >> log scanned up to (8070813042)
+160418 20:34:23 >> log scanned up to (8070813042)
+160418 20:34:24 >> log scanned up to (8070813042)
+160418 20:34:24 [01]        ...done
+160418 20:34:25 >> log scanned up to (8070813042)
+160418 20:34:25 [01] Streaming ./sbtest/sbtest17.ibd
+160418 20:34:26 >> log scanned up to (8070813042)
+160418 20:34:27 >> log scanned up to (8070813042)
+160418 20:34:28 >> log scanned up to (8070813042)
+160418 20:34:29 >> log scanned up to (8070813042)
+160418 20:34:30 >> log scanned up to (8070813042)
+160418 20:34:30 [02]        ...done
+160418 20:34:31 >> log scanned up to (8070813042)
+160418 20:34:31 [02] Streaming ./sbtest/sbtest42.ibd
+160418 20:34:32 >> log scanned up to (8070813042)
+160418 20:34:33 >> log scanned up to (8070813042)
+160418 20:34:34 >> log scanned up to (8070813042)
+160418 20:34:35 >> log scanned up to (8070813042)
+160418 20:34:36 >> log scanned up to (8070813042)
+160418 20:34:37 >> log scanned up to (8070813042)
+160418 20:34:38 >> log scanned up to (8070813042)
+160418 20:34:39 >> log scanned up to (8070813042)
+160418 20:34:39 [01]        ...done
+160418 20:34:39 [01] Streaming ./sbtest/sbtest41.ibd
+160418 20:34:40 >> log scanned up to (8070813042)
+160418 20:34:41 >> log scanned up to (8070813042)
+160418 20:34:42 >> log scanned up to (8070813042)
+160418 20:34:43 >> log scanned up to (8070813042)
+160418 20:34:44 >> log scanned up to (8070813042)
+160418 20:34:45 >> log scanned up to (8070813042)
+160418 20:34:45 [02]        ...done
+160418 20:34:45 [02] Streaming ./sbtest/sbtest20.ibd
+160418 20:34:46 >> log scanned up to (8070813042)
+160418 20:34:47 >> log scanned up to (8070813042)
+160418 20:34:48 >> log scanned up to (8070813042)
+160418 20:34:49 >> log scanned up to (8070813042)
+160418 20:34:50 >> log scanned up to (8070813042)
+160418 20:34:51 >> log scanned up to (8070813042)
+160418 20:34:52 >> log scanned up to (8070813042)
+160418 20:34:53 >> log scanned up to (8070813042)
+160418 20:34:53 [01]        ...done
+160418 20:34:54 >> log scanned up to (8070813042)
+160418 20:34:54 [01] Streaming ./sbtest/sbtest34.ibd
+160418 20:34:55 >> log scanned up to (8070813042)
+160418 20:34:56 >> log scanned up to (8070813042)
+160418 20:34:57 >> log scanned up to (8070813042)
+160418 20:34:58 >> log scanned up to (8070813042)
+160418 20:34:59 >> log scanned up to (8070813042)
+160418 20:34:59 [02]        ...done
+160418 20:35:00 >> log scanned up to (8070813042)
+160418 20:35:00 [02] Streaming ./sbtest/sbtest12.ibd
+160418 20:35:01 >> log scanned up to (8070813042)
+160418 20:35:02 >> log scanned up to (8070813042)
+160418 20:35:03 >> log scanned up to (8070813042)
+160418 20:35:04 >> log scanned up to (8070813042)
+160418 20:35:05 >> log scanned up to (8070813042)
+160418 20:35:06 >> log scanned up to (8070813042)
+160418 20:35:07 >> log scanned up to (8070813042)
+160418 20:35:08 >> log scanned up to (8070813042)
+160418 20:35:08 [01]        ...done
+160418 20:35:09 [01] Streaming ./sbtest/sbtest19.ibd
+160418 20:35:09 >> log scanned up to (8070813042)
+160418 20:35:10 >> log scanned up to (8070813042)
+160418 20:35:11 >> log scanned up to (8070813042)
+160418 20:35:12 >> log scanned up to (8070813042)
+160418 20:35:13 >> log scanned up to (8070813042)
+160418 20:35:14 >> log scanned up to (8070813042)
+160418 20:35:14 [02]        ...done
+160418 20:35:15 >> log scanned up to (8070813042)
+160418 20:35:15 [02] Streaming ./sbtest/sbtest29.ibd
+160418 20:35:16 >> log scanned up to (8070813042)
+160418 20:35:17 >> log scanned up to (8070813042)
+160418 20:35:18 >> log scanned up to (8070813042)
+160418 20:35:19 >> log scanned up to (8070813042)
+160418 20:35:20 >> log scanned up to (8070813042)
+160418 20:35:21 >> log scanned up to (8070813042)
+160418 20:35:22 >> log scanned up to (8070813042)
+160418 20:35:23 [01]        ...done
+160418 20:35:23 >> log scanned up to (8070813042)
+160418 20:35:23 [01] Streaming ./sbtest/sbtest45.ibd
+160418 20:35:24 >> log scanned up to (8070813042)
+160418 20:35:25 >> log scanned up to (8070813042)
+160418 20:35:26 >> log scanned up to (8070813042)
+160418 20:35:27 >> log scanned up to (8070813042)
+160418 20:35:28 >> log scanned up to (8070813042)
+160418 20:35:29 [02]        ...done
+160418 20:35:29 >> log scanned up to (8070813042)
+160418 20:35:29 [02] Streaming ./sbtest/sbtest13.ibd
+160418 20:35:30 >> log scanned up to (8070813042)
+160418 20:35:31 >> log scanned up to (8070813042)
+160418 20:35:32 >> log scanned up to (8070813042)
+160418 20:35:33 >> log scanned up to (8070813042)
+160418 20:35:34 >> log scanned up to (8070813042)
+160418 20:35:35 >> log scanned up to (8070813042)
+160418 20:35:36 >> log scanned up to (8070813042)
+160418 20:35:37 >> log scanned up to (8070813042)
+160418 20:35:37 [01]        ...done
+160418 20:35:38 >> log scanned up to (8070813042)
+160418 20:35:38 [01] Streaming ./sbtest/sbtest11.ibd
+160418 20:35:39 >> log scanned up to (8070813042)
+160418 20:35:40 >> log scanned up to (8070813042)
+160418 20:35:41 >> log scanned up to (8070813042)
+160418 20:35:42 >> log scanned up to (8070813042)
+160418 20:35:43 >> log scanned up to (8070813042)
+160418 20:35:43 [02]        ...done
+160418 20:35:44 >> log scanned up to (8070813042)
+160418 20:35:44 [02] Streaming ./sbtest/sbtest1.ibd
+160418 20:35:45 >> log scanned up to (8070813042)
+160418 20:35:46 >> log scanned up to (8070813042)
+160418 20:35:47 >> log scanned up to (8070813042)
+160418 20:35:48 >> log scanned up to (8070813042)
+160418 20:35:49 >> log scanned up to (8070813042)
+160418 20:35:50 >> log scanned up to (8070813042)
+160418 20:35:51 >> log scanned up to (8070813042)
+160418 20:35:52 >> log scanned up to (8070813042)
+160418 20:35:52 [01]        ...done
+160418 20:35:53 [01] Streaming ./sbtest/sbtest28.ibd
+160418 20:35:53 >> log scanned up to (8070813042)
+160418 20:35:54 >> log scanned up to (8070813042)
+160418 20:35:55 >> log scanned up to (8070813042)
+160418 20:35:56 >> log scanned up to (8070813042)
+160418 20:35:57 >> log scanned up to (8070813042)
+160418 20:35:58 >> log scanned up to (8070813042)
+160418 20:35:58 [02]        ...done
+160418 20:35:59 [02] Streaming ./sbtest/sbtest25.ibd
+160418 20:35:59 >> log scanned up to (8070813042)
+160418 20:36:00 >> log scanned up to (8070813042)
+160418 20:36:01 >> log scanned up to (8070813042)
+160418 20:36:02 >> log scanned up to (8070813042)
+160418 20:36:03 >> log scanned up to (8070813042)
+160418 20:36:04 >> log scanned up to (8070813042)
+160418 20:36:05 >> log scanned up to (8070813042)
+160418 20:36:06 >> log scanned up to (8070813042)
+160418 20:36:07 [01]        ...done
+160418 20:36:07 >> log scanned up to (8070813042)
+160418 20:36:07 [01] Streaming ./sbtest/sbtest59.ibd
+160418 20:36:08 >> log scanned up to (8070813042)
+160418 20:36:09 >> log scanned up to (8070813042)
+160418 20:36:10 >> log scanned up to (8070813042)
+160418 20:36:11 >> log scanned up to (8070813042)
+160418 20:36:12 >> log scanned up to (8070813042)
+160418 20:36:13 [02]        ...done
+160418 20:36:13 >> log scanned up to (8070813042)
+160418 20:36:13 [02] Streaming ./sbtest/sbtest7.ibd
+160418 20:36:14 >> log scanned up to (8070813042)
+160418 20:36:15 >> log scanned up to (8070813042)
+160418 20:36:16 >> log scanned up to (8070813042)
+160418 20:36:17 >> log scanned up to (8070813042)
+160418 20:36:18 >> log scanned up to (8070813042)
+160418 20:36:19 >> log scanned up to (8070813042)
+160418 20:36:20 >> log scanned up to (8070813042)
+160418 20:36:21 >> log scanned up to (8070813042)
+160418 20:36:21 [01]        ...done
+160418 20:36:22 >> log scanned up to (8070813042)
+160418 20:36:22 [01] Streaming ./sbtest/sbtest40.ibd
+160418 20:36:23 >> log scanned up to (8070813042)
+160418 20:36:24 >> log scanned up to (8070813042)
+160418 20:36:25 >> log scanned up to (8070813042)
+160418 20:36:26 >> log scanned up to (8070813042)
+160418 20:36:27 >> log scanned up to (8070813042)
+160418 20:36:27 [02]        ...done
+160418 20:36:28 >> log scanned up to (8070813042)
+160418 20:36:28 [02] Streaming ./sbtest/sbtest58.ibd
+160418 20:36:29 >> log scanned up to (8070813042)
+160418 20:36:30 >> log scanned up to (8070813042)
+160418 20:36:31 >> log scanned up to (8070813042)
+160418 20:36:32 >> log scanned up to (8070813042)
+160418 20:36:33 >> log scanned up to (8070813042)
+160418 20:36:34 >> log scanned up to (8070813042)
+160418 20:36:35 >> log scanned up to (8070813042)
+160418 20:36:36 >> log scanned up to (8070813042)
+160418 20:36:36 [01]        ...done
+160418 20:36:37 [01] Streaming ./sbtest/sbtest18.ibd
+160418 20:36:37 >> log scanned up to (8070813042)
+160418 20:36:38 >> log scanned up to (8070813042)
+160418 20:36:39 >> log scanned up to (8070813042)
+160418 20:36:40 >> log scanned up to (8070813042)
+160418 20:36:41 >> log scanned up to (8070813042)
+160418 20:36:42 >> log scanned up to (8070813042)
+160418 20:36:42 [02]        ...done
+160418 20:36:43 [02] Streaming ./sbtest/sbtest4.ibd
+160418 20:36:43 >> log scanned up to (8070813042)
+160418 20:36:44 >> log scanned up to (8070813042)
+160418 20:36:45 >> log scanned up to (8070813042)
+160418 20:36:46 >> log scanned up to (8070813042)
+160418 20:36:47 >> log scanned up to (8070813042)
+160418 20:36:48 >> log scanned up to (8070813042)
+160418 20:36:49 >> log scanned up to (8070813042)
+160418 20:36:50 >> log scanned up to (8070813042)
+160418 20:36:51 [01]        ...done
+160418 20:36:51 >> log scanned up to (8070813042)
+160418 20:36:51 [01] Streaming ./sbtest/sbtest49.ibd
+160418 20:36:52 >> log scanned up to (8070813042)
+160418 20:36:53 >> log scanned up to (8070813042)
+160418 20:36:54 >> log scanned up to (8070813042)
+160418 20:36:55 >> log scanned up to (8070813042)
+160418 20:36:56 >> log scanned up to (8070813042)
+160418 20:36:57 [02]        ...done
+160418 20:36:57 >> log scanned up to (8070813042)
+160418 20:36:57 [02] Streaming ./sbtest/sbtest2.ibd
+160418 20:36:58 >> log scanned up to (8070813042)
+160418 20:36:59 >> log scanned up to (8070813042)
+160418 20:37:00 >> log scanned up to (8070813042)
+160418 20:37:01 >> log scanned up to (8070813042)
+160418 20:37:02 >> log scanned up to (8070813042)
+160418 20:37:03 >> log scanned up to (8070813042)
+160418 20:37:04 >> log scanned up to (8070813042)
+160418 20:37:05 >> log scanned up to (8070813042)
+160418 20:37:05 [01]        ...done
+160418 20:37:06 >> log scanned up to (8070813042)
+160418 20:37:06 [01] Streaming ./sbtest/sbtest8.ibd
+160418 20:37:07 >> log scanned up to (8070813042)
+160418 20:37:08 >> log scanned up to (8070813042)
+160418 20:37:09 >> log scanned up to (8070813042)
+160418 20:37:10 >> log scanned up to (8070813042)
+160418 20:37:11 >> log scanned up to (8070813042)
+160418 20:37:11 [02]        ...done
+160418 20:37:12 >> log scanned up to (8070813042)
+160418 20:37:12 [02] Streaming ./sbtest/sbtest56.ibd
+160418 20:37:13 >> log scanned up to (8070813042)
+160418 20:37:14 >> log scanned up to (8070813042)
+160418 20:37:15 >> log scanned up to (8070813042)
+160418 20:37:16 >> log scanned up to (8070813042)
+160418 20:37:17 >> log scanned up to (8070813042)
+160418 20:37:18 >> log scanned up to (8070813042)
+160418 20:37:19 >> log scanned up to (8070813042)
+160418 20:37:20 >> log scanned up to (8070813042)
+160418 20:37:20 [01]        ...done
+160418 20:37:20 [01] Streaming ./sbtest/sbtest57.ibd
+160418 20:37:21 >> log scanned up to (8070813042)
+160418 20:37:22 >> log scanned up to (8070813042)
+160418 20:37:23 >> log scanned up to (8070813042)
+160418 20:37:24 >> log scanned up to (8070813042)
+160418 20:37:25 >> log scanned up to (8070813042)
+160418 20:37:26 >> log scanned up to (8070813042)
+160418 20:37:26 [02]        ...done
+160418 20:37:27 [02] Streaming ./sbtest/sbtest39.ibd
+160418 20:37:27 >> log scanned up to (8070813042)
+160418 20:37:28 >> log scanned up to (8070813042)
+160418 20:37:29 >> log scanned up to (8070813042)
+160418 20:37:30 >> log scanned up to (8070813042)
+160418 20:37:31 >> log scanned up to (8070813042)
+160418 20:37:32 >> log scanned up to (8070813042)
+160418 20:37:33 >> log scanned up to (8070813042)
+160418 20:37:34 >> log scanned up to (8070813042)
+160418 20:37:34 [01]        ...done
+160418 20:37:35 >> log scanned up to (8070813042)
+160418 20:37:35 [01] Streaming ./sbtest/sbtest38.ibd
+160418 20:37:36 >> log scanned up to (8070813042)
+160418 20:37:37 >> log scanned up to (8070813042)
+160418 20:37:38 >> log scanned up to (8070813042)
+160418 20:37:39 >> log scanned up to (8070813042)
+160418 20:37:40 >> log scanned up to (8070813042)
+160418 20:37:41 [02]        ...done
+160418 20:37:41 >> log scanned up to (8070813042)
+160418 20:37:41 [02] Streaming ./sbtest/sbtest3.ibd
+160418 20:37:42 >> log scanned up to (8070813042)
+160418 20:37:43 >> log scanned up to (8070813042)
+160418 20:37:44 >> log scanned up to (8070813042)
+160418 20:37:45 >> log scanned up to (8070813042)
+160418 20:37:46 >> log scanned up to (8070813042)
+160418 20:37:47 >> log scanned up to (8070813042)
+160418 20:37:48 >> log scanned up to (8070813042)
+160418 20:37:49 >> log scanned up to (8070813042)
+160418 20:37:49 [01]        ...done
+160418 20:37:50 >> log scanned up to (8070813042)
+160418 20:37:50 [01] Streaming ./sbtest/sbtest24.ibd
+160418 20:37:51 >> log scanned up to (8070813042)
+160418 20:37:52 >> log scanned up to (8070813042)
+160418 20:37:53 >> log scanned up to (8070813042)
+160418 20:37:54 >> log scanned up to (8070813042)
+160418 20:37:55 >> log scanned up to (8070813042)
+160418 20:37:55 [02]        ...done
+160418 20:37:56 >> log scanned up to (8070813042)
+160418 20:37:56 [02] Streaming ./sbtest/sbtest15.ibd
+160418 20:37:57 >> log scanned up to (8070813042)
+160418 20:37:58 >> log scanned up to (8070813042)
+160418 20:37:59 >> log scanned up to (8070813042)
+160418 20:38:00 >> log scanned up to (8070813042)
+160418 20:38:01 >> log scanned up to (8070813042)
+160418 20:38:02 >> log scanned up to (8070813042)
+160418 20:38:03 >> log scanned up to (8070813042)
+160418 20:38:04 >> log scanned up to (8070813042)
+160418 20:38:04 [01]        ...done
+160418 20:38:04 [01] Streaming ./sbtest/sbtest44.ibd
+160418 20:38:05 >> log scanned up to (8070813042)
+160418 20:38:06 >> log scanned up to (8070813042)
+160418 20:38:07 >> log scanned up to (8070813042)
+160418 20:38:08 >> log scanned up to (8070813042)
+160418 20:38:09 >> log scanned up to (8070813042)
+160418 20:38:10 >> log scanned up to (8070813042)
+160418 20:38:10 [02]        ...done
+160418 20:38:11 [02] Streaming ./sbtest/sbtest6.ibd
+160418 20:38:11 >> log scanned up to (8070813042)
+160418 20:38:12 >> log scanned up to (8070813042)
+160418 20:38:13 >> log scanned up to (8070813042)
+160418 20:38:14 >> log scanned up to (8070813042)
+160418 20:38:15 >> log scanned up to (8070813042)
+160418 20:38:16 >> log scanned up to (8070813042)
+160418 20:38:17 >> log scanned up to (8070813042)
+160418 20:38:18 >> log scanned up to (8070813042)
+160418 20:38:18 [01]        ...done
+160418 20:38:19 >> log scanned up to (8070813042)
+160418 20:38:19 [01] Streaming ./sbtest/sbtest22.ibd
+160418 20:38:20 >> log scanned up to (8070813042)
+160418 20:38:21 >> log scanned up to (8070813042)
+160418 20:38:22 >> log scanned up to (8070813042)
+160418 20:38:23 >> log scanned up to (8070813042)
+160418 20:38:24 >> log scanned up to (8070813042)
+160418 20:38:25 [02]        ...done
+160418 20:38:25 >> log scanned up to (8070813042)
+160418 20:38:25 [02] Streaming ./sbtest/sbtest54.ibd
+160418 20:38:26 >> log scanned up to (8070813042)
+160418 20:38:27 >> log scanned up to (8070813042)
+160418 20:38:28 >> log scanned up to (8070813042)
+160418 20:38:29 >> log scanned up to (8070813042)
+160418 20:38:30 >> log scanned up to (8070813042)
+160418 20:38:31 >> log scanned up to (8070813042)
+160418 20:38:32 >> log scanned up to (8070813042)
+160418 20:38:33 >> log scanned up to (8070813042)
+160418 20:38:33 [01]        ...done
+160418 20:38:34 >> log scanned up to (8070813042)
+160418 20:38:34 [01] Streaming ./sbtest/sbtest36.ibd
+160418 20:38:35 >> log scanned up to (8070813042)
+160418 20:38:36 >> log scanned up to (8070813042)
+160418 20:38:37 >> log scanned up to (8070813042)
+160418 20:38:38 >> log scanned up to (8070813042)
+160418 20:38:39 >> log scanned up to (8070813042)
+160418 20:38:39 [02]        ...done
+160418 20:38:40 >> log scanned up to (8070813042)
+160418 20:38:41 >> log scanned up to (8070813042)
+160418 20:38:42 >> log scanned up to (8070813042)
+160418 20:38:43 >> log scanned up to (8070813042)
+160418 20:38:44 >> log scanned up to (8070813042)
+160418 20:38:44 [01]        ...done
+160418 20:38:45 >> log scanned up to (8070813042)
+160418 20:38:45 Executing LOCK TABLES FOR BACKUP...
+160418 20:38:45 Starting to backup non-InnoDB tables and files
+160418 20:38:45 [01] Streaming ./performance_schema/events_stages_current.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_waits_summary_by_account_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_waits_summary_by_thread_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/performance_timers.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_stages_summary_by_host_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/socket_summary_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/users.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/table_io_waits_summary_by_index_usage.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/db.opt to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_waits_history_long.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_statements_summary_by_account_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_waits_summary_global_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_waits_summary_by_user_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_stages_summary_global_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_statements_summary_by_user_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_stages_history_long.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_statements_summary_by_digest.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/file_instances.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/setup_actors.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/cond_instances.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/socket_summary_by_instance.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_statements_history_long.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/host_cache.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/setup_objects.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/rwlock_instances.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/setup_instruments.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/session_account_connect_attrs.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_statements_current.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/file_summary_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/threads.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/session_connect_attrs.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_stages_history.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_statements_summary_by_thread_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_statements_history.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/table_lock_waits_summary_by_table.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_waits_history.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/setup_consumers.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_statements_summary_by_host_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_waits_summary_by_instance.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/hosts.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_stages_summary_by_thread_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_statements_summary_global_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/file_summary_by_instance.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_waits_summary_by_host_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/mutex_instances.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/objects_summary_global_by_type.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_waits_current.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/table_io_waits_summary_by_table.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/socket_instances.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_stages_summary_by_user_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/setup_timers.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/events_stages_summary_by_account_by_event_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./performance_schema/accounts.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/event.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_keyword.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_transition_type.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_category.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/procs_priv.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/tables_priv.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/plugin.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_category.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/proxies_priv.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/user.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/slave_master_info.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_topic.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/db.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_keyword.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_leap_second.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_topic.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/slave_relay_log_info.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/user.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/func.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_keyword.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_name.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_name.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/columns_priv.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/slow_log.CSM to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_leap_second.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/servers.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_transition_type.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/procs_priv.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/innodb_index_stats.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_category.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_name.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/proc.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/plugin.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/ndb_binlog_index.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_relation.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/servers.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/slave_worker_info.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/tables_priv.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/ndb_binlog_index.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/ndb_binlog_index.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/event.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/proxies_priv.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/innodb_table_stats.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_transition.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/slow_log.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/event.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_leap_second.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/proc.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/db.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/general_log.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_topic.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/proxies_priv.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_relation.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/general_log.CSV to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/general_log.CSM to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/proc.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/slow_log.CSV to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/columns_priv.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/columns_priv.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/tables_priv.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/help_relation.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_transition.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/servers.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/user.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/func.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/func.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/plugin.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_transition_type.MYI to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/db.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/procs_priv.MYD to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./mysql/time_zone_transition.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [00] Streaming test/db.opt
+160418 20:38:45 [00]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest38.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest37.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest1.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest22.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest8.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest43.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest51.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest52.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest47.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest2.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest12.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/db.opt to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest27.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest7.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest31.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest20.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest11.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest26.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest4.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest39.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest32.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest57.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest59.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest25.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest23.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest28.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest24.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest3.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest33.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest53.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest14.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest49.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest55.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest36.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest30.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest40.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest13.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest56.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest19.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest46.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest9.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest50.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest6.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest29.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest48.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest41.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest10.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest34.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest60.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest17.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest15.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest58.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest45.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest18.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest44.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest42.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest54.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest35.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest21.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest5.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./sbtest/sbtest16.frm to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 [01] Streaming ./lost@002bfound/db.opt to <STDOUT>
+160418 20:38:45 [01]        ...done
+160418 20:38:45 Finished backing up non-InnoDB tables and files
+160418 20:38:45 Executing LOCK BINLOG FOR BACKUP...
+160418 20:38:45 Executing FLUSH NO_WRITE_TO_BINLOG ENGINE LOGS...
+xtrabackup: The latest check point (for incremental): '8070813042'
+xtrabackup: Stopping log copying thread.
+.160418 20:38:45 >> log scanned up to (8070813042)
+
+160418 20:38:45 Executing UNLOCK BINLOG
+160418 20:38:45 Executing UNLOCK TABLES
+160418 20:38:45 All tables unlocked
+160418 20:38:45 Backup created in directory '/tmp'
+160418 20:38:45 [00] Streaming backup-my.cnf
+160418 20:38:45 [00]        ...done
+160418 20:38:45 [00] Streaming xtrabackup_info
+160418 20:38:45 [00]        ...done
+xtrabackup: Transaction log of lsn (8070813042) to (8070813042) was copied.
+160418 20:38:45 completed OK!
+/home/ubuntu

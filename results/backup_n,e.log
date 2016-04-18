@@ -1,0 +1,705 @@
+160418 21:06:52 innobackupex: Starting the backup operation
+
+IMPORTANT: Please check that the backup run completes successfully.
+           At the end of a successful backup run innobackupex
+           prints "completed OK!".
+
+160418 21:06:53  version_check Connecting to MySQL server with DSN 'dbi:mysql:;mysql_read_default_group=xtrabackup;port=3306;mysql_socket=/var/run/mysqld/mysqld.sock' as 'root'  (using password: NO).
+160418 21:06:53  version_check Connected to MySQL server
+160418 21:06:53  version_check Executing a version check against the server...
+160418 21:06:53  version_check Done.
+160418 21:06:53 Connecting to MySQL server host: localhost, user: root, password: not set, port: 3306, socket: /var/run/mysqld/mysqld.sock
+Using server version 5.6.29-76.2
+innobackupex version 2.4.2 based on MySQL server 5.7.11 Linux (x86_64) (revision id: 8e86a84)
+xtrabackup: uses posix_fadvise().
+xtrabackup: cd to /var/lib/mysql
+xtrabackup: open files limit requested 0, set to 1024
+xtrabackup: using the following InnoDB configuration:
+xtrabackup:   innodb_data_home_dir = .
+xtrabackup:   innodb_data_file_path = ibdata1:12M:autoextend
+xtrabackup:   innodb_log_group_home_dir = .
+xtrabackup:   innodb_log_files_in_group = 2
+xtrabackup:   innodb_log_file_size = 50331648
+InnoDB: Number of pools: 1
+encrypt: using gcrypt 1.5.3
+160418 21:06:53 >> log scanned up to (8070813042)
+xtrabackup: Generating a list of tablespaces
+InnoDB: Allocated tablespace ID 1 for mysql/innodb_table_stats, old maximum was 0
+160418 21:06:53 [01] Encrypting ./ibdata1 to /var/tmp/backup_dir/ibdata1.xbcrypt
+160418 21:06:54 >> log scanned up to (8070813042)
+160418 21:06:54 [01]        ...done
+160418 21:06:54 [01] Encrypting ./mysql/innodb_table_stats.ibd to /var/tmp/backup_dir/mysql/innodb_table_stats.ibd.xbcrypt
+160418 21:06:54 [01]        ...done
+160418 21:06:54 [01] Encrypting ./mysql/slave_relay_log_info.ibd to /var/tmp/backup_dir/mysql/slave_relay_log_info.ibd.xbcrypt
+160418 21:06:54 [01]        ...done
+160418 21:06:54 [01] Encrypting ./mysql/slave_worker_info.ibd to /var/tmp/backup_dir/mysql/slave_worker_info.ibd.xbcrypt
+160418 21:06:54 [01]        ...done
+160418 21:06:54 [01] Encrypting ./mysql/slave_master_info.ibd to /var/tmp/backup_dir/mysql/slave_master_info.ibd.xbcrypt
+160418 21:06:54 [01]        ...done
+160418 21:06:54 [01] Encrypting ./mysql/innodb_index_stats.ibd to /var/tmp/backup_dir/mysql/innodb_index_stats.ibd.xbcrypt
+160418 21:06:54 [01]        ...done
+160418 21:06:54 [01] Encrypting ./sbtest/sbtest52.ibd to /var/tmp/backup_dir/sbtest/sbtest52.ibd.xbcrypt
+160418 21:06:55 >> log scanned up to (8070813042)
+160418 21:06:56 >> log scanned up to (8070813042)
+160418 21:06:57 >> log scanned up to (8070813042)
+160418 21:06:57 [01]        ...done
+160418 21:06:57 [01] Encrypting ./sbtest/sbtest47.ibd to /var/tmp/backup_dir/sbtest/sbtest47.ibd.xbcrypt
+160418 21:06:58 >> log scanned up to (8070813042)
+160418 21:06:59 >> log scanned up to (8070813042)
+160418 21:06:59 [01]        ...done
+160418 21:06:59 [01] Encrypting ./sbtest/sbtest9.ibd to /var/tmp/backup_dir/sbtest/sbtest9.ibd.xbcrypt
+160418 21:07:00 >> log scanned up to (8070813042)
+160418 21:07:01 >> log scanned up to (8070813042)
+160418 21:07:01 [01]        ...done
+160418 21:07:01 [01] Encrypting ./sbtest/sbtest53.ibd to /var/tmp/backup_dir/sbtest/sbtest53.ibd.xbcrypt
+160418 21:07:02 >> log scanned up to (8070813042)
+160418 21:07:03 >> log scanned up to (8070813042)
+160418 21:07:04 >> log scanned up to (8070813042)
+160418 21:07:04 [01]        ...done
+160418 21:07:04 [01] Encrypting ./sbtest/sbtest27.ibd to /var/tmp/backup_dir/sbtest/sbtest27.ibd.xbcrypt
+160418 21:07:05 >> log scanned up to (8070813042)
+160418 21:07:06 >> log scanned up to (8070813042)
+160418 21:07:06 [01]        ...done
+160418 21:07:06 [01] Encrypting ./sbtest/sbtest50.ibd to /var/tmp/backup_dir/sbtest/sbtest50.ibd.xbcrypt
+160418 21:07:07 >> log scanned up to (8070813042)
+160418 21:07:08 >> log scanned up to (8070813042)
+160418 21:07:09 [01]        ...done
+160418 21:07:09 [01] Encrypting ./sbtest/sbtest16.ibd to /var/tmp/backup_dir/sbtest/sbtest16.ibd.xbcrypt
+160418 21:07:09 >> log scanned up to (8070813042)
+160418 21:07:10 >> log scanned up to (8070813042)
+160418 21:07:11 >> log scanned up to (8070813042)
+160418 21:07:11 [01]        ...done
+160418 21:07:11 [01] Encrypting ./sbtest/sbtest21.ibd to /var/tmp/backup_dir/sbtest/sbtest21.ibd.xbcrypt
+160418 21:07:12 >> log scanned up to (8070813042)
+160418 21:07:13 >> log scanned up to (8070813042)
+160418 21:07:13 [01]        ...done
+160418 21:07:13 [01] Encrypting ./sbtest/sbtest48.ibd to /var/tmp/backup_dir/sbtest/sbtest48.ibd.xbcrypt
+160418 21:07:14 >> log scanned up to (8070813042)
+160418 21:07:15 >> log scanned up to (8070813042)
+160418 21:07:16 >> log scanned up to (8070813042)
+160418 21:07:16 [01]        ...done
+160418 21:07:16 [01] Encrypting ./sbtest/sbtest33.ibd to /var/tmp/backup_dir/sbtest/sbtest33.ibd.xbcrypt
+160418 21:07:17 >> log scanned up to (8070813042)
+160418 21:07:18 >> log scanned up to (8070813042)
+160418 21:07:18 [01]        ...done
+160418 21:07:18 [01] Encrypting ./sbtest/sbtest5.ibd to /var/tmp/backup_dir/sbtest/sbtest5.ibd.xbcrypt
+160418 21:07:19 >> log scanned up to (8070813042)
+160418 21:07:20 >> log scanned up to (8070813042)
+160418 21:07:20 [01]        ...done
+160418 21:07:20 [01] Encrypting ./sbtest/sbtest43.ibd to /var/tmp/backup_dir/sbtest/sbtest43.ibd.xbcrypt
+160418 21:07:21 >> log scanned up to (8070813042)
+160418 21:07:22 >> log scanned up to (8070813042)
+160418 21:07:23 >> log scanned up to (8070813042)
+160418 21:07:23 [01]        ...done
+160418 21:07:23 [01] Encrypting ./sbtest/sbtest31.ibd to /var/tmp/backup_dir/sbtest/sbtest31.ibd.xbcrypt
+160418 21:07:24 >> log scanned up to (8070813042)
+160418 21:07:25 >> log scanned up to (8070813042)
+160418 21:07:25 [01]        ...done
+160418 21:07:25 [01] Encrypting ./sbtest/sbtest35.ibd to /var/tmp/backup_dir/sbtest/sbtest35.ibd.xbcrypt
+160418 21:07:26 >> log scanned up to (8070813042)
+160418 21:07:27 >> log scanned up to (8070813042)
+160418 21:07:28 [01]        ...done
+160418 21:07:28 [01] Encrypting ./sbtest/sbtest26.ibd to /var/tmp/backup_dir/sbtest/sbtest26.ibd.xbcrypt
+160418 21:07:28 >> log scanned up to (8070813042)
+160418 21:07:29 >> log scanned up to (8070813042)
+160418 21:07:30 >> log scanned up to (8070813042)
+160418 21:07:30 [01]        ...done
+160418 21:07:30 [01] Encrypting ./sbtest/sbtest10.ibd to /var/tmp/backup_dir/sbtest/sbtest10.ibd.xbcrypt
+160418 21:07:31 >> log scanned up to (8070813042)
+160418 21:07:32 >> log scanned up to (8070813042)
+160418 21:07:32 [01]        ...done
+160418 21:07:32 [01] Encrypting ./sbtest/sbtest23.ibd to /var/tmp/backup_dir/sbtest/sbtest23.ibd.xbcrypt
+160418 21:07:33 >> log scanned up to (8070813042)
+160418 21:07:34 >> log scanned up to (8070813042)
+160418 21:07:35 >> log scanned up to (8070813042)
+160418 21:07:35 [01]        ...done
+160418 21:07:35 [01] Encrypting ./sbtest/sbtest32.ibd to /var/tmp/backup_dir/sbtest/sbtest32.ibd.xbcrypt
+160418 21:07:36 >> log scanned up to (8070813042)
+160418 21:07:37 >> log scanned up to (8070813042)
+160418 21:07:37 [01]        ...done
+160418 21:07:37 [01] Encrypting ./sbtest/sbtest60.ibd to /var/tmp/backup_dir/sbtest/sbtest60.ibd.xbcrypt
+160418 21:07:38 >> log scanned up to (8070813042)
+160418 21:07:39 >> log scanned up to (8070813042)
+160418 21:07:39 [01]        ...done
+160418 21:07:39 [01] Encrypting ./sbtest/sbtest14.ibd to /var/tmp/backup_dir/sbtest/sbtest14.ibd.xbcrypt
+160418 21:07:40 >> log scanned up to (8070813042)
+160418 21:07:41 >> log scanned up to (8070813042)
+160418 21:07:42 >> log scanned up to (8070813042)
+160418 21:07:42 [01]        ...done
+160418 21:07:42 [01] Encrypting ./sbtest/sbtest51.ibd to /var/tmp/backup_dir/sbtest/sbtest51.ibd.xbcrypt
+160418 21:07:43 >> log scanned up to (8070813042)
+160418 21:07:44 >> log scanned up to (8070813042)
+160418 21:07:44 [01]        ...done
+160418 21:07:44 [01] Encrypting ./sbtest/sbtest55.ibd to /var/tmp/backup_dir/sbtest/sbtest55.ibd.xbcrypt
+160418 21:07:45 >> log scanned up to (8070813042)
+160418 21:07:46 >> log scanned up to (8070813042)
+160418 21:07:47 >> log scanned up to (8070813042)
+160418 21:07:47 [01]        ...done
+160418 21:07:47 [01] Encrypting ./sbtest/sbtest37.ibd to /var/tmp/backup_dir/sbtest/sbtest37.ibd.xbcrypt
+160418 21:07:48 >> log scanned up to (8070813042)
+160418 21:07:49 >> log scanned up to (8070813042)
+160418 21:07:49 [01]        ...done
+160418 21:07:49 [01] Encrypting ./sbtest/sbtest46.ibd to /var/tmp/backup_dir/sbtest/sbtest46.ibd.xbcrypt
+160418 21:07:50 >> log scanned up to (8070813042)
+160418 21:07:51 >> log scanned up to (8070813042)
+160418 21:07:51 [01]        ...done
+160418 21:07:51 [01] Encrypting ./sbtest/sbtest30.ibd to /var/tmp/backup_dir/sbtest/sbtest30.ibd.xbcrypt
+160418 21:07:52 >> log scanned up to (8070813042)
+160418 21:07:53 >> log scanned up to (8070813042)
+160418 21:07:54 >> log scanned up to (8070813042)
+160418 21:07:54 [01]        ...done
+160418 21:07:54 [01] Encrypting ./sbtest/sbtest17.ibd to /var/tmp/backup_dir/sbtest/sbtest17.ibd.xbcrypt
+160418 21:07:55 >> log scanned up to (8070813042)
+160418 21:07:56 >> log scanned up to (8070813042)
+160418 21:07:56 [01]        ...done
+160418 21:07:56 [01] Encrypting ./sbtest/sbtest42.ibd to /var/tmp/backup_dir/sbtest/sbtest42.ibd.xbcrypt
+160418 21:07:57 >> log scanned up to (8070813042)
+160418 21:07:58 >> log scanned up to (8070813042)
+160418 21:07:58 [01]        ...done
+160418 21:07:59 [01] Encrypting ./sbtest/sbtest41.ibd to /var/tmp/backup_dir/sbtest/sbtest41.ibd.xbcrypt
+160418 21:07:59 >> log scanned up to (8070813042)
+160418 21:08:00 >> log scanned up to (8070813042)
+160418 21:08:01 >> log scanned up to (8070813042)
+160418 21:08:01 [01]        ...done
+160418 21:08:01 [01] Encrypting ./sbtest/sbtest20.ibd to /var/tmp/backup_dir/sbtest/sbtest20.ibd.xbcrypt
+160418 21:08:02 >> log scanned up to (8070813042)
+160418 21:08:03 >> log scanned up to (8070813042)
+160418 21:08:03 [01]        ...done
+160418 21:08:03 [01] Encrypting ./sbtest/sbtest34.ibd to /var/tmp/backup_dir/sbtest/sbtest34.ibd.xbcrypt
+160418 21:08:04 >> log scanned up to (8070813042)
+160418 21:08:05 >> log scanned up to (8070813042)
+160418 21:08:06 >> log scanned up to (8070813042)
+160418 21:08:06 [01]        ...done
+160418 21:08:06 [01] Encrypting ./sbtest/sbtest12.ibd to /var/tmp/backup_dir/sbtest/sbtest12.ibd.xbcrypt
+160418 21:08:07 >> log scanned up to (8070813042)
+160418 21:08:08 >> log scanned up to (8070813042)
+160418 21:08:08 [01]        ...done
+160418 21:08:08 [01] Encrypting ./sbtest/sbtest19.ibd to /var/tmp/backup_dir/sbtest/sbtest19.ibd.xbcrypt
+160418 21:08:09 >> log scanned up to (8070813042)
+160418 21:08:10 >> log scanned up to (8070813042)
+160418 21:08:10 [01]        ...done
+160418 21:08:10 [01] Encrypting ./sbtest/sbtest29.ibd to /var/tmp/backup_dir/sbtest/sbtest29.ibd.xbcrypt
+160418 21:08:11 >> log scanned up to (8070813042)
+160418 21:08:12 >> log scanned up to (8070813042)
+160418 21:08:13 >> log scanned up to (8070813042)
+160418 21:08:13 [01]        ...done
+160418 21:08:13 [01] Encrypting ./sbtest/sbtest45.ibd to /var/tmp/backup_dir/sbtest/sbtest45.ibd.xbcrypt
+160418 21:08:14 >> log scanned up to (8070813042)
+160418 21:08:15 >> log scanned up to (8070813042)
+160418 21:08:15 [01]        ...done
+160418 21:08:15 [01] Encrypting ./sbtest/sbtest13.ibd to /var/tmp/backup_dir/sbtest/sbtest13.ibd.xbcrypt
+160418 21:08:16 >> log scanned up to (8070813042)
+160418 21:08:17 >> log scanned up to (8070813042)
+160418 21:08:18 [01]        ...done
+160418 21:08:18 [01] Encrypting ./sbtest/sbtest11.ibd to /var/tmp/backup_dir/sbtest/sbtest11.ibd.xbcrypt
+160418 21:08:18 >> log scanned up to (8070813042)
+160418 21:08:19 >> log scanned up to (8070813042)
+160418 21:08:20 >> log scanned up to (8070813042)
+160418 21:08:20 [01]        ...done
+160418 21:08:20 [01] Encrypting ./sbtest/sbtest1.ibd to /var/tmp/backup_dir/sbtest/sbtest1.ibd.xbcrypt
+160418 21:08:21 >> log scanned up to (8070813042)
+160418 21:08:22 >> log scanned up to (8070813042)
+160418 21:08:22 [01]        ...done
+160418 21:08:22 [01] Encrypting ./sbtest/sbtest28.ibd to /var/tmp/backup_dir/sbtest/sbtest28.ibd.xbcrypt
+160418 21:08:23 >> log scanned up to (8070813042)
+160418 21:08:24 >> log scanned up to (8070813042)
+160418 21:08:25 >> log scanned up to (8070813042)
+160418 21:08:25 [01]        ...done
+160418 21:08:25 [01] Encrypting ./sbtest/sbtest25.ibd to /var/tmp/backup_dir/sbtest/sbtest25.ibd.xbcrypt
+160418 21:08:26 >> log scanned up to (8070813042)
+160418 21:08:27 >> log scanned up to (8070813042)
+160418 21:08:27 [01]        ...done
+160418 21:08:27 [01] Encrypting ./sbtest/sbtest59.ibd to /var/tmp/backup_dir/sbtest/sbtest59.ibd.xbcrypt
+160418 21:08:28 >> log scanned up to (8070813042)
+160418 21:08:29 >> log scanned up to (8070813042)
+160418 21:08:29 [01]        ...done
+160418 21:08:29 [01] Encrypting ./sbtest/sbtest7.ibd to /var/tmp/backup_dir/sbtest/sbtest7.ibd.xbcrypt
+160418 21:08:30 >> log scanned up to (8070813042)
+160418 21:08:31 >> log scanned up to (8070813042)
+160418 21:08:32 >> log scanned up to (8070813042)
+160418 21:08:32 [01]        ...done
+160418 21:08:32 [01] Encrypting ./sbtest/sbtest40.ibd to /var/tmp/backup_dir/sbtest/sbtest40.ibd.xbcrypt
+160418 21:08:33 >> log scanned up to (8070813042)
+160418 21:08:34 >> log scanned up to (8070813042)
+160418 21:08:34 [01]        ...done
+160418 21:08:34 [01] Encrypting ./sbtest/sbtest58.ibd to /var/tmp/backup_dir/sbtest/sbtest58.ibd.xbcrypt
+160418 21:08:35 >> log scanned up to (8070813042)
+160418 21:08:36 >> log scanned up to (8070813042)
+160418 21:08:37 >> log scanned up to (8070813042)
+160418 21:08:37 [01]        ...done
+160418 21:08:37 [01] Encrypting ./sbtest/sbtest18.ibd to /var/tmp/backup_dir/sbtest/sbtest18.ibd.xbcrypt
+160418 21:08:38 >> log scanned up to (8070813042)
+160418 21:08:39 >> log scanned up to (8070813042)
+160418 21:08:39 [01]        ...done
+160418 21:08:39 [01] Encrypting ./sbtest/sbtest4.ibd to /var/tmp/backup_dir/sbtest/sbtest4.ibd.xbcrypt
+160418 21:08:40 >> log scanned up to (8070813042)
+160418 21:08:41 >> log scanned up to (8070813042)
+160418 21:08:41 [01]        ...done
+160418 21:08:41 [01] Encrypting ./sbtest/sbtest49.ibd to /var/tmp/backup_dir/sbtest/sbtest49.ibd.xbcrypt
+160418 21:08:42 >> log scanned up to (8070813042)
+160418 21:08:43 >> log scanned up to (8070813042)
+160418 21:08:44 >> log scanned up to (8070813042)
+160418 21:08:44 [01]        ...done
+160418 21:08:44 [01] Encrypting ./sbtest/sbtest2.ibd to /var/tmp/backup_dir/sbtest/sbtest2.ibd.xbcrypt
+160418 21:08:45 >> log scanned up to (8070813042)
+160418 21:08:46 >> log scanned up to (8070813042)
+160418 21:08:46 [01]        ...done
+160418 21:08:46 [01] Encrypting ./sbtest/sbtest8.ibd to /var/tmp/backup_dir/sbtest/sbtest8.ibd.xbcrypt
+160418 21:08:47 >> log scanned up to (8070813042)
+160418 21:08:48 >> log scanned up to (8070813042)
+160418 21:08:49 [01]        ...done
+160418 21:08:49 >> log scanned up to (8070813042)
+160418 21:08:49 [01] Encrypting ./sbtest/sbtest56.ibd to /var/tmp/backup_dir/sbtest/sbtest56.ibd.xbcrypt
+160418 21:08:50 >> log scanned up to (8070813042)
+160418 21:08:51 >> log scanned up to (8070813042)
+160418 21:08:51 [01]        ...done
+160418 21:08:51 [01] Encrypting ./sbtest/sbtest57.ibd to /var/tmp/backup_dir/sbtest/sbtest57.ibd.xbcrypt
+160418 21:08:52 >> log scanned up to (8070813042)
+160418 21:08:53 >> log scanned up to (8070813042)
+160418 21:08:53 [01]        ...done
+160418 21:08:53 [01] Encrypting ./sbtest/sbtest39.ibd to /var/tmp/backup_dir/sbtest/sbtest39.ibd.xbcrypt
+160418 21:08:54 >> log scanned up to (8070813042)
+160418 21:08:55 >> log scanned up to (8070813042)
+160418 21:08:56 >> log scanned up to (8070813042)
+160418 21:08:56 [01]        ...done
+160418 21:08:56 [01] Encrypting ./sbtest/sbtest38.ibd to /var/tmp/backup_dir/sbtest/sbtest38.ibd.xbcrypt
+160418 21:08:57 >> log scanned up to (8070813042)
+160418 21:08:58 >> log scanned up to (8070813042)
+160418 21:08:58 [01]        ...done
+160418 21:08:58 [01] Encrypting ./sbtest/sbtest3.ibd to /var/tmp/backup_dir/sbtest/sbtest3.ibd.xbcrypt
+160418 21:08:59 >> log scanned up to (8070813042)
+160418 21:09:00 >> log scanned up to (8070813042)
+160418 21:09:01 [01]        ...done
+160418 21:09:01 [01] Encrypting ./sbtest/sbtest24.ibd to /var/tmp/backup_dir/sbtest/sbtest24.ibd.xbcrypt
+160418 21:09:01 >> log scanned up to (8070813042)
+160418 21:09:02 >> log scanned up to (8070813042)
+160418 21:09:03 >> log scanned up to (8070813042)
+160418 21:09:03 [01]        ...done
+160418 21:09:03 [01] Encrypting ./sbtest/sbtest15.ibd to /var/tmp/backup_dir/sbtest/sbtest15.ibd.xbcrypt
+160418 21:09:04 >> log scanned up to (8070813042)
+160418 21:09:05 >> log scanned up to (8070813042)
+160418 21:09:05 [01]        ...done
+160418 21:09:05 [01] Encrypting ./sbtest/sbtest44.ibd to /var/tmp/backup_dir/sbtest/sbtest44.ibd.xbcrypt
+160418 21:09:06 >> log scanned up to (8070813042)
+160418 21:09:07 >> log scanned up to (8070813042)
+160418 21:09:08 >> log scanned up to (8070813042)
+160418 21:09:08 [01]        ...done
+160418 21:09:08 [01] Encrypting ./sbtest/sbtest6.ibd to /var/tmp/backup_dir/sbtest/sbtest6.ibd.xbcrypt
+160418 21:09:09 >> log scanned up to (8070813042)
+160418 21:09:10 >> log scanned up to (8070813042)
+160418 21:09:10 [01]        ...done
+160418 21:09:10 [01] Encrypting ./sbtest/sbtest22.ibd to /var/tmp/backup_dir/sbtest/sbtest22.ibd.xbcrypt
+160418 21:09:11 >> log scanned up to (8070813042)
+160418 21:09:12 >> log scanned up to (8070813042)
+160418 21:09:12 [01]        ...done
+160418 21:09:12 [01] Encrypting ./sbtest/sbtest54.ibd to /var/tmp/backup_dir/sbtest/sbtest54.ibd.xbcrypt
+160418 21:09:13 >> log scanned up to (8070813042)
+160418 21:09:14 >> log scanned up to (8070813042)
+160418 21:09:15 >> log scanned up to (8070813042)
+160418 21:09:15 [01]        ...done
+160418 21:09:15 [01] Encrypting ./sbtest/sbtest36.ibd to /var/tmp/backup_dir/sbtest/sbtest36.ibd.xbcrypt
+160418 21:09:16 >> log scanned up to (8070813042)
+160418 21:09:17 >> log scanned up to (8070813042)
+160418 21:09:17 [01]        ...done
+160418 21:09:18 >> log scanned up to (8070813042)
+160418 21:09:18 Executing LOCK TABLES FOR BACKUP...
+160418 21:09:18 Starting to backup non-InnoDB tables and files
+160418 21:09:18 [01] Encrypting ./performance_schema/events_stages_current.frm to /var/tmp/backup_dir/performance_schema/events_stages_current.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_waits_summary_by_account_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_by_account_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_waits_summary_by_thread_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_by_thread_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/performance_timers.frm to /var/tmp/backup_dir/performance_schema/performance_timers.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_stages_summary_by_host_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_stages_summary_by_host_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/socket_summary_by_event_name.frm to /var/tmp/backup_dir/performance_schema/socket_summary_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/users.frm to /var/tmp/backup_dir/performance_schema/users.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/table_io_waits_summary_by_index_usage.frm to /var/tmp/backup_dir/performance_schema/table_io_waits_summary_by_index_usage.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/db.opt to /var/tmp/backup_dir/performance_schema/db.opt.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_waits_history_long.frm to /var/tmp/backup_dir/performance_schema/events_waits_history_long.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_statements_summary_by_account_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_by_account_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_waits_summary_global_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_global_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_waits_summary_by_user_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_by_user_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_stages_summary_global_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_stages_summary_global_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_statements_summary_by_user_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_by_user_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_stages_history_long.frm to /var/tmp/backup_dir/performance_schema/events_stages_history_long.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_statements_summary_by_digest.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_by_digest.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/file_instances.frm to /var/tmp/backup_dir/performance_schema/file_instances.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/setup_actors.frm to /var/tmp/backup_dir/performance_schema/setup_actors.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/cond_instances.frm to /var/tmp/backup_dir/performance_schema/cond_instances.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/socket_summary_by_instance.frm to /var/tmp/backup_dir/performance_schema/socket_summary_by_instance.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_statements_history_long.frm to /var/tmp/backup_dir/performance_schema/events_statements_history_long.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/host_cache.frm to /var/tmp/backup_dir/performance_schema/host_cache.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/setup_objects.frm to /var/tmp/backup_dir/performance_schema/setup_objects.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/rwlock_instances.frm to /var/tmp/backup_dir/performance_schema/rwlock_instances.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/setup_instruments.frm to /var/tmp/backup_dir/performance_schema/setup_instruments.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/session_account_connect_attrs.frm to /var/tmp/backup_dir/performance_schema/session_account_connect_attrs.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_statements_current.frm to /var/tmp/backup_dir/performance_schema/events_statements_current.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/file_summary_by_event_name.frm to /var/tmp/backup_dir/performance_schema/file_summary_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/threads.frm to /var/tmp/backup_dir/performance_schema/threads.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/session_connect_attrs.frm to /var/tmp/backup_dir/performance_schema/session_connect_attrs.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_stages_history.frm to /var/tmp/backup_dir/performance_schema/events_stages_history.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_statements_summary_by_thread_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_by_thread_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_statements_history.frm to /var/tmp/backup_dir/performance_schema/events_statements_history.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/table_lock_waits_summary_by_table.frm to /var/tmp/backup_dir/performance_schema/table_lock_waits_summary_by_table.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_waits_history.frm to /var/tmp/backup_dir/performance_schema/events_waits_history.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/setup_consumers.frm to /var/tmp/backup_dir/performance_schema/setup_consumers.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_statements_summary_by_host_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_by_host_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_waits_summary_by_instance.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_by_instance.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/hosts.frm to /var/tmp/backup_dir/performance_schema/hosts.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_stages_summary_by_thread_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_stages_summary_by_thread_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_statements_summary_global_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_statements_summary_global_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/file_summary_by_instance.frm to /var/tmp/backup_dir/performance_schema/file_summary_by_instance.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_waits_summary_by_host_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_waits_summary_by_host_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/mutex_instances.frm to /var/tmp/backup_dir/performance_schema/mutex_instances.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/objects_summary_global_by_type.frm to /var/tmp/backup_dir/performance_schema/objects_summary_global_by_type.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_waits_current.frm to /var/tmp/backup_dir/performance_schema/events_waits_current.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/table_io_waits_summary_by_table.frm to /var/tmp/backup_dir/performance_schema/table_io_waits_summary_by_table.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/socket_instances.frm to /var/tmp/backup_dir/performance_schema/socket_instances.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_stages_summary_by_user_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_stages_summary_by_user_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/setup_timers.frm to /var/tmp/backup_dir/performance_schema/setup_timers.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/events_stages_summary_by_account_by_event_name.frm to /var/tmp/backup_dir/performance_schema/events_stages_summary_by_account_by_event_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./performance_schema/accounts.frm to /var/tmp/backup_dir/performance_schema/accounts.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/event.frm to /var/tmp/backup_dir/mysql/event.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone.frm to /var/tmp/backup_dir/mysql/time_zone.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_keyword.MYD to /var/tmp/backup_dir/mysql/help_keyword.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_transition_type.MYD to /var/tmp/backup_dir/mysql/time_zone_transition_type.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_category.MYI to /var/tmp/backup_dir/mysql/help_category.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/procs_priv.frm to /var/tmp/backup_dir/mysql/procs_priv.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/tables_priv.frm to /var/tmp/backup_dir/mysql/tables_priv.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/plugin.frm to /var/tmp/backup_dir/mysql/plugin.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_category.frm to /var/tmp/backup_dir/mysql/help_category.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/proxies_priv.frm to /var/tmp/backup_dir/mysql/proxies_priv.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/user.MYI to /var/tmp/backup_dir/mysql/user.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/slave_master_info.frm to /var/tmp/backup_dir/mysql/slave_master_info.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_topic.MYI to /var/tmp/backup_dir/mysql/help_topic.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/db.MYI to /var/tmp/backup_dir/mysql/db.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_keyword.MYI to /var/tmp/backup_dir/mysql/help_keyword.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_leap_second.MYI to /var/tmp/backup_dir/mysql/time_zone_leap_second.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_topic.MYD to /var/tmp/backup_dir/mysql/help_topic.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/slave_relay_log_info.frm to /var/tmp/backup_dir/mysql/slave_relay_log_info.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/user.MYD to /var/tmp/backup_dir/mysql/user.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/func.MYI to /var/tmp/backup_dir/mysql/func.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_keyword.frm to /var/tmp/backup_dir/mysql/help_keyword.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_name.MYI to /var/tmp/backup_dir/mysql/time_zone_name.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_name.MYD to /var/tmp/backup_dir/mysql/time_zone_name.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/columns_priv.frm to /var/tmp/backup_dir/mysql/columns_priv.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone.MYD to /var/tmp/backup_dir/mysql/time_zone.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/slow_log.CSM to /var/tmp/backup_dir/mysql/slow_log.CSM.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_leap_second.frm to /var/tmp/backup_dir/mysql/time_zone_leap_second.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/servers.MYI to /var/tmp/backup_dir/mysql/servers.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_transition_type.frm to /var/tmp/backup_dir/mysql/time_zone_transition_type.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/procs_priv.MYI to /var/tmp/backup_dir/mysql/procs_priv.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone.MYI to /var/tmp/backup_dir/mysql/time_zone.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/innodb_index_stats.frm to /var/tmp/backup_dir/mysql/innodb_index_stats.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_category.MYD to /var/tmp/backup_dir/mysql/help_category.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_name.frm to /var/tmp/backup_dir/mysql/time_zone_name.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/proc.MYI to /var/tmp/backup_dir/mysql/proc.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/plugin.MYD to /var/tmp/backup_dir/mysql/plugin.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/ndb_binlog_index.MYI to /var/tmp/backup_dir/mysql/ndb_binlog_index.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_relation.MYD to /var/tmp/backup_dir/mysql/help_relation.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/servers.frm to /var/tmp/backup_dir/mysql/servers.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/slave_worker_info.frm to /var/tmp/backup_dir/mysql/slave_worker_info.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/tables_priv.MYI to /var/tmp/backup_dir/mysql/tables_priv.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/ndb_binlog_index.MYD to /var/tmp/backup_dir/mysql/ndb_binlog_index.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/ndb_binlog_index.frm to /var/tmp/backup_dir/mysql/ndb_binlog_index.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/event.MYD to /var/tmp/backup_dir/mysql/event.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/proxies_priv.MYI to /var/tmp/backup_dir/mysql/proxies_priv.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/innodb_table_stats.frm to /var/tmp/backup_dir/mysql/innodb_table_stats.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_transition.MYI to /var/tmp/backup_dir/mysql/time_zone_transition.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/slow_log.frm to /var/tmp/backup_dir/mysql/slow_log.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/event.MYI to /var/tmp/backup_dir/mysql/event.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_leap_second.MYD to /var/tmp/backup_dir/mysql/time_zone_leap_second.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/proc.frm to /var/tmp/backup_dir/mysql/proc.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/db.frm to /var/tmp/backup_dir/mysql/db.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/general_log.frm to /var/tmp/backup_dir/mysql/general_log.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_topic.frm to /var/tmp/backup_dir/mysql/help_topic.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/proxies_priv.MYD to /var/tmp/backup_dir/mysql/proxies_priv.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_relation.frm to /var/tmp/backup_dir/mysql/help_relation.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/general_log.CSV to /var/tmp/backup_dir/mysql/general_log.CSV.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/general_log.CSM to /var/tmp/backup_dir/mysql/general_log.CSM.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/proc.MYD to /var/tmp/backup_dir/mysql/proc.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/slow_log.CSV to /var/tmp/backup_dir/mysql/slow_log.CSV.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/columns_priv.MYD to /var/tmp/backup_dir/mysql/columns_priv.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/columns_priv.MYI to /var/tmp/backup_dir/mysql/columns_priv.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/tables_priv.MYD to /var/tmp/backup_dir/mysql/tables_priv.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/help_relation.MYI to /var/tmp/backup_dir/mysql/help_relation.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_transition.MYD to /var/tmp/backup_dir/mysql/time_zone_transition.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/servers.MYD to /var/tmp/backup_dir/mysql/servers.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/user.frm to /var/tmp/backup_dir/mysql/user.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/func.frm to /var/tmp/backup_dir/mysql/func.frm.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/func.MYD to /var/tmp/backup_dir/mysql/func.MYD.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/plugin.MYI to /var/tmp/backup_dir/mysql/plugin.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:18 [01] Encrypting ./mysql/time_zone_transition_type.MYI to /var/tmp/backup_dir/mysql/time_zone_transition_type.MYI.xbcrypt
+160418 21:09:18 [01]        ...done
+160418 21:09:19 [01] Encrypting ./mysql/db.MYD to /var/tmp/backup_dir/mysql/db.MYD.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./mysql/procs_priv.MYD to /var/tmp/backup_dir/mysql/procs_priv.MYD.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./mysql/time_zone_transition.frm to /var/tmp/backup_dir/mysql/time_zone_transition.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [00] Encrypting test/db.opt
+160418 21:09:19 [00]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest38.frm to /var/tmp/backup_dir/sbtest/sbtest38.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest37.frm to /var/tmp/backup_dir/sbtest/sbtest37.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest1.frm to /var/tmp/backup_dir/sbtest/sbtest1.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest22.frm to /var/tmp/backup_dir/sbtest/sbtest22.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest8.frm to /var/tmp/backup_dir/sbtest/sbtest8.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest43.frm to /var/tmp/backup_dir/sbtest/sbtest43.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest51.frm to /var/tmp/backup_dir/sbtest/sbtest51.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest52.frm to /var/tmp/backup_dir/sbtest/sbtest52.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest47.frm to /var/tmp/backup_dir/sbtest/sbtest47.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest2.frm to /var/tmp/backup_dir/sbtest/sbtest2.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest12.frm to /var/tmp/backup_dir/sbtest/sbtest12.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/db.opt to /var/tmp/backup_dir/sbtest/db.opt.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest27.frm to /var/tmp/backup_dir/sbtest/sbtest27.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest7.frm to /var/tmp/backup_dir/sbtest/sbtest7.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest31.frm to /var/tmp/backup_dir/sbtest/sbtest31.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest20.frm to /var/tmp/backup_dir/sbtest/sbtest20.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest11.frm to /var/tmp/backup_dir/sbtest/sbtest11.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest26.frm to /var/tmp/backup_dir/sbtest/sbtest26.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest4.frm to /var/tmp/backup_dir/sbtest/sbtest4.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest39.frm to /var/tmp/backup_dir/sbtest/sbtest39.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest32.frm to /var/tmp/backup_dir/sbtest/sbtest32.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest57.frm to /var/tmp/backup_dir/sbtest/sbtest57.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest59.frm to /var/tmp/backup_dir/sbtest/sbtest59.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 >> log scanned up to (8070813042)
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest25.frm to /var/tmp/backup_dir/sbtest/sbtest25.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest23.frm to /var/tmp/backup_dir/sbtest/sbtest23.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest28.frm to /var/tmp/backup_dir/sbtest/sbtest28.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest24.frm to /var/tmp/backup_dir/sbtest/sbtest24.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest3.frm to /var/tmp/backup_dir/sbtest/sbtest3.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest33.frm to /var/tmp/backup_dir/sbtest/sbtest33.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest53.frm to /var/tmp/backup_dir/sbtest/sbtest53.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest14.frm to /var/tmp/backup_dir/sbtest/sbtest14.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest49.frm to /var/tmp/backup_dir/sbtest/sbtest49.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest55.frm to /var/tmp/backup_dir/sbtest/sbtest55.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest36.frm to /var/tmp/backup_dir/sbtest/sbtest36.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest30.frm to /var/tmp/backup_dir/sbtest/sbtest30.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest40.frm to /var/tmp/backup_dir/sbtest/sbtest40.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest13.frm to /var/tmp/backup_dir/sbtest/sbtest13.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest56.frm to /var/tmp/backup_dir/sbtest/sbtest56.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest19.frm to /var/tmp/backup_dir/sbtest/sbtest19.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest46.frm to /var/tmp/backup_dir/sbtest/sbtest46.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest9.frm to /var/tmp/backup_dir/sbtest/sbtest9.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest50.frm to /var/tmp/backup_dir/sbtest/sbtest50.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest6.frm to /var/tmp/backup_dir/sbtest/sbtest6.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest29.frm to /var/tmp/backup_dir/sbtest/sbtest29.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest48.frm to /var/tmp/backup_dir/sbtest/sbtest48.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest41.frm to /var/tmp/backup_dir/sbtest/sbtest41.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest10.frm to /var/tmp/backup_dir/sbtest/sbtest10.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest34.frm to /var/tmp/backup_dir/sbtest/sbtest34.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest60.frm to /var/tmp/backup_dir/sbtest/sbtest60.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest17.frm to /var/tmp/backup_dir/sbtest/sbtest17.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest15.frm to /var/tmp/backup_dir/sbtest/sbtest15.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest58.frm to /var/tmp/backup_dir/sbtest/sbtest58.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest45.frm to /var/tmp/backup_dir/sbtest/sbtest45.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest18.frm to /var/tmp/backup_dir/sbtest/sbtest18.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest44.frm to /var/tmp/backup_dir/sbtest/sbtest44.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest42.frm to /var/tmp/backup_dir/sbtest/sbtest42.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest54.frm to /var/tmp/backup_dir/sbtest/sbtest54.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest35.frm to /var/tmp/backup_dir/sbtest/sbtest35.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest21.frm to /var/tmp/backup_dir/sbtest/sbtest21.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest5.frm to /var/tmp/backup_dir/sbtest/sbtest5.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./sbtest/sbtest16.frm to /var/tmp/backup_dir/sbtest/sbtest16.frm.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 [01] Encrypting ./lost@002bfound/db.opt to /var/tmp/backup_dir/lost@002bfound/db.opt.xbcrypt
+160418 21:09:19 [01]        ...done
+160418 21:09:19 Finished backing up non-InnoDB tables and files
+160418 21:09:19 Executing LOCK BINLOG FOR BACKUP...
+160418 21:09:19 Executing FLUSH NO_WRITE_TO_BINLOG ENGINE LOGS...
+xtrabackup: The latest check point (for incremental): '8070813042'
+xtrabackup: Stopping log copying thread.
+.160418 21:09:19 >> log scanned up to (8070813042)
+
+160418 21:09:19 Executing UNLOCK BINLOG
+160418 21:09:19 Executing UNLOCK TABLES
+160418 21:09:19 All tables unlocked
+160418 21:09:19 Backup created in directory '/var/tmp/backup_dir'
+160418 21:09:19 [00] Encrypting backup-my.cnf
+160418 21:09:19 [00]        ...done
+160418 21:09:19 [00] Encrypting xtrabackup_info
+160418 21:09:19 [00]        ...done
+xtrabackup: Transaction log of lsn (8070813042) to (8070813042) was copied.
+160418 21:09:19 completed OK!
+/home/ubuntu
